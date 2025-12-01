@@ -4,7 +4,7 @@ project:
   title: "PSE51-docs"
   description: "PSE51 Ducuments"
   description_en: "."
-  version: "1.1.0"
+  version: "latest"
   author: "Kurisaw"
   copyright: "2025, KurisaW"
   # language: "zh_CN"  # 注释掉固定语言配置，支持中英文双语
@@ -13,7 +13,7 @@ project:
 # 仓库配置
 repository:
   name: "PSE51-docs"
-  projects_dir: "../../pse51"
+  projects_dir: "../pse51"
   docs_dir: "."
 
 # 文档分类配置
