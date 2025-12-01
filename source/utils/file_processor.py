@@ -16,9 +16,9 @@ class FileProcessor:
         self.source_dir = Path(source_dir)
         self.dest_dir = Path(dest_dir)
         self.config = config
-        self.copy_files = config.get('copy_files', [])
-        self.copy_dirs = config.get('copy_dirs', [])
-        self.output_structure = config.get('output_structure', [])
+        self.copy_files = config.get('copy_files', []) or []
+        self.copy_dirs = config.get('copy_dirs', []) or []
+        self.output_structure = config.get('output_structure', []) or []
 
     def copy_project_files(self, project_name: str, category: str) -> bool:
         """复制项目文件到目标目录"""

@@ -73,6 +73,7 @@ class BuildManager:
             versions.append(VersionConfig(version_dict))
         return versions
     
+    @staticmethod
     def get_current_branch():
         """
         安全获取当前分支名，处理分离头指针和错误情况
@@ -106,6 +107,7 @@ class BuildManager:
         except Exception as e:
             return f"error: {str(e)}"
 
+    @staticmethod
     def is_in_ci_environment() -> bool:
         """检查是否在CI环境中"""
         return os.environ.get('CI') == 'true' or os.environ.get('GITHUB_ACTIONS') == 'true'
@@ -114,38 +116,34 @@ class BuildManager:
         """为指定版本创建 Git worktree"""
         worktree_path = self.worktrees_dir / version_config.name
         
-        if is_in_ci_environment():
-            print("检测到CI环境，使用特殊处理逻辑")
-            # 在CI环境中，我们通常已经在正确的分支上
-            # 或者可以直接使用指定的分支
-            
-            # 检查目标分支是否存在
-            try:
-                subprocess.run(['git', 'show-ref', '--verify', f'refs/heads/{version_config.branch}'],
-                            check=True, capture_output=True, cwd=Path.cwd())
-                # 如果分支存在，直接使用当前目录（假设CI已经checkout到正确分支）
-                return Path.cwd()
-            except subprocess.CalledProcessError:
-                # 分支不存在，可能需要从远程获取
-                print(f"分支 {version_config.branch} 不存在，尝试从远程获取")
-                try:
-                    subprocess.run(['git', 'fetch', 'origin', f'{version_config.branch}:{version_config.branch}'],
-                                check=True, cwd=Path.cwd())
-                except subprocess.CalledProcessError:
-                    print(f"无法获取分支 {version_config.branch}，使用当前目录")
-                    return Path.cwd()
-
-    def create_worktree(self, version_config: VersionConfig) -> Path:
-        """为指定版本创建 Git worktree"""
-        worktree_path = self.worktrees_dir / version_config.name
-        
         try:
             # 安全获取当前分支
-            current_branch = get_current_branch()
+            current_branch = BuildManager.get_current_branch()
             
+            # 如果目标分支就是当前分支，直接使用当前目录
             if current_branch and version_config.branch == current_branch:
                 print(f"目标分支 {version_config.branch} 就是当前分支，使用当前目录")
                 return Path.cwd()
+            
+            # CI环境的特殊处理
+            if BuildManager.is_in_ci_environment():
+                print("检测到CI环境，使用特殊处理逻辑")
+                # 在CI环境中，我们通常已经在正确的分支上
+                # 检查目标分支是否存在
+                try:
+                    subprocess.run(['git', 'show-ref', '--verify', f'refs/heads/{version_config.branch}'],
+                                check=True, capture_output=True, cwd=Path.cwd())
+                    # 如果分支存在，直接使用当前目录（假设CI已经checkout到正确分支）
+                    return Path.cwd()
+                except subprocess.CalledProcessError:
+                    # 分支不存在，可能需要从远程获取
+                    print(f"分支 {version_config.branch} 不存在，尝试从远程获取")
+                    try:
+                        subprocess.run(['git', 'fetch', 'origin', f'{version_config.branch}:{version_config.branch}'],
+                                    check=True, cwd=Path.cwd())
+                    except subprocess.CalledProcessError:
+                        print(f"无法获取分支 {version_config.branch}，使用当前目录")
+                        return Path.cwd()
             
             # 清理已存在的 worktree
             if worktree_path.exists():
