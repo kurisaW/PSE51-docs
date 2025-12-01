@@ -6,12 +6,12 @@ on:
       - master
       - main
     paths:
-      - 'docs/**'
+      - 'source/**'
       - '.github/versions.json'
       - 'pse51/**'
   pull_request:
     paths:
-      - 'docs/**'
+      - 'source/**'
       - '.github/versions.json'
       - 'pse51/**'
   workflow_dispatch:

@@ -35,7 +35,7 @@ class BuildManager:
     def __init__(self):
         self.project_root = self._find_project_root()
         self.versions_file = self.project_root / '.github' / 'versions.json'
-        self.docs_source = self.project_root / 'docs' / 'source'
+        self.docs_source = self.project_root / 'source'
         # 统一切换到新的构建输出根目录: source_build/html/<version>
         self.build_root = self.docs_source / 'source_build'
         self.worktrees_dir = self.build_root / 'worktrees'
@@ -180,7 +180,7 @@ class BuildManager:
             # 如果是当前分支，使用主分支的 source 目录
             docs_source_in_worktree = self.docs_source
         else:
-            docs_source_in_worktree = worktree_path / 'docs' / 'source'
+            docs_source_in_worktree = worktree_path / 'source'
             if not docs_source_in_worktree.exists():
                 print(f"⚠️  警告: {worktree_path} 中没有 source 目录")
                 print(f"   使用主分支的文档结构进行构建")
