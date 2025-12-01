@@ -1,0 +1,13 @@
+{# 自定义全局目录模板，支持4级导航深度 #}
+{%- if theme_navigation_depth %}
+  {%- set navigation_depth = theme_navigation_depth %}
+{%- else %}
+  {%- set navigation_depth = 4 %}
+{%- endif %}
+
+<div class="globaltoc">
+  <h3><a href="{{ pathto(master_doc) }}">{{ _('Table of Contents') }}</a></h3>
+  {{ toctree(maxdepth=navigation_depth, collapse=False, includehidden=True, titles_only=False) }}
+</div>
+
+{# 语言切换UI 由 language_switch.js 注入至 .wy-nav-side 底部 #}

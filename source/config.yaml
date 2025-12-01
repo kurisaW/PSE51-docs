@@ -1,0 +1,72 @@
+# SDK 文档构建配置文件
+project:
+  name: "PSE51-docs"
+  title: "PSE51-docs"
+  description: "PSE51 Ducuments"
+  description_en: "."
+  version: "1.1.0"
+  author: "Kurisaw"
+  copyright: "2025, KurisaW"
+  # language: "zh_CN"  # 注释掉固定语言配置，支持中英文双语
+  website: "kurisaw.eu.org"
+
+# 仓库配置
+repository:
+  name: "PSE51-docs"
+  projects_dir: "../../pse51"
+  docs_dir: "."
+
+# 文档分类配置
+categories:
+  basic:
+    name: "overview"
+    name_en: "overview"
+    description: "PSE51文档说明"
+    patterns:
+      - "*"
+
+# 文档生成配置
+generation:
+  copy_files:
+    - "README.md"
+    - "README_zh.md"
+  copy_dirs:
+    # - "figures"
+  output_structure:
+    - "basic"
+
+# Sphinx 配置
+sphinx:
+  theme: "sphinx_rtd_theme"
+  extensions:
+    - "myst_parser"
+  source_suffix:
+    ".rst": "restructuredtext"
+    ".md": "markdown"
+  myst_extensions:
+    - "colon_fence"
+    - "deflist"
+    - "dollarmath"
+    - "html_image"
+    - "html_admonition"
+    - "replacements"
+    - "smartquotes"
+    - "strikethrough"
+    - "substitution"
+    - "tasklist" 
+
+# giscus 评论系统配置（按需填写 repo/category 信息以启用）
+giscus:
+  enabled: true
+  repo: "kurisaW/PSE51-docs"
+  repo_id: "R_kgDOQgC95w"           # 必填：GitHub 提供的 Repo ID
+  category: "General"               # 可选：分类名（与 category_id 二选一，若两者均填则优先使用 category_id）
+  category_id: "DIC_kwDOPXW4Ac4CxbZJ"                   # 可选：分类 ID（推荐）
+  mapping: "url"                    # pathname | url | title | og:title | specific
+  strict: 0                          # 0/1
+  reactions_enabled: 1               # 0/1
+  emit_metadata: 1                   # 0/1
+  input_position: "bottom"          # top | bottom
+  theme: "preferred_color_scheme"   # light | dark | preferred_color_scheme | transparent_dark 等
+  lang: "zh-CN"
+  lazy: true                         # 懒加载 iframe

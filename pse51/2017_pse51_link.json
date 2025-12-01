@@ -1,0 +1,70 @@
+{
+  "title": "RTEMS POSIX PSE51 2017 特定函数链接列表",
+  "description": "RTEMS POSIX PSE51 (Minimal) 2017 版本中特定的已弃用或遗留函数的官方规范链接",
+  "total_functions": 6,
+  "coverage": "100%",
+  "source": {
+    "pse51_functions": "https://docs.rtems.org/docs/main/posix-compliance/posixc-06-posix-pse51-minimal.html",
+    "posix_specification": "https://pubs.opengroup.org/onlinepubs/9699919799/",
+    "legacy_specification": "https://pubs.opengroup.org/onlinepubs/009696799/"
+  },
+  "functions": [
+    {
+      "name": "rand_r",
+      "header": "stdlib.h",
+      "url": "https://pubs.opengroup.org/onlinepubs/9699919799/functions/rand_r.html",
+      "status": "standard",
+      "deprecated": false
+    },
+    {
+      "name": "gets",
+      "header": "stdio.h",
+      "url": "https://pubs.opengroup.org/onlinepubs/9699919799/functions/gets.html",
+      "status": "deprecated",
+      "deprecated": true,
+      "note": "已弃用函数，存在安全风险，建议使用 fgets 替代"
+    },
+    {
+      "name": "pthread_setconcurrency",
+      "header": "pthread.h",
+      "url": "https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_setconcurrency.html",
+      "status": "legacy",
+      "deprecated": false,
+      "note": "遗留函数，在现代系统中可能无实际效果"
+    },
+    {
+      "name": "pthread_getconcurrency",
+      "header": "pthread.h",
+      "url": "https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_getconcurrency.html",
+      "status": "legacy",
+      "deprecated": false,
+      "note": "遗留函数，在现代系统中可能返回固定值"
+    },
+    {
+      "name": "pthread_attr_getstackaddr",
+      "header": "pthread.h",
+      "url": "https://pubs.opengroup.org/onlinepubs/009696799/functions/pthread_attr_getstackaddr.html",
+      "status": "obsolete",
+      "deprecated": true,
+      "note": "已过时函数，建议使用 pthread_attr_getstack 替代"
+    },
+    {
+      "name": "pthread_attr_setstackaddr",
+      "header": "pthread.h",
+      "url": "https://pubs.opengroup.org/onlinepubs/009696799/functions/pthread_attr_setstackaddr.html",
+      "status": "obsolete",
+      "deprecated": true,
+      "note": "已过时函数，建议使用 pthread_attr_setstack 替代"
+    }
+  ],
+  "categories": {
+    "standard": ["rand_r"],
+    "deprecated": ["gets", "pthread_attr_getstackaddr", "pthread_attr_setstackaddr"],
+    "legacy": ["pthread_setconcurrency", "pthread_getconcurrency"]
+  },
+  "metadata": {
+    "version": "2017",
+    "last_updated": "2024",
+    "notes": "这些函数主要是 POSIX.1-2017 中标记为已弃用或遗留的函数，以及一些在旧版本规范中定义但已被新函数替代的接口"
+  }
+}

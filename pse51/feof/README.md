@@ -1,0 +1,84 @@
+# feof
+
+The Open Group Base Specifications Issue 8
+IEEE Std 1003.1-2024
+Copyright © 2001-2024 The IEEE and The Open Group
+
+---
+
+## NAME
+
+`feof` — test end-of-file indicator on a stream
+
+## SYNOPSIS
+
+```c
+#include <stdio.h>
+
+int feof(FILE *stream);
+```
+
+## DESCRIPTION
+
+[CX] The functionality described on this reference page is aligned with the ISO C standard. Any conflict between the requirements described here and the ISO C standard is unintentional. This volume of POSIX.1-2024 defers to the ISO C standard.
+
+The `feof()` function shall test the end-of-file indicator for the stream pointed to by `stream`.
+
+[CX] The `feof()` function shall not change the setting of `errno` if `stream` is valid.
+
+## RETURN VALUE
+
+The `feof()` function shall return non-zero if and only if the end-of-file indicator is set for `stream`.
+
+## ERRORS
+
+No errors are defined.
+
+---
+
+*The following sections are informative.*
+
+## EXAMPLES
+
+None.
+
+## APPLICATION USAGE
+
+None.
+
+## RATIONALE
+
+None.
+
+## FUTURE DIRECTIONS
+
+None.
+
+## SEE ALSO
+
+- [`clearerr()`](https://pubs.opengroup.org/onlinepubs/9799919799/functions/clearerr.html)
+- [`ferror()`](https://pubs.opengroup.org/onlinepubs/9799919799/functions/ferror.html)
+- [`fopen()`](https://pubs.opengroup.org/onlinepubs/9799919799/functions/fopen.html)
+
+XBD [`<stdio.h>`](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/stdio.h.html)
+
+## CHANGE HISTORY
+
+First released in Issue 1. Derived from Issue 1 of the SVID.
+
+### Issue 7
+
+POSIX.1-2008, Technical Corrigendum 1, XSH/TC1-2008/0124 [401] is applied.
+
+*End of informative text.*
+
+---
+
+[return to top of page](#top)
+
+---
+
+UNIX® is a registered Trademark of The Open Group.
+POSIX™ is a Trademark of The IEEE.
+Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved
+[ [Main Index](https://pubs.opengroup.org/onlinepubs/9799919799/mindex.html) | [XBD](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/contents.html) | [XSH](https://pubs.opengroup.org/onlinepubs/9799919799/functions/contents.html) | [XCU](https://pubs.opengroup.org/onlinepubs/9799919799/utilities/contents.html) | [XRAT](https://pubs.opengroup.org/onlinepubs/9799919799/xrat/contents.html) ]
