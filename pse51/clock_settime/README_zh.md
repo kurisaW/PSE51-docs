@@ -12,13 +12,13 @@ int clock_settime(clockid_t clock_id, const struct timespec *tp);
 
 ## 描述
 
-`clock_getres()` 函数应返回任何时钟的分辨率。时钟分辨率由实现定义，进程无法设置。如果参数 `res` 不为 NULL，指定时钟的分辨率应存储在 `res` 指向的位置。如��� `res` 为 NULL，则不返回时钟分辨率。如果 `clock_settime()` 的 `time` 参数不是 `res` 的倍数，则该值将被截断为 `res` 的倍数。
+`clock_getres()` 函数应返回任何时钟的分辨率。时钟分辨率由实现定义，进程无法设置。如果参数 `res` 不为 NULL，指定时钟的分辨率应存储在 `res` 指向的位置。如果 `res` 为 NULL，则不返回时钟分辨率。如果 `clock_settime()` 的 `time` 参数不是 `res` 的倍数，则该值将被截断为 `res` 的倍数。
 
 `clock_gettime()` 函数应返回指定时钟 `clock_id` 的当前值 `tp`。
 
 `clock_settime()` 函数应将指定时钟 `clock_id` 设置为 `tp` 指定的值。介于指定时钟分辨率的两个连续非负整数倍之间的时间值应向下截断为较小的分辨率倍数。
 
-时��可以是系统范围的（即对所有进程可见）或每进程的（仅在进程内有意义的时间测量）。所有实现都应支持 `<time.h>` 中定义的 `clock_id` CLOCK_REALTIME。该时钟表示测量系统实时时间的时钟。对于此时钟，`clock_gettime()` 返回的值和 `clock_settime()` 指定的值表示自纪元以来的时间量（以秒和纳秒为单位）。实现也可以支持额外的时钟。这些时钟的时间值解释是未指定的。
+时钟可以是系统范围的（即对所有进程可见）或每进程的（仅在进程内有意义的时间测量）。所有实现都应支持 `<time.h>` 中定义的 `clock_id` CLOCK_REALTIME。该时钟表示测量系统实时时间的时钟。对于此时钟，`clock_gettime()` 返回的值和 `clock_settime()` 指定的值表示自纪元以来的时间量（以秒和纳秒为单位）。实现也可以支持额外的时钟。这些时钟的时间值解释是未指定的。
 
 ### CLOCK_REALTIME 行为
 
@@ -101,4 +101,3 @@ int clock_settime(clockid_t clock_id, const struct timespec *tp);
 第 7 版
 
 *以下部分是参考信息。*
-

@@ -38,7 +38,7 @@ int sem_getvalue(sem_t *restrict sem, int *restrict sval);
 
 ## RATIONALE
 
-��。
+无。
 
 ## FUTURE DIRECTIONS
 

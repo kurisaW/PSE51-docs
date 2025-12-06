@@ -1,4 +1,4 @@
-# pthread_attr_getguardsize, pthread_attr_setguardsize — 获取和设置线程保护大小���性
+# pthread_attr_getguardsize, pthread_attr_setguardsize — 获取和设置线程保护大小属性
 
 ## SYNOPSIS
 

@@ -16,7 +16,7 @@ int sigismember(const sigset_t *set, int signo);
 
 ## RETURN VALUE
 
-成功完成后，如果指定的信号���指定集合的成员，`sigismember()` 应返回 1，否则返回 0。否则，它应返回 -1 并设置 `errno` 来指示错误。
+成功完成后，如果指定的信号是指定集合的成员，`sigismember()` 应返回 1，否则返回 0。否则，它应返回 -1 并设置 `errno` 来指示错误。
 
 ## ERRORS
 

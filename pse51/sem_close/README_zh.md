@@ -14,7 +14,7 @@ int sem_close(sem_t *sem);
 
 ## RETURN VALUE
 
-成功完成时，应返回零值。否则，应返回 -1 值并设置 `errno` 来指��错误。
+成功完成时，应返回零值。否则，应返回 -1 值并设置 `errno` 来指示错误。
 
 ## ERRORS
 

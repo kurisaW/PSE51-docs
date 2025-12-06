@@ -4,7 +4,7 @@
 
 pthread_cancel — 取消线程的执行
 
-## 概��
+## 概要
 
 ```c
 #include <pthread.h>
@@ -22,7 +22,7 @@ int pthread_cancel(pthread_t thread);
 
 ## 返回值
 
-如果成功，`pthread_cancel()` 函数应返回零；否则，应返回错���编号以指示错误。
+如果成功，`pthread_cancel()` 函数应返回零；否则，应返回错误编号以指示错误。
 
 ## 错误
 

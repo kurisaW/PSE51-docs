@@ -23,7 +23,7 @@ int pthread_mutexattr_getprotocol(const pthread_mutexattr_t *restrict attr, int 
 
 ## 错误
 
-- `ENOSYS` - 实现不支持���定的协议值
+- `ENOSYS` - 实现不支持指定的协议值
 - `ENOTSUP` - 实现不支持指定的协议值
 - `EINVAL` - `protocol` 的值无效
 

@@ -26,7 +26,7 @@ int clock_settime(clockid_t clock_id, const struct timespec *tp);
 
 所有实现都应支持 `<time.h>` 中定义的 `clock_id` CLOCK_MONOTONIC。此时钟表示系统的单调时钟。对于此时钟，`clock_gettime()` 返回的值表示自过去某个未指定点（例如，系统启动时间或纪元）以来的时间量（以秒和纳秒为单位）。此点在系统启动时间后不会改变。CLOCK_MONOTONIC 时钟的值不能通过 `clock_settime()` 设置。如果使用 CLOCK_MONOTONIC 的 `clock_id` 参数调用此函数，则该函数应失败。
 
-通过 `clock_settime()` 设置时钟对除 CLOCK_REALTIME 之外的其他时钟关联的已启动每进程定时��的影响是由实现定义的。
+通过 `clock_settime()` 设置时钟对除 CLOCK_REALTIME 之外的其他时钟关联的已启动每进程定时器的影响是由实现定义的。
 
 如果通过 `clock_settime()` 设置 CLOCK_REALTIME 时钟的值，时钟的新值应用于确定系统应唤醒基于 CLOCK_REALTIME 时钟阻塞在绝对 `clock_nanosleep()` 调用上的线程的时间。如果在调用此类时间服务时请求的绝对时间早于时钟的新值，则调用应立即返回，就像时钟已正常达到请求的时间一样。
 

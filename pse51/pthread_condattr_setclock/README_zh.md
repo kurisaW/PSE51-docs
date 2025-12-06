@@ -16,7 +16,7 @@ int pthread_condattr_setclock(pthread_condattr_t *attr,
 
 `pthread_condattr_getclock()` 函数应当从 attr 引用的属性对象中获取 *clock* 属性的值。
 
-`pthread_condattr_setclock()` 函数应���在 attr 引用的已初始化属性对象中设置 *clock* 属性。如果使用引用 CPU 时间时钟的 *clock_id* 参数调用 `pthread_condattr_setclock()`，则该调用应当失败。
+`pthread_condattr_setclock()` 函数应当在 attr 引用的已初始化属性对象中设置 *clock* 属性。如果使用引用 CPU 时间时钟的 *clock_id* 参数调用 `pthread_condattr_setclock()`，则该调用应当失败。
 
 *clock* 属性是用于测量 `pthread_cond_timedwait()` 超时服务的时钟的时钟 ID。*clock* 属性的默认值应当引用系统时钟。*clock* 属性对 `pthread_cond_clockwait()` 函数没有影响。
 

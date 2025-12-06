@@ -10,7 +10,7 @@ int putchar(int c);
 
 ## 描述
 
-[CX] 本参考页所描述的功能与 ISO C 标准保持一致。此处描述的要求与 ISO C 标准之间的任何冲突都是无意的。本卷 POSIX.1-2024 遵循 ISO C 标��。
+[CX] 本参考页所描述的功能与 ISO C 标准保持一致。此处描述的要求与 ISO C 标准之间的任何冲突都是无意的。本卷 POSIX.1-2024 遵循 ISO C 标准。
 
 函数调用 `putchar(c)` 应等效于 `putc(c,stdout)`。
 
@@ -50,7 +50,7 @@ int putchar(int c);
 
 ## 变更历史
 
-���次发布于 Issue 1。源自 SVID 的 Issue 1。
+首次发布于 Issue 1。源自 SVID 的 Issue 1。
 
 ### Issue 7
 

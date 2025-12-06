@@ -26,7 +26,7 @@ int pthread_attr_setschedparam(pthread_attr_t *restrict attr,
 
 ## ERRORS
 
-`pthread_attr_setschedparam()` 函��应在以下情况失败：
+`pthread_attr_setschedparam()` 函数应在以下情况失败：
 
 - **ENOTSUP** - 尝试将属性设置为不支持的值。
 

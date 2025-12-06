@@ -10,7 +10,7 @@ int setvbuf(FILE *restrict stream, char *restrict buf, int type, size_t size);
 
 ## DESCRIPTION（函数说明）
 
-`setvbuf()` 函数可以在由 `stream` 指向的流与打开的文件关联之后，但在对该流执行任何其他��作（除了对 `setvbuf()` 的不成功调用之外）之前使用。参数 `type` 确定 `stream` 应如何进行缓冲，如下所示：
+`setvbuf()` 函数可以在由 `stream` 指向的流与打开的文件关联之后，但在对该流执行任何其他操作（除了对 `setvbuf()` 的不成功调用之外）之前使用。参数 `type` 确定 `stream` 应如何进行缓冲，如下所示：
 
 - `_IOFBF` 将导致输入/输出完全缓冲。
 - `_IOLBF` 将导致输入/输出行缓冲。

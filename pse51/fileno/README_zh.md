@@ -23,7 +23,7 @@ int fileno(FILE *stream);
 - **[EBADF]**
   流与文件无关联。
 
-在以下情况下，`fileno()` 函数可能失���：
+在以下情况下，`fileno()` 函数可能失败：
 
 - **[EBADF]**
   `stream` 底层的文件描述符不是有效的文件描述符。

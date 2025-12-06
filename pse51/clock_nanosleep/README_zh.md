@@ -11,9 +11,9 @@ int clock_nanosleep(clockid_t clock_id, int flags,
 
 ## DESCRIPTION
 
-如果在 `flags` 参数中未设置 TIMER_ABSTIME 标志，`clock_nanosleep()` 函数将使当前线程暂停执行，直到 `rqtp` 参数指定的时间间隔已经过去，或者向调用线程传递一个信号且其��作是调用信号捕获函数，或者进程终止。用于测量时间的时钟应该是 `clock_id` 指定的时钟。
+如果在 `flags` 参数中未设置 TIMER_ABSTIME 标志，`clock_nanosleep()` 函数将使当前线程暂停执行，直到 `rqtp` 参数指定的时间间隔已经过去，或者向调用线程传递一个信号且其动作是调用信号捕获函数，或者进程终止。用于测量时间的时钟应该是 `clock_id` 指定的时钟。
 
-如果在 `flags` 参数中设置了 TIMER_ABSTIME 标志，`clock_nanosleep()` 函数将使当前线程暂停执行，直到 `clock_id` 指定的时钟的时间值达到 `rqtp` 参数指定的绝对时间，或者向调用线程传递一个信号且其动作是调用信号捕获函数，或者进程终止。如果在调用时，`rqtp` 指定的时间值小于或等���指定时钟的时间值，那么 `clock_nanosleep()` 应立即返回，调用进程不应被暂停。
+如果在 `flags` 参数中设置了 TIMER_ABSTIME 标志，`clock_nanosleep()` 函数将使当前线程暂停执行，直到 `clock_id` 指定的时钟的时间值达到 `rqtp` 参数指定的绝对时间，或者向调用线程传递一个信号且其动作是调用信号捕获函数，或者进程终止。如果在调用时，`rqtp` 指定的时间值小于或等于指定时钟的时间值，那么 `clock_nanosleep()` 应立即返回，调用进程不应被暂停。
 
 此函数导致的暂停时间可能比请求的时间更长，因为参数值会向上舍入为休眠分辨率的整数倍，或者因为系统对其他活动的调度。但是，除了被信号中断的情况外，相对 `clock_nanosleep()` 函数（即未设置 TIMER_ABSTIME 标志）的暂停时间不应小于 `rqtp` 指定的时间间隔，这以相应时钟的测量为准。绝对 `clock_nanosleep()` 函数（即设置了 TIMER_ABSTIME 标志）的暂停应至少持续到相应时钟的值达到 `rqtp` 指定的绝对时间为止，除了被信号中断的情况。
 
@@ -88,4 +88,3 @@ XBD `<time.h>`
 `clock_nanosleep()` 函数从时钟选择选项移动到基础规范。
 
 应用 POSIX.1-2008 Technical Corrigendum 2, XSH/TC2-2008/0068 [909]。
-

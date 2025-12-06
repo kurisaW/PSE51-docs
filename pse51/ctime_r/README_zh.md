@@ -12,7 +12,7 @@ char *ctime(const time_t *clock);
 
 本参考页描述的功能与 ISO C 标准保持一致。此处描述的要求与 ISO C 标准之间的任何冲突都是非故意的。POSIX.1-2024 本标准遵循 ISO C 标准。
 
-`ctime()` 函数应将 `clock` 指向的时间（表示自纪元��来以秒为单位的时间）转换为字符串形式的本地时间。它应等价于：
+`ctime()` 函数应将 `clock` 指向的时间（表示自纪元以来以秒为单位的时间）转换为字符串形式的本地时间。它应等价于：
 
 ```c
 asctime(localtime(clock))

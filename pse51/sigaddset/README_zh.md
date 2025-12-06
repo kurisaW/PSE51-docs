@@ -10,7 +10,7 @@ int sigaddset(sigset_t *set, int signo);
 
 ## DESCRIPTION
 
-`sigaddset()` 函数将由 `signo` 指定的单个信号添加到��� `set` 指向的信号集中。
+`sigaddset()` 函数将由 `signo` 指定的单个信号添加到 `set` 指向的信号集中。
 
 应用程序在首次使用任何 `sigset_t` 类型的对象之前，必须至少调用一次 `sigemptyset()` 或 `sigfillset()` 函数来初始化该对象。如果这样的对象未通过此方式初始化，但仍作为参数提供给 `pthread_sigmask()`、`sigaction()`、`sigaddset()`、`sigdelset()`、`sigismember()`、`sigpending()`、`sigprocmask()`、`sigsuspend()`、`sigtimedwait()`、`sigwait()` 或 `sigwaitinfo()` 中的任何一个函数，则结果是未定义的。
 

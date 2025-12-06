@@ -106,7 +106,7 @@ DESCRIPTION 已更新，以指示如果函数成功则不更改 `errno`。
 
 ### Issue 6
 
-标记了超出 ISO C 标准的扩展���
+标记了超出 ISO C 标准的扩展。
 
 以下对 POSIX 实现的新要求源于与单一 UNIX 规范的对齐：
 

@@ -16,7 +16,7 @@ int isalnum(int c);
 
 `isalnum()` [CX] 和 `isalnum_l()` 函数应测试 `c` 是否在当前区域设置中属于 **alpha** 或 **digit** 类的字符，[CX] 或分别在由 `locale` 表示的区域设置中；参见 XBD [7. 区域设置](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/V1_chap07.html#tag_07)。
 
-`c` 参数是一个 `int`，其值应确保应用程序可以��示为 `unsigned char` 或等于宏 EOF 的值。如果参数具有任何其他值，则行为是未定义的。
+`c` 参数是一个 `int`，其值应确保应用程序可以表示为 `unsigned char` 或等于宏 EOF 的值。如果参数具有任何其他值，则行为是未定义的。
 
 [CX] 如果 `isalnum_l()` 的 `locale` 参数是特殊区域设置对象 LC_GLOBAL_LOCALE 或不是有效的区域设置对象句柄，则行为是未定义的。
 

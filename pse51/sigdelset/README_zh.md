@@ -20,7 +20,7 @@ int sigdelset(sigset_t *set, int signo);
 
 ## ERRORS（错误）
 
-`sigdelset()` 函数可能在��下情况下失败：
+`sigdelset()` 函数可能在以下情况下失败：
 
 **[EINVAL]**
 `signo` 参数不是有效的信号编号，或者是不支持的信号编号。

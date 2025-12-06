@@ -12,7 +12,7 @@ int pthread_attr_setstackaddr(pthread_attr_t *attr, void *stackaddr);
 
 `pthread_attr_getstackaddr()` 和 `pthread_attr_setstackaddr()` 函数分别用于获取和设置 attr 对象中的线程创建栈地址属性。
 
-栈地址属性指定用于所创建线程栈的存储位置。该存储的大小应至少为 {PTHREAD_STACK_MIN}��
+栈地址属性指定用于所创建线程栈的存储位置。该存储的大小应至少为 {PTHREAD_STACK_MIN}。
 
 ## RETURN VALUE
 

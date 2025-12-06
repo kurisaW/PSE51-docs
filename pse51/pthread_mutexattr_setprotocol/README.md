@@ -1,6 +1,6 @@
 # pthread_mutexattr_setprotocol, pthread_mutexattr_getprotocol
 
-获���和设置互斥锁属性对象的协议属性。
+获取和设置互斥锁属性对象的协议属性。
 
 ## 函数概要
 
@@ -19,7 +19,7 @@ int pthread_mutexattr_getprotocol(const pthread_mutexattr_t *restrict attr, int 
 
 ## 返回值
 
-成功时，函数返回 0。失败时，返回错误编��以指示错误。
+成功时，函数返回 0。失败时，返回错误编码以指示错误。
 
 ## 错误
 
@@ -42,7 +42,7 @@ int pthread_mutexattr_getprotocol(const pthread_mutexattr_t *restrict attr, int 
 ### 协议行为详解
 
 #### PTHREAD_PRIO_NONE
-当线程拥有具有 `PTHREAD_PRIO_NONE` 协议属���的互斥锁时，其优先级和调度不应受到其互斥锁所有权的影响。
+当线程拥有具有 `PTHREAD_PRIO_NONE` 协议属性的互斥锁时，其优先级和调度不应受到其互斥锁所有权的影响。
 
 #### PTHREAD_PRIO_INHERIT
 当线程由于拥有一个或多个使用 `PTHREAD_PRIO_INHERIT` 协议属性初始化的互斥锁而阻塞更高优先级的线程时，它应以其优先级或等待该线程拥有的、使用此协议初始化的任何互斥锁的最高优先级线程的优先级中较高的那个优先级执行。

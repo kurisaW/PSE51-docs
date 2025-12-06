@@ -15,7 +15,7 @@ pthread_cond_t cond = PTHREAD_COND_INITIALIZER;
 
 ## DESCRIPTION
 
-`pthread_cond_destroy()` 函数应销毁由 `cond` 指���的给定条件变量；该对象实际上变为未初始化状态。实现可能导致 `pthread_cond_destroy()` 将 `cond` 引用的对象设置为无效值。被销毁的条件变量对象可以使用 `pthread_cond_init()` 重新初始化；在对象被销毁后以其他方式引用该对象的结果是未定义的。
+`pthread_cond_destroy()` 函数应销毁由 `cond` 指向的给定条件变量；该对象实际上变为未初始化状态。实现可能导致 `pthread_cond_destroy()` 将 `cond` 引用的对象设置为无效值。被销毁的条件变量对象可以使用 `pthread_cond_init()` 重新初始化；在对象被销毁后以其他方式引用该对象的结果是未定义的。
 
 销毁没有线程当前阻塞在其上的已初始化条件变量是安全的。尝试销毁其他线程当前阻塞在其上的条件变量会导致未定义行为。
 

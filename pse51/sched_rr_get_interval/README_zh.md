@@ -14,7 +14,7 @@ int sched_rr_get_interval(pid_t pid, struct timespec *interval);
 
 ## 返回值
 
-如果成功，`sched_rr_get_interval()` 函数应返回零。否则，它应返回值 -1 并��置 `errno` 来指示错误。
+如果成功，`sched_rr_get_interval()` 函数应返回零。否则，它应返回值 -1 并设置 `errno` 来指示错误。
 
 ## 错误
 

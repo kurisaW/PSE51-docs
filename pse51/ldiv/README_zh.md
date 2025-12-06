@@ -17,7 +17,7 @@ lldiv_t lldiv(long long numer, long long denom);
 
 ## 返回值
 
-`ldiv()` 函数应返回 **ldiv_t** 类型的结构体，包含商和余数。该结构体应包含以下成员，顺序不���：
+`ldiv()` 函数应返回 **ldiv_t** 类型的结构体，包含商和余数。该结构体应包含以下成员，顺序不限：
 
 ```c
 long   quot;    /* 商 */
