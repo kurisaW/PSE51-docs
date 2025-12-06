@@ -84,5 +84,3 @@ The Base Definitions volume of POSIX.1-2024, `<pthread.h>`
 First released in Issue 5. Included in Issue 6 (IEEE Std 1003.1, 2004).
 
 ---
-
-*Copyright © 2024 IEEE and The Open Group. All rights reserved.*

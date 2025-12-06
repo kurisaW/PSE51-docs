@@ -129,6 +129,3 @@ POSIX.1-2008, Technical Corrigendum 1, XSH/TC1-2008/0458 [302] is applied.
 POSIX.1-2008, Technical Corrigendum 2, XSH/TC2-2008/0274 [849] is applied.
 
 ---
-
-**Source:** The Open Group Base Specifications Issue 8, IEEE Std 1003.1-2024
-**URL:** https://pubs.opengroup.org/onlinepubs/9799919799/functions/pthread_create.html

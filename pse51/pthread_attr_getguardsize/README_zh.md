@@ -1,4 +1,4 @@
-# pthread_attr_getguardsize, pthread_attr_setguardsize — 获取和设置线程保护大小���性
+# pthread_attr_getguardsize, pthread_attr_setguardsize — 获取和设置线程保护大小属性
 
 ## SYNOPSIS
 
@@ -118,7 +118,3 @@ else {
 - 删除了未初始化线程属性对象的 `[EINVAL]` 错误；此条件导致未定义行为。
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*版权所有 © 2001-2024 The IEEE and The Open Group*

@@ -88,9 +88,3 @@ First released in Issue 1. Derived from Issue 1 of the SVID.
 Austin Group Defect 1541 is applied, aligning the functionality with the ISO C standard.
 
 ---
-
-*End of informative text.*
-
-*UNIX® is a registered Trademark of The Open Group.*
-*POSIX™ is a Trademark of The IEEE.*
-*Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved*

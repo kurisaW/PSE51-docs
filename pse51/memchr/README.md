@@ -1,9 +1,5 @@
 # memchr
 
-## NAME
-
-memchr — find byte in memory
-
 ## SYNOPSIS
 
 ```c
@@ -65,7 +61,3 @@ Austin Group Defect 448 is applied, adding a requirement that `memchr()` does no
 Austin Group Defect 1302 is applied, aligning this function with the ISO/IEC 9899:2018 standard.
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*Copyright © 2001-2024 The IEEE and The Open Group*

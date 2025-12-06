@@ -1,13 +1,5 @@
 # timer_create - 创建每进程定时器
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-版权所有 © 2001-2024 IEEE 和 The Open Group
-
-## NAME （名称）
-
-timer_create — 创建每进程定时器
-
 ## SYNOPSIS （概要）
 
 ```c
@@ -124,7 +116,3 @@ DESCRIPTION 部分已更新以与 IEEE Std 1003.1j-2000 对齐，在 Monotonic C
 应用了 Austin Group 缺陷 1346，要求支持 Monotonic Clock。
 
 ---
-
-*UNIX® 是 The Open Group 的注册商标。*
-*POSIX™ 是 IEEE 的商标。*
-*版权所有 © 2001-2024 IEEE 和 The Open Group，保留所有权利*

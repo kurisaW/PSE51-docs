@@ -1,13 +1,5 @@
 # fread
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME
-
-fread — 二进制输入
-
 ## SYNOPSIS
 
 ```c
@@ -122,9 +114,3 @@ bytes_read = fread(buf, 1, sizeof(buf), fp);
 应用了 Austin Group Defect 1624，更改了 RETURN VALUE 部分。
 
 ---
-
-*参考信息结束。*
-
-UNIX® 是 The Open Group 的注册商标。
-POSIX™ 是 The IEEE 的商标。
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved

@@ -75,5 +75,3 @@ int nanosleep(const struct timespec *rqtp, struct timespec *rmtp);
 - 应用了 POSIX.1-2008，技术勘误 2，XSH/TC2-2008/0231 [909]。
 
 ---
-
-*来源：The Open Group Base Specifications Issue 8, IEEE Std 1003.1-2024*

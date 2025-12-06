@@ -105,5 +105,3 @@ Austin Group Defect 728 is applied, reducing the set of circumstances in which u
 Austin Group Defect 1302 is applied, aligning this function with the ISO/IEC 9899:2018 standard.
 
 ---
-
-*Source: The Open Group Base Specifications Issue 8, IEEE Std 1003.1-2024*

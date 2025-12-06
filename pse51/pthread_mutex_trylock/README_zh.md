@@ -1,4 +1,4 @@
-# pthread_mutex_trylock - 尝试锁���互斥锁
+# pthread_mutex_trylock - 尝试锁定互斥锁
 
 ## 概要
 
@@ -27,7 +27,7 @@ int pthread_mutex_unlock(pthread_mutex_t *mutex);
 
 在表指示递归行为的情况下，互斥锁应保持锁计数概念。当线程第一次成功获取互斥锁时，锁计数应设置为一。每次线程重新锁定此互斥锁时，锁计数应加一。每次线程解锁互斥锁时，锁计数应减一。当锁计数达到零时，互斥锁应对其他线程可用以获取。
 
-`pthread_mutex_trylock()` 函数应等价于 `pthread_mutex_lock()`，但如果 `mutex` 引用的互斥锁对象当前被锁定（由任何线程，包括当前线程），调用应立即返回。如果互斥锁类型是 PTHREAD_MUTEX_RECURSIVE 且互斥锁当前由调用线程拥���，互斥锁锁计数应加一，`pthread_mutex_trylock()` 函数应立即返回成功。
+`pthread_mutex_trylock()` 函数应等价于 `pthread_mutex_lock()`，但如果 `mutex` 引用的互斥锁对象当前被锁定（由任何线程，包括当前线程），调用应立即返回。如果互斥锁类型是 PTHREAD_MUTEX_RECURSIVE 且互斥锁当前由调用线程拥有，互斥锁锁计数应加一，`pthread_mutex_trylock()` 函数应立即返回成功。
 
 `pthread_mutex_unlock()` 函数应释放 `mutex` 引用的互斥锁对象。释放互斥锁的方式取决于互斥锁的类型属性。如果在调用 `pthread_mutex_unlock()` 时有线程在 `mutex` 引用的互斥锁对象上阻塞，导致互斥锁变得可用，调度策略应确定哪个线程应获取互斥锁。
 

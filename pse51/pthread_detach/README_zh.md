@@ -80,11 +80,3 @@ int pthread_detach(pthread_t thread);
 应用 Austin Group Defect 1167，阐明在为线程调用 `pthread_detach()` 后，该线程不再可结合。
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*Copyright © 2001-2024 The IEEE and The Open Group*
-
-UNIX® 是 The Open Group 的注册商标。
-POSIX™ 是 The IEEE 的商标。
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved

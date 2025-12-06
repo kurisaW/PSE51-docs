@@ -1,9 +1,5 @@
 # mlockall
 
-## NAME
-
-mlockall, munlockall — lock/unlock the address space of a process (**REALTIME**)
-
 ## SYNOPSIS
 
 ```c
@@ -88,5 +84,3 @@ The `mlockall()` and `munlockall()` functions are marked as part of the Process 
 The [ENOSYS] error condition has been removed as stubs need not be provided if an implementation does not support the Process Memory Locking option.
 
 ---
-
-*Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved*

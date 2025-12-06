@@ -1,15 +1,5 @@
 # fdopen
 
-**The Open Group Base Specifications Issue 8**
-**IEEE Std 1003.1-2024**
-Copyright © 2001-2024 The IEEE and The Open Group
-
----
-
-## NAME
-
-**fdopen** — associate a stream with a file descriptor
-
 ## SYNOPSIS
 
 ```c
@@ -150,11 +140,3 @@ IEEE Std 1003.1-2001/Cor 2-2004, item XSH/TC2/D6/30 is applied, making correctio
 - Austin Group Defects 411 and 1526 are applied, changing the requirements for the `mode` argument.
 
 ---
-
-*End of informative text.*
-
----
-
-UNIX® is a registered Trademark of The Open Group.
-POSIX™ is a Trademark of The IEEE.
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved

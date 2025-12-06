@@ -113,6 +113,3 @@ long long strtoll(const char *restrict nptr, char **restrict endptr, int base);
 应用了 Austin Group 缺陷 1163，阐明了输入字符串中空白字符的处理。
 
 ---
-
-*来源：The Open Group Base Specifications Issue 8, IEEE Std 1003.1-2024*
-*版权所有 © 2001-2024 IEEE 和 The Open Group*

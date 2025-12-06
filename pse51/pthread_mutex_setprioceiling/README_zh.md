@@ -1,13 +1,5 @@
 # pthread_mutex_getprioceiling, pthread_mutex_setprioceiling
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME
-
-pthread_mutex_getprioceiling, pthread_mutex_setprioceiling — 获取和设置互斥锁的优先级上限 (**实时线程**)
-
 ## SYNOPSIS
 
 ```c
@@ -120,7 +112,3 @@ int pthread_mutex_setprioceiling(pthread_mutex_t *restrict mutex,
 - 应用了 Austin Group Defect 354，添加了超出可用的健壮互斥锁拥有的系统资源时的 [EAGAIN] 错误。
 
 ---
-
-*UNIX® 是 The Open Group 的注册商标。*
-*POSIX™ 是 IEEE 的商标。*
-*Copyright © 2001-2024 The IEEE and The Open Group，保留所有权利*

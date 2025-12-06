@@ -1,9 +1,5 @@
 # pthread_mutex_destroy, pthread_mutex_init
 
-## NAME
-
-pthread_mutex_destroy, pthread_mutex_init — destroy and initialize a mutex
-
 ## SYNOPSIS
 
 ```c

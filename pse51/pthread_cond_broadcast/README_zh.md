@@ -17,7 +17,7 @@ int pthread_cond_signal(pthread_cond_t *cond);
 
 `pthread_cond_signal()` 函数应作为单个原子操作，确定是否有线程在指定的条件变量 `cond` 上阻塞，并解除至少一个这些线程的阻塞。
 
-如果有多个��程在条件变量上阻塞，调度策略应决定线程解除阻塞的顺序。当每个因 `pthread_cond_broadcast()` 或 `pthread_cond_signal()` 而解除阻塞的线程从其对 `pthread_cond_clockwait()`、`pthread_cond_timedwait()` 或 `pthread_cond_wait()` 的调用中返回时，该线程应拥有其在调用 `pthread_cond_clockwait()`、`pthread_cond_timedwait()` 或 `pthread_cond_wait()` 时所关联的互斥锁。被解除阻塞的线程应根据调度策略（如果适用）竞争互斥锁，并且就像每个线程都调用了 `pthread_mutex_lock()` 一样。
+如果有多个线程在条件变量上阻塞，调度策略应决定线程解除阻塞的顺序。当每个因 `pthread_cond_broadcast()` 或 `pthread_cond_signal()` 而解除阻塞的线程从其对 `pthread_cond_clockwait()`、`pthread_cond_timedwait()` 或 `pthread_cond_wait()` 的调用中返回时，该线程应拥有其在调用 `pthread_cond_clockwait()`、`pthread_cond_timedwait()` 或 `pthread_cond_wait()` 时所关联的互斥锁。被解除阻塞的线程应根据调度策略（如果适用）竞争互斥锁，并且就像每个线程都调用了 `pthread_mutex_lock()` 一样。
 
 调用 `pthread_cond_broadcast()` 或 `pthread_cond_signal()` 函数的线程无论当前是否拥有调用 `pthread_cond_clockwait()`、`pthread_cond_timedwait()` 或 `pthread_cond_wait()` 的线程在等待期间与条件变量关联的互斥锁；然而，如果需要可预测的调度行为，那么调用 `pthread_cond_broadcast()` 或 `pthread_cond_signal()` 的线程应锁定该互斥锁。
 
@@ -113,6 +113,3 @@ XBD [4.15.2 内存同步](https://pubs.opengroup.org/onlinepubs/9799919799/based
 应用 Austin Group 缺陷 1216，添加 `pthread_cond_clockwait()`。
 
 ---
-
-*来源：The Open Group Base Specifications Issue 8, IEEE Std 1003.1-2024*
-*版权所有 © 2001-2024 IEEE 和 The Open Group*

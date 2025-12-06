@@ -1,9 +1,5 @@
 # pthread_getconcurrency
 
-## Name
-
-pthread_getconcurrency - get the level of concurrency
-
 ## Synopsis
 
 ```c

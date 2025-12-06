@@ -18,7 +18,7 @@ void pthread_testcancel(void);
 
 任何新创建线程（包括首次调用 `main()` 的线程）的可取消状态和类型应分别为 `PTHREAD_CANCEL_ENABLE` 和 `PTHREAD_CANCEL_DEFERRED`。
 
-`pthread_testcancel()` 函数应在调用��程中创建一个取消点。如果取消被禁用，`pthread_testcancel()` 函数应没有效果。
+`pthread_testcancel()` 函数应在调用线程中创建一个取消点。如果取消被禁用，`pthread_testcancel()` 函数应没有效果。
 
 `pthread_setcancelstate()` 函数应为异步信号安全。
 
@@ -88,5 +88,3 @@ void pthread_testcancel(void);
 应用了 Austin Group 缺陷 841，要求 `pthread_setcancelstate()` 为异步信号安全。
 
 ---
-
-*来源：The Open Group Base Specifications Issue 8, IEEE Std 1003.1-2024*

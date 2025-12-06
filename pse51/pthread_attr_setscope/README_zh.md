@@ -92,5 +92,3 @@ XBD [`<pthread.h>`](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/pt
 应用了 POSIX.1-2008，技术更正 2，XSH/TC2-2008/0264 [757]。
 
 ---
-
-*版权所有 © 2001-2024 IEEE 和 The Open Group，保留所有权利*

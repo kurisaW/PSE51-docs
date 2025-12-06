@@ -1,9 +1,5 @@
 # scanf
 
-## Name
-
-scanf, fscanf, sscanf - scan and format input
-
 ## Synopsis
 
 ```c

@@ -1,15 +1,5 @@
 # feof
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
----
-
-## NAME
-
-`feof` — test end-of-file indicator on a stream
-
 ## SYNOPSIS
 
 ```c
@@ -70,15 +60,3 @@ First released in Issue 1. Derived from Issue 1 of the SVID.
 
 POSIX.1-2008, Technical Corrigendum 1, XSH/TC1-2008/0124 [401] is applied.
 
-*End of informative text.*
-
----
-
-[return to top of page](#top)
-
----
-
-UNIX® is a registered Trademark of The Open Group.
-POSIX™ is a Trademark of The IEEE.
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved
-[ [Main Index](https://pubs.opengroup.org/onlinepubs/9799919799/mindex.html) | [XBD](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/contents.html) | [XSH](https://pubs.opengroup.org/onlinepubs/9799919799/functions/contents.html) | [XCU](https://pubs.opengroup.org/onlinepubs/9799919799/utilities/contents.html) | [XRAT](https://pubs.opengroup.org/onlinepubs/9799919799/xrat/contents.html) ]

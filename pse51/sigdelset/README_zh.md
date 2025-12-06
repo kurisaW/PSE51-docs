@@ -1,13 +1,5 @@
 # sigdelset - 从信号集中删除一个信号
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME（名称）
-
-sigdelset — 从信号集中���除一个信号
-
 ## SYNOPSIS（概要）
 
 ```c
@@ -28,7 +20,7 @@ int sigdelset(sigset_t *set, int signo);
 
 ## ERRORS（错误）
 
-`sigdelset()` 函数可能在��下情况下失败：
+`sigdelset()` 函数可能在以下情况下失败：
 
 **[EINVAL]**
 `signo` 参数不是有效的信号编号，或者是不支持的信号编号。
@@ -75,7 +67,3 @@ int sigdelset(sigset_t *set, int signo);
 SYNOPSIS 被标记为 CX，因为此函数在 `<signal.h>` 头文件中的存在是对 ISO C 标准的扩展。
 
 ---
-
-*UNIX® 是 The Open Group 的注册商标。
-POSIX™ 是 The IEEE 的商标。
-版权 © 2001-2024 The IEEE and The Open Group，保留所有权利*

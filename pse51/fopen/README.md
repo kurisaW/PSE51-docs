@@ -214,5 +214,3 @@ Austin Group Defect 1200 is applied, correcting the argument name in the [ELOOP]
 Austin Group Defect 1302 is applied, aligning this function with the ISO/IEC 9899:2018 standard.
 
 ---
-
-**Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved**

@@ -88,5 +88,3 @@ POSIX.1-2008, Technical Corrigendum 2, XSH/TC2-2008/0294 [622] and XSH/TC2-2008/
 Austin Group Defect 841 is applied, requiring `pthread_setcancelstate()` to be async-signal-safe.
 
 ---
-
-*Source: The Open Group Base Specifications Issue 8, IEEE Std 1003.1-2024*

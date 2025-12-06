@@ -72,7 +72,3 @@ The `setvbuf()` prototype is updated for alignment with the ISO/IEC 9899:1999 st
 Austin Group Defect 1144 is applied, changing the [EBADF] error condition.
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*Copyright © 2001-2024 The IEEE and The Open Group*

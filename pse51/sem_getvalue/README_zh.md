@@ -1,9 +1,5 @@
 # sem_getvalue
 
-## NAME
-
-sem_getvalue —— 获取信号量的值
-
 ## SYNOPSIS
 
 ```c
@@ -42,7 +38,7 @@ int sem_getvalue(sem_t *restrict sem, int *restrict sval);
 
 ## RATIONALE
 
-��。
+无。
 
 ## FUTURE DIRECTIONS
 
@@ -85,11 +81,3 @@ XBD [`<semaphore.h>`](../basedefs/semaphore.h.html)
 应用了 POSIX.1-2008, Technical Corrigendum 1, XSH/TC1-2008/0525 [37]。
 
 ---
-
-*补充信息文本结束。*
-
----
-
-*UNIX® 是 The Open Group 的注册商标。*
-*POSIX™ 是 IEEE 的商标。*
-*版权所有 © 2001-2024 The IEEE and The Open Group，保留所有权利*

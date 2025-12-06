@@ -1,9 +1,5 @@
 # pthread_mutexattr_getprotocol
 
-## Name
-
-pthread_mutexattr_getprotocol, pthread_mutexattr_setprotocol - get and set the protocol attribute of a mutex attributes object
-
 ## Synopsis
 
 ```c

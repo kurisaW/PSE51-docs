@@ -134,10 +134,3 @@ Austin Group Defect 1330 is applied, removing obsolescent interfaces.
 
 Austin Group Defect 1462 is applied, changing the RATIONALE and FUTURE DIRECTIONS sections.
 
-*End of informative text.*
-
----
-
-*UNIX® is a registered Trademark of The Open Group.*
-*POSIX™ is a Trademark of The IEEE.*
-*Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved*

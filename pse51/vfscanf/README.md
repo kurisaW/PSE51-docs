@@ -65,7 +65,3 @@ First released in Issue 6. Derived from the ISO/IEC 9899:1999 standard.
 POSIX.1-2008, Technical Corrigendum 1, XSH/TC1-2008/0704 [14] is applied.
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*Copyright © 2001-2024 The IEEE and The Open Group*

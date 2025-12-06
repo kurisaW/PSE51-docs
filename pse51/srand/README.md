@@ -139,7 +139,3 @@ Derived from Issue 1 of the SVID.
 - Austin Group Defect 1330 is applied, removing obsolescent interfaces.
 
 ---
-
-*UNIX® is a registered Trademark of The Open Group.*
-*POSIX™ is a Trademark of The IEEE.*
-*Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved*

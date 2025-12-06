@@ -1,9 +1,5 @@
 # pthread_atfork
 
-## 名称
-
-pthread_atfork - 注册 fork 处理函数
-
 ## 概要
 
 ```c

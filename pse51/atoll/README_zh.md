@@ -1,9 +1,5 @@
 # atoll
 
-## NAME
-
-atoll - 将字符串转换为长整数
-
 ## SYNOPSIS
 
 ```c
@@ -15,7 +11,7 @@ long long atoll(const char *nptr);
 
 ## DESCRIPTION
 
-[选项开始] 本参考页��述的功能与 ISO C 标准保持一致。此处描述的要求与 ISO C 标准之间的任何冲突都是非故意的。POSIX.1-2024 卷遵循 ISO C 标准。[选项结束]
+[选项开始] 本参考页描述的功能与 ISO C 标准保持一致。此处描述的要求与 ISO C 标准之间的任何冲突都是非故意的。POSIX.1-2024 卷遵循 ISO C 标准。[选项结束]
 
 除下面说明的情况外，调用 `atol(nptr)` 应等效于：
 

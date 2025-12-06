@@ -1,13 +1,5 @@
 # close, posix_close
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME（名称）
-
-close, posix_close — 关闭文件描述符
-
 ## SYNOPSIS（概要）
 
 ```c
@@ -128,7 +120,7 @@ if ((fpfd = fdopen (pfd, "w")) == NULL) {
 
 ## RATIONALE（原理）
 
-应避免使用可中断设备关闭例程，以避免与文件描述符的隐式关闭（如通过 `exec`、进程终止或 `dup2()`）相关的问题。POSIX.1-2024 的这一卷仅通过为具有非零 POSIX_CLOSE_RESTART 的 `close()` 和 `posix_close()` 指定 [EINTR] 错误条件来允许此类行为，以便为应用程序提供可移植的方式，在接收到中断后恢复等待与关闭操作相关的事件（例如，磁带机倒带）。本标准还允许实现如果选择不提供重新启动中断关闭操作的方式，则将 POSIX_CLOSE_RESTART 定义为 0。尽管在 [EINTR] 时文件描述符保持打开状态，但它可能不再可用���也就是说，将其传递给除 `close()` 或 `posix_close()` 之外的任何函数可能导致诸如 [EIO] 之类的错误。如果应用程序必须保证数据不会丢失，建议应用程序在关闭操作之前使用 `fsync()` 或 `fdatasync()`，而不是让关闭操作处理待处理的 I/O 并承担中断的风险。
+应避免使用可中断设备关闭例程，以避免与文件描述符的隐式关闭（如通过 `exec`、进程终止或 `dup2()`）相关的问题。POSIX.1-2024 的这一卷仅通过为具有非零 POSIX_CLOSE_RESTART 的 `close()` 和 `posix_close()` 指定 [EINTR] 错误条件来允许此类行为，以便为应用程序提供可移植的方式，在接收到中断后恢复等待与关闭操作相关的事件（例如，磁带机倒带）。本标准还允许实现如果选择不提供重新启动中断关闭操作的方式，则将 POSIX_CLOSE_RESTART 定义为 0。尽管在 [EINTR] 时文件描述符保持打开状态，但它可能不再可用——也就是说，将其传递给除 `close()` 或 `posix_close()` 之外的任何函数可能导致诸如 [EIO] 之类的错误。如果应用程序必须保证数据不会丢失，建议应用程序在关闭操作之前使用 `fsync()` 或 `fdatasync()`，而不是让关闭操作处理待处理的 I/O 并承担中断的风险。
 
 本标准的早期版本在 [EINTR] 和 [EIO] 等错误之后将 `fildes` 的状态保留为未指定；实现在 `close()` 在 [EINTR] 后是否保持 `fildes` 打开方面存在差异。一旦引入线程，这是不令人满意的，因为多线程应用程序需要知道 `fildes` 是否已被关闭。应用程序不能盲目地再次调用 `close()`，因为如果 `fildes` 被第一次调用关闭，另一个线程可能已被分配了一个与 `fildes` 相同值的文件描述符，该文件描述符绝不能被第一个线程关闭。另一方面，从不重试 `close()` 的替代方案将在 `close()` 未关闭 `fildes` 的实现中导致文件描述符泄漏，尽管如果进程即将退出或文件描述符被标记为 FD_CLOEXEC 且进程即将被 `exec` 替换，这种泄漏可能是无害的。本标准引入了带有 `flag` 参数的 `posix_close()`，它允许在两种可能的错误行为之间进行选择，并将 `close()` 实现两种行为中的哪一种保留为未指定（尽管保证是 `posix_close()` 的两种行为之一，而不是像标准早期版本那样完全未指定）。
 
@@ -211,9 +203,3 @@ DESCRIPTION 为与 IEEE Std 1003.1j-2000 对齐而更新，指定共享内存对
 应用 Austin Group Defect 1525，阐明套接字直到与其关联的所有文件描述符都被关闭时才被销毁。
 
 ---
-
-*参考信息结束。*
-
-UNIX® 是 The Open Group 的注册商标。
-POSIX™ 是 The IEEE 的商标。
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved

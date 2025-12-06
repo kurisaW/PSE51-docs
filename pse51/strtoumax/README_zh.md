@@ -1,13 +1,5 @@
 # strtoumax
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME
-
-strtoimax, strtoumax — 将字符串转换为整数类型
-
 ## SYNOPSIS
 
 ```c
@@ -83,11 +75,3 @@ uintmax_t strtoumax(const char *restrict nptr,
 POSIX.1-2008、Technical Corrigendum 1、XSH/TC1-2008/0613 [453] 和 XSH/TC1-2008/0614 [453] 已应用。
 
 ---
-
-*补充信息结束。*
-
----
-
-UNIX® 是 The Open Group 的注册商标。
-POSIX™ 是 The IEEE 的商标。
-Copyright © 2001-2024 The IEEE and The Open Group，保留所有权利

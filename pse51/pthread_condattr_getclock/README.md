@@ -1,13 +1,5 @@
 # pthread_condattr_getclock, pthread_condattr_setclock
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME
-
-pthread_condattr_getclock, pthread_condattr_setclock — get and set the clock selection condition variable attribute
-
 ## SYNOPSIS
 
 ```c
@@ -90,11 +82,3 @@ The [EINVAL] error for an uninitialized condition variable attributes object is 
 Austin Group Defect 1216 is applied, adding `pthread_cond_clockwait()`.
 
 ---
-
-*End of informative text.*
-
----
-
-UNIX® is a registered Trademark of The Open Group.
-POSIX™ is a Trademark of The IEEE.
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved

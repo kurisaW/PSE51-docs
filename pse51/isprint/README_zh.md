@@ -18,7 +18,7 @@ int isprint_l(int c, locale_t locale);
 
 `isprint()` 和 `isprint_l()` 函数应测试 `c` 是否分别为当前语言环境或由 `locale` 表示的语言环境中的 **print** 类字符；参见 XBD [7. Locale]。
 
-`c` 参数是一个 `int`，其值应��应用程序确保是可表示为 `unsigned char` 的字符或等于宏 EOF 的值。如果参数具有任何其他值，则行为未定义。
+`c` 参数是一个 `int`，其值应由应用程序确保是可表示为 `unsigned char` 的字符或等于宏 EOF 的值。如果参数具有任何其他值，则行为未定义。
 
 [如果 `isprint_l()` 的 `locale` 参数是特殊语言环境对象 LC_GLOBAL_LOCALE 或不是有效的语言环境对象句柄，则行为未定义。]
 
@@ -77,7 +77,3 @@ XBD [7. Locale], [`<ctype.h>`](ctype.h), [`<locale.h>`](locale.h)
 应用了 POSIX.1-2008, Technical Corrigendum 1, XSH/TC1-2008/0297 [302], XSH/TC1-2008/0298 [283], 和 XSH/TC1-2008/0299 [283]。
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*Copyright © 2001-2024 The IEEE and The Open Group*

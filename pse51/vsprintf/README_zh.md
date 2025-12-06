@@ -1,9 +1,5 @@
 # vsprintf - 格式化 stdarg 参数列表的输出
 
-## 名称
-
-vasprintf, vdprintf, vfprintf, vprintf, vsnprintf, vsprintf — 格式化 stdarg 参数列表的输出
-
 ## 概要
 
 ```c
@@ -85,7 +81,3 @@ int vsprintf(char *restrict s, const char *restrict format, va_list ap);
 应用了 Austin Group 缺陷 1496，添加了 `vasprintf()` 函数。
 
 ---
-
-*UNIX® 是 The Open Group 的注册商标。*
-*POSIX™ 是 IEEE 的商标。*
-*版权所有 © 2001-2024 IEEE 和 The Open Group，保留所有权利*

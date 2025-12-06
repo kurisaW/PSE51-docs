@@ -198,5 +198,3 @@ Austin Group Defect 593 is applied, removing a reference to [`<fcntl.h>`](https:
 Austin Group Defect 695 is applied, adding atomicity requirements to operations on shared memory objects.
 
 ---
-
-*Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved*

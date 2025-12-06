@@ -118,7 +118,3 @@ None.
 - The `[EINVAL]` error for an uninitialized thread attributes object is removed; this condition results in undefined behavior.
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*Copyright © 2001-2024 The IEEE and The Open Group*

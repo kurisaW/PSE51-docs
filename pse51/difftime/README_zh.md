@@ -62,8 +62,3 @@ double difftime(time_t time1, time_t time0);
 首次发布于 Issue 4。源自 ISO C 标准。
 
 ---
-
-*信息性文本结束。*
-
-**来源**: The Open Group Base Specifications Issue 8, IEEE Std 1003.1-2024
-版权 © 2001-2024 IEEE 和 The Open Group

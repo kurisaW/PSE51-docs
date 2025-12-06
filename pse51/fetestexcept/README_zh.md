@@ -12,7 +12,7 @@ int fetestexcept(int excepts);
 
 [CX] 本参考页面描述的功能与 ISO C 标准保持一致。此处描述的要求与 ISO C 标准之间的任何冲突都是无意的。本 POSIX.1-2024 卷遵循 ISO C 标准。
 
-`fetestexcept()` ��数应确定指定浮点异常标志子集中当前已设置的标志。`excepts` 参数指定要查询的浮点状态标志。
+`fetestexcept()` 函数应确定指定浮点异常标志子集中当前已设置的标志。`excepts` 参数指定要查询的浮点状态标志。
 
 ## 返回值
 
@@ -68,11 +68,3 @@ XBD [`<fenv.h>`](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/fenv.
 ## 变更历史
 
 首次发布于 Issue 6。源自 ISO/IEC 9899:1999 标准。
-
-*参考信息结束。*
-
----
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*Copyright © 2001-2024 The IEEE and The Open Group*

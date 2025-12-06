@@ -81,5 +81,3 @@ XBD [7. Locale](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/V1_cha
 *补充信息结束。*
 
 ---
-
-**版权所有 © 2001-2024 The IEEE 和 The Open Group，保留所有权利**

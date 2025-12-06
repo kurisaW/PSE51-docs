@@ -1,13 +1,5 @@
 # sigdelset - delete a signal from a signal set
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME
-
-sigdelset — delete a signal from a signal set
-
 ## SYNOPSIS
 
 ```c
@@ -75,7 +67,3 @@ The last paragraph of the DESCRIPTION was included as an APPLICATION USAGE note 
 The SYNOPSIS is marked CX since the presence of this function in the `<signal.h>` header is an extension over the ISO C standard.
 
 ---
-
-*UNIX® is a registered Trademark of The Open Group.
-POSIX™ is a Trademark of The IEEE.
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved*

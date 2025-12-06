@@ -1,13 +1,5 @@
 # pthread_attr_getschedpolicy, pthread_attr_setschedpolicy
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME（名称）
-
-pthread_attr_getschedpolicy, pthread_attr_setschedpolicy — 获取和设置调度策略属性 (**实时线程**)
-
 ## SYNOPSIS（概要）
 
 ```c
@@ -21,7 +13,7 @@ int pthread_attr_setschedpolicy(pthread_attr_t *attr, int policy);
 
 ## DESCRIPTION（描述）
 
-`pthread_attr_getschedpolicy()` 和 `pthread_attr_setschedpolicy()` 函数分别用于获取和设置 attr ��数中的调度策略属性。
+`pthread_attr_getschedpolicy()` 和 `pthread_attr_setschedpolicy()` 函数分别用于获取和设置 attr 参数中的调度策略属性。
 
 支持的 policy 值应包括 SCHED_FIFO、SCHED_RR 和 SCHED_OTHER，这些值在 `<sched.h>` 头文件中定义。当以调度策略 SCHED_FIFO、SCHED_RR 或 SCHED_SPORADIC 执行的线程在互斥锁上等待时，它们应在互斥锁解锁时按优先级顺序获取互斥锁。
 

@@ -1,13 +1,5 @@
 # pause
 
-Open Group 基础规范第8版
-IEEE Std 1003.1-2024
-版权所有 © 2001-2024 IEEE 和 The Open Group
-
-## 名称
-
-**pause** — 暂停线程直到接收到信号
-
 ## 概要
 
 ```c
@@ -33,7 +25,7 @@ int pause(void);
 `pause()` 函数在以下情况下应失败：
 
 - **[EINTR]**
-  调用进程捕获了一个���号，并且控制从信号捕获函数返回。
+  调用进程捕获了一个信号，并且控制从信号捕获函数返回。
 
 *以下各节为参考信息。*
 
@@ -69,12 +61,3 @@ int pause(void);
 ### 第6版
 
 添加了应用程序使用部分。
-
-*参考信息结束。*
-
----
-
-UNIX® 是 The Open Group 的注册商标。
-POSIX™ 是 IEEE 的商标。
-版权所有 © 2001-2024 IEEE 和 The Open Group，保留所有权利
-[ 主索引 | XBD | XSH | XCU | XRAT ]

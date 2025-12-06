@@ -85,7 +85,3 @@ Austin Group Defect 1302 is applied, aligning this function with the ISO/IEC 989
 Austin Group Defects 1387 and 1489 are applied, changing the RATIONALE section.
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*Copyright © 2001-2024 The IEEE and The Open Group*

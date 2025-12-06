@@ -4,7 +4,7 @@
 
 pthread_cancel — 取消线程的执行
 
-## 概��
+## 概要
 
 ```c
 #include <pthread.h>
@@ -22,7 +22,7 @@ int pthread_cancel(pthread_t thread);
 
 ## 返回值
 
-如果成功，`pthread_cancel()` 函数应返回零；否则，应返回错���编号以指示错误。
+如果成功，`pthread_cancel()` 函数应返回零；否则，应返回错误编号以指示错误。
 
 ## 错误
 
@@ -90,11 +90,3 @@ XBD `<pthread.h>`
 应用 Austin Group 缺陷 1302，更新页面以考虑 `<threads.h>` 接口的添加。
 
 ---
-
-*信息文本结束。*
-
----
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*Copyright © 2001-2024 The IEEE and The Open Group*

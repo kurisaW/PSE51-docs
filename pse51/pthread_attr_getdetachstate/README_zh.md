@@ -1,13 +1,5 @@
 # pthread_attr_getdetachstate, pthread_attr_setdetachstate — 获取和设置分离状态属性
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## 名称
-
-`pthread_attr_getdetachstate`, `pthread_attr_setdetachstate` — 获取和设置分离状态属性
-
 ## 概要
 
 ```c
@@ -118,10 +110,3 @@ else {
 
 针对未初始化线程属性对象的 `[EINVAL]` 错误被移除；此条件会导致未定义行为。
 
-*参考信息结束。*
-
----
-
-UNIX® 是 The Open Group 的注册商标。
-POSIX™ 是 IEEE 的商标。
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved

@@ -10,7 +10,7 @@ char *setlocale(int category, const char *locale);
 
 ## 描述
 
-`setlocale()` 函数根据 `category` 和 `locale` 参数选择全局本地化环境的适当部分，可用于更改或��询整个全局本地化环境或其部分内容。对于 `category`，值 `LC_ALL` 表示整个全局本地化环境；其他值仅表示全局本地化环境的一部分：
+`setlocale()` 函数根据 `category` 和 `locale` 参数选择全局本地化环境的适当部分，可用于更改或查询整个全局本地化环境或其部分内容。对于 `category`，值 `LC_ALL` 表示整个全局本地化环境；其他值仅表示全局本地化环境的一部分：
 
 - **LC_COLLATE**
   影响正则表达式和排序函数的行为。

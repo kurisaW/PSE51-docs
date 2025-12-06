@@ -70,7 +70,3 @@ XBD：
 - 应用了 POSIX.1-2008，技术勘误 1，XSH/TC1-2008/0530 [37]。
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*版权所有 © 2001-2024 IEEE 和 The Open Group*

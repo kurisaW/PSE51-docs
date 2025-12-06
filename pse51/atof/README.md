@@ -50,4 +50,3 @@ The `atof()` function is not required to be thread-safe.
 
 The following sections are informative.
 
-*End of informative text.*

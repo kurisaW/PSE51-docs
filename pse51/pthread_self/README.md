@@ -58,10 +58,3 @@ Austin Group Interpretation 1003.1-2001 #063 is applied, updating the RETURN VAL
 
 The `pthread_self()` function is moved from the Threads option to the Base.
 
-*End of informative text.*
-
----
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*Copyright © 2001-2024 The IEEE and The Open Group*

@@ -173,11 +173,3 @@ POSIX.1-2008, Technical Corrigendum 2, XSH/TC2-2008/0070 [810] and XSH/TC2-2008/
 Austin Group Defect 1330 is applied, changing "_V7_" to "_V8_" and "_V6_" to "_V7_".
 
 ---
-
-*End of informative text.*
-
----
-
-*UNIX® is a registered Trademark of The Open Group.*
-*POSIX™ is a Trademark of The IEEE.*
-*Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved*

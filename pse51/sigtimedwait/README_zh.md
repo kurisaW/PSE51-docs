@@ -1,9 +1,5 @@
 # sigtimedwait, sigwaitinfo
 
-## 名称
-
-sigtimedwait, sigwaitinfo — 等待排队信号
-
 ## 概要
 
 ```c

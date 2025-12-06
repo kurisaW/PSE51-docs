@@ -1,9 +1,5 @@
 # clock_settime
 
-## Name
-
-clock_getres, clock_gettime, clock_settime - clock and timer functions
-
 ## Synopsis
 
 ```c
@@ -106,4 +102,3 @@ Issue 7
 
 *The following sections are informative.*
 
-*End of informative text.*

@@ -14,7 +14,7 @@ int sched_rr_get_interval(pid_t pid, struct timespec *interval);
 
 ## 返回值
 
-如果成功，`sched_rr_get_interval()` 函数应返回零。否则，它应返回值 -1 并��置 `errno` 来指示错误。
+如果成功，`sched_rr_get_interval()` 函数应返回零。否则，它应返回值 -1 并设置 `errno` 来指示错误。
 
 ## 错误
 
@@ -61,7 +61,3 @@ XBD [`<sched.h>`](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/sche
 应用 IEEE Std 1003.1-2001/Cor 1-2002, XSH/TC1/D6/53，将概要中的 PS 边际代码更改为 PS|TPS。
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*版权所有 © 2001-2024 IEEE 和 The Open Group*

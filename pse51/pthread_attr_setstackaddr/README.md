@@ -1,9 +1,5 @@
 # pthread_attr_getstackaddr, pthread_attr_setstackaddr
 
-## NAME
-
-pthread_attr_getstackaddr, pthread_attr_setstackaddr - get and set the stackaddr attribute
-
 ## SYNOPSIS
 
 ```c
@@ -78,6 +74,3 @@ IEEE Std 1003.1-2001/Cor 2-2004, item XSH/TC2/D6/85 is applied, updating the APP
 IEEE Std 1003.1-2001/Cor 2-2004, item XSH/TC2/D6/86 is applied, updating the ERRORS section to include optional errors for the case when attr refers to an uninitialized thread attribute object.
 
 ---
-
-*UNIX® is a registered Trademark of The Open Group.*
-*POSIX® is a registered Trademark of The IEEE.*

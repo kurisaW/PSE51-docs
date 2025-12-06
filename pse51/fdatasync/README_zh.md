@@ -1,13 +1,5 @@
 # fdatasync
 
-**The Open Group 基础规范第 8 版**
-IEEE Std 1003.1-2024
-版权所有 © 2001-2024 IEEE 和 The Open Group
-
-## NAME (名称)
-
-fdatasync — 同步文件数据 (**REALTIME**)
-
 ## SYNOPSIS (概要)
 
 ```c
@@ -50,7 +42,7 @@ int fdatasync(int fildes);
 
 注意，即使文件描述符不是以写入方式打开的，如果基础文件上有任何待处理的写入请求，那么在 `fdatasync()` 返回之前将完成这些 I/O 操作。
 
-修改目录的应用程序（例如，通过在目录中创建文件）可以对该目录��用 `fdatasync()` 以确保目录条目被同步，但对于大多数应用程序来说，这应该是不必要的（参见 XBD [4.11 文件系统缓存](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/V1_chap04.html#tag_04_11)）。
+修改目录的应用程序（例如，通过在目录中创建文件）可以对该目录调用 `fdatasync()` 以确保目录条目被同步，但对于大多数应用程序来说，这应该是不必要的（参见 XBD [4.11 文件系统缓存](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/V1_chap04.html#tag_04_11)）。
 
 ## RATIONALE (基本原理)
 
@@ -91,7 +83,3 @@ int fdatasync(int fildes);
 *参考文本结束。*
 
 ---
-
-UNIX® 是 The Open Group 的注册商标。
-POSIX™ 是 IEEE 的商标。
-版权所有 © 2001-2024 IEEE 和 The Open Group，保留所有权利

@@ -1,9 +1,5 @@
 # clearerr
 
-## NAME
-
-clearerr — 清除流的指示器
-
 ## SYNOPSIS
 
 ```c
@@ -61,5 +57,3 @@ XBD `<stdio.h>`
 应用了 POSIX.1-2008 Technical Corrigendum 1, XSH/TC1-2008/0057 [401]。
 
 ---
-
-*参考信息结束。*

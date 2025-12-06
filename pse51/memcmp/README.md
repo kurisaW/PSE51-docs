@@ -53,7 +53,3 @@ First released in Issue 1. Derived from Issue 1 of the SVID.
 Austin Group Defect 448 is applied, adding a requirement that `memcmp()` does not change the setting of `errno` on valid input.
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*Copyright © 2001-2024 The IEEE and The Open Group*

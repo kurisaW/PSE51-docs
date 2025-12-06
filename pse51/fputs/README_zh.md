@@ -1,9 +1,5 @@
 # fputs
 
-## 名称
-
-fputs — 向流写入字符串
-
 ## 概要
 
 ```c
@@ -90,7 +86,3 @@ POSIX.1-2024 这一卷要求成功完成时仅返回一个非负整数。对于�
 应用了 POSIX.1-2008, Technical Corrigendum 1, XSH/TC1-2008/0170 [174,412], XSH/TC1-2008/0171 [412], 和 XSH/TC1-2008/0172 [14]。
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*版权所有 © 2001-2024 The IEEE and The Open Group*

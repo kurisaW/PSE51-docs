@@ -1,9 +1,5 @@
 # pthread_attr_getschedpolicy
 
-## NAME
-
-pthread_attr_getschedpolicy, pthread_attr_setschedpolicy — 获取和设置调度策略属性 (**实时线程**)
-
 ## SYNOPSIS
 
 ```c
@@ -103,11 +99,3 @@ XBD [`<pthread.h>`](../basedefs/pthread.h.html), [`<sched.h>`](../basedefs/sched
 应用了 POSIX.1-2008, Technical Corrigendum 2, XSH/TC2-2008/0263 [757]。
 
 ---
-
-*End of informative text.*
-
----
-
-*UNIX® 是 The Open Group 的注册商标。*
-*POSIX™ 是 IEEE 的商标。*
-*版权所有 © 2001-2024 The IEEE and The Open Group，保留所有权利*

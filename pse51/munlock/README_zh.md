@@ -1,15 +1,5 @@
 # munlock
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
----
-
-## 名称 (NAME)
-
-mlock, munlock — 锁定或解锁进程地址空间的一个范围 (**REALTIME**)
-
 ## 概要 (SYNOPSIS)
 
 ```c
@@ -99,7 +89,3 @@ XBD [`<sys/mman.h>`](sys_mman.h.html)
 *参考性文本结束。*
 
 ---
-
-UNIX® 是 The Open Group 的注册商标。
-POSIX™ 是 The IEEE 的商标。
-Copyright © 2001-2024 The IEEE and The Open Group，保留所有权利

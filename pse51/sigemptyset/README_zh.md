@@ -1,9 +1,5 @@
 # sigemptyset
 
-## NAME
-
-sigemptyset — 初始化并清空信号集
-
 ## SYNOPSIS
 
 ```c
@@ -38,7 +34,7 @@ int sigemptyset(sigset_t *set);
 
 ## RATIONALE
 
-`sigemptyset()`（或 `sigfillset()`）函数的实现可以很直接地清空（或设置）信号集中的所有位。另外，初始化结构的部分内容（如版本字段）也是合理���，这样可以允许在信号集大小不同的版本之间保持二进制兼容性。由于这些原因，在信号集的任何其他使用之前，必须调用 `sigemptyset()` 或 `sigfillset()`，即使这种使用是只读的（例如，作为 `sigpending()` 的参数）。此函数不适用于动态分配。
+`sigemptyset()`（或 `sigfillset()`）函数的实现可以很直接地清空（或设置）信号集中的所有位。另外，初始化结构的部分内容（如版本字段）也是合理的，这样可以允许在信号集大小不同的版本之间保持二进制兼容性。由于这些原因，在信号集的任何其他使用之前，必须调用 `sigemptyset()` 或 `sigfillset()`，即使这种使用是只读的（例如，作为 `sigpending()` 的参数）。此函数不适用于动态分配。
 
 `sigfillset()` 和 `sigemptyset()` 函数要求生成的信号集包含（或排除）POSIX.1-2024 本卷中定义的所有信号。虽然 POSIX.1-2024 本卷的范围不包括对作为扩展实现的信号提出此要求，但建议实现定义的信号也受这些函数的影响。然而，可能有正当理由使某个特定信号不受影响。例如，阻塞或忽略一个实现定义的信号可能会产生不良副作用，而该信号的默认操作是无害的。在这种情况下，最好将此类信号从 `sigfillset()` 返回的信号集中排除。
 
@@ -63,11 +59,3 @@ XBD `<signal.h>`
 SYNOPSIS 被标记为 CX，因为此函数在 `<signal.h>` 头文件中的存在是对 ISO C 标准的扩展。
 
 ---
-
-*参考信息文本结束。*
-
----
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*Copyright © 2001-2024 The IEEE and The Open Group*

@@ -51,5 +51,3 @@ XBD `<stdio.h>`
 应用了 POSIX.1-2008 Technical Corrigendum 1, XSH/TC1-2008/0470 [14]。
 
 ---
-
-*来源：The Open Group Base Specifications Issue 8, IEEE Std 1003.1-2024*

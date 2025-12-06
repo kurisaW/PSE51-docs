@@ -54,5 +54,3 @@ First released in Issue 6. Derived from the ISO/IEC 9899:1999 standard.
 ISO/IEC 9899:1999 standard, Technical Corrigendum 1 is incorporated.
 
 ---
-
-*Source: The Open Group Base Specifications Issue 8, IEEE Std 1003.1-2024*

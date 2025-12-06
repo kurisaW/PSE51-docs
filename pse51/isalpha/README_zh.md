@@ -81,11 +81,3 @@ XBD 7. 区域设置, `<ctype.h>`, `<locale.h>`, `<stdio.h>`
 应用了 POSIX.1-2008, Technical Corrigendum 1, XSH/TC1-2008/0277 [302], XSH/TC1-2008/0278 [283], 和 XSH/TC1-2008/0279 [283]。
 
 ---
-
-*提供信息文本结束。*
-
----
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*版权所有 © 2001-2024 The IEEE and The Open Group*

@@ -1,13 +1,5 @@
 # vsnprintf
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME
-
-vasprintf, vdprintf, vfprintf, vprintf, vsnprintf, vsprintf — 格式化输出 stdarg 参数列表
-
 ## SYNOPSIS
 
 ```c
@@ -94,11 +86,3 @@ XBD `<stdarg.h>`, `<stdio.h>`
 应用了 Austin Group Defect 1496，添加了 `vasprintf()` 函数。
 
 ---
-
-*信息性文本结束。*
-
----
-
-UNIX® 是 The Open Group 的注册商标。
-POSIX™ 是 IEEE 的商标。
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved

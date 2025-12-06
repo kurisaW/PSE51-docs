@@ -1,13 +1,5 @@
 # pthread_mutex_getprioceiling, pthread_mutex_setprioceiling
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME
-
-pthread_mutex_getprioceiling, pthread_mutex_setprioceiling — get and set the priority ceiling of a mutex (**REALTIME THREADS**)
-
 ## SYNOPSIS
 
 ```c

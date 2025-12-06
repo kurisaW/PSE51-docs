@@ -1,9 +1,5 @@
 # fscanf
 
-## Name
-
-fscanf - convert formatted input
-
 ## Synopsis
 
 ```c

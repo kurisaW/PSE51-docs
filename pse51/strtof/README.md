@@ -191,11 +191,3 @@ Austin Group Defect 1302 is applied, aligning these functions with the ISO/IEC 9
 Austin Group Defect 1686 is applied, adding CX shading to some text in the RETURN VALUE section.
 
 ---
-
-*End of informative text.*
-
----
-
-*UNIX® is a registered Trademark of The Open Group.*
-*POSIX™ is a Trademark of the IEEE.*
-*Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved*

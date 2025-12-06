@@ -58,10 +58,3 @@ pthread_t pthread_self(void);
 
 `pthread_self()` 函数从 Threads（线程）选项移动到 Base（基础）。
 
-*参考信息结束。*
-
----
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*Copyright © 2001-2024 The IEEE and The Open Group*

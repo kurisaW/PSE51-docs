@@ -1,7 +1,5 @@
 # pthread_cleanup_push, pthread_cleanup_pop
 
-> 建立取消处理程序
-
 ## 概要
 
 ```c
@@ -13,7 +11,7 @@ void pthread_cleanup_push(void (*routine)(void*), void *arg);
 
 ## 描述
 
-`pthread_cleanup_pop()` 函数应当移除调用线程的取消清理堆栈顶部的例程，并可选择性地调���它（如果 *execute* 参数非零）。
+`pthread_cleanup_pop()` 函数应当移除调用线程的取消清理堆栈顶部的例程，并可选择性地调用它（如果 *execute* 参数非零）。
 
 `pthread_cleanup_push()` 函数应当将指定的取消清理处理程序 *routine* 推入调用线程的取消清理堆栈中。取消清理处理程序应当在以下情况下从取消清理堆栈中弹出，并使用参数 *arg* 调用：
 

@@ -61,5 +61,3 @@ XBD [`<string.h>`](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/str
 应用了 Austin Group Defect 448，增加了 `memcpy()` 在有效输入时不改变 `errno` 设置的要求。
 
 ---
-
-*信息性文本结束。*

@@ -57,7 +57,3 @@ First released in Issue 1. Derived from Issue 1 of the SVID.
 POSIX.1-2008, Technical Corrigendum 1, XSH/TC1-2008/0231 [14] is applied.
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*Copyright © 2001-2024 The IEEE and The Open Group*

@@ -188,7 +188,3 @@ Austin Group Defect 1533 is applied, adding `tm_gmtoff` and `tm_zone` to the `tm
 Austin Group Defect 1570 is applied, removing extra spacing in "==".
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*Copyright © 2001-2024 The IEEE and The Open Group*

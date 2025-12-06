@@ -235,5 +235,3 @@ POSIX.1-2024 基本定义卷，**\<pthread.h\>**
 本文的部分内容转载并电子复制自 IEEE Std 1003.1-2024，信息技术标准 -- 便携式操作系统接口 (POSIX)，The Open Group 基本规范第 7 版，2024 年版 (IEEE Std 1003.1-2024)。版权所有 © 2024 电气与电子工程师协会和 The Open Group。此版权材料根据 BSD 许可证的条款提供，该许可证可在 https://opensource.org/licenses/BSD-3-Clause 获取。
 
 ---
-
-*Generated from POSIX.1-2024 standard*

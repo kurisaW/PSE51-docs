@@ -98,7 +98,3 @@ XBD 4.19 自纪元以来的秒数, `<time.h>`
 - 应用了 Austin Group Defect 1533，向 `tm` 结构添加了 `tm_gmtoff` 和 `tm_zone`。
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*Copyright © 2001-2024 The IEEE and The Open Group*

@@ -1,13 +1,5 @@
 # sigpending
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME
-
-sigpending — 检查待处理信号
-
 ## SYNOPSIS
 
 ```c
@@ -70,10 +62,3 @@ XBD [`<signal.h>`](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/sig
 
 将 SYNOPSIS 标记为 CX，因为该函数在 [`<signal.h>`](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/signal.h.html) 头文件中的存在是对 ISO C 标准的扩展。
 
-*参考信息结束。*
-
----
-
-UNIX® 是 The Open Group 的注册商标。
-POSIX™ 是 The IEEE 的商标。
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved

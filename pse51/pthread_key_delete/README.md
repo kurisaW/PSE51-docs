@@ -1,9 +1,5 @@
 # pthread_key_delete
 
-## Name
-
-pthread_key_delete - delete a thread-specific data key
-
 ## Synopsis
 
 ```c

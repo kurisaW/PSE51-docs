@@ -1,13 +1,5 @@
 # strerror, strerror_l, strerror_r — get error message string
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME
-
-strerror, strerror_l, strerror_r — get error message string
-
 ## SYNOPSIS
 
 ```c
@@ -158,7 +150,3 @@ Austin Group Defect 655 is applied, changing the APPLICATION USAGE section.
 Austin Group Defect 1302 is applied, aligning the strerror() function with the ISO/IEC 9899:2018 standard.
 
 ---
-
-UNIX® is a registered Trademark of The Open Group.
-POSIX™ is a Trademark of The IEEE.
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved

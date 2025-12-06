@@ -1,9 +1,5 @@
 # pthread_mutex_lock
 
-## 名称
-
-pthread_mutex_lock, pthread_mutex_trylock, pthread_mutex_unlock — 锁定和解锁互斥锁（mutex）
-
 ## 概要
 
 ```c
@@ -25,7 +21,7 @@ int pthread_mutex_unlock(pthread_mutex_t *mutex);
 | ERRORCHECK | 任意 | 返回错误 | 返回错误 |
 | RECURSIVE | 任意 | 递归（见下文） | 返回错误 |
 | DEFAULT | 非健壮 | 未定义行为† | 未定义行为† |
-| DEFAULT | 健壮 | 未定义���为† | 返回错误 |
+| DEFAULT | 健壮 | 未定义行为† | 返回错误 |
 
 † 如果互斥锁类型为 PTHREAD_MUTEX_DEFAULT，`pthread_mutex_lock()` 的行为可能对应上表中其他三种标准互斥锁类型之一。如果不对应这三种类型中的任何一种，则标记为 † 的情况下的行为是未定义的。
 
@@ -173,9 +169,3 @@ PTHREAD_MUTEX_DEFAULT
 应用 Austin Group Defect 1115，将"the thread"更改为"the calling thread"。
 
 ---
-
-*信息性文本结束。*
-
-*UNIX® 是 The Open Group 的注册商标。*
-*POSIX™ 是 The IEEE 的商标。*
-*版权所有 © 2001-2024 The IEEE and The Open Group，保留所有权利*

@@ -1,9 +1,5 @@
 # div
 
-## Name
-
-div - compute the quotient and remainder of an integer division
-
 ## Synopsis
 
 ```c

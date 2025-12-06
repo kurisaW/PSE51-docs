@@ -1,13 +1,5 @@
 # fdatasync
 
-**The Open Group Base Specifications Issue 8**
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME
-
-fdatasync — synchronize the data of a file (**REALTIME**)
-
 ## SYNOPSIS
 
 ```c
@@ -88,10 +80,3 @@ POSIX.1-2008, Technical Corrigendum 2, XSH/TC2-2008/0110 [501] is applied.
 
 Austin Group Defect 672 is applied, changing the APPLICATION USAGE section.
 
-*End of informative text.*
-
----
-
-UNIX® is a registered Trademark of The Open Group.
-POSIX™ is a Trademark of The IEEE.
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved

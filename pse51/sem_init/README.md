@@ -91,7 +91,3 @@ Included for alignment with the POSIX Realtime Extension.
 - Austin Group Defect 1216 is applied, adding `sem_clockwait()`.
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*Copyright © 2001-2024 The IEEE and The Open Group*

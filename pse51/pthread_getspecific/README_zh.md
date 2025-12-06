@@ -77,6 +77,3 @@ int pthread_setspecific(pthread_key_t key, const void *value);
 - 删除了对于不是从 `pthread_key_create()` 获得或已被 `pthread_key_delete()` 删除的键值的 [EINVAL] 错误；这种情况会导致未定义行为。
 
 ---
-
-*来源：The Open Group Base Specifications Issue 8, IEEE Std 1003.1-2024*
-*版权所有 © 2001-2024 IEEE 和 The Open Group*

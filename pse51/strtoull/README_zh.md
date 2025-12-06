@@ -1,4 +1,4 @@
-# strtoull — 将字符串转换为无符号长长��型
+# strtoull — 将字符串转换为无符号长长整型
 
 ## 概要
 
@@ -88,9 +88,3 @@ unsigned long long strtoull(const char *str, char **endptr, int base);
 应用了 Austin Group Defect 1541，使功能与 ISO C 标准保持一致。
 
 ---
-
-*参考信息文本结束。*
-
-*UNIX® 是 The Open Group 的注册商标。*
-*POSIX™ 是 The IEEE 的商标。*
-*版权所有 © 2001-2024 The IEEE and The Open Group，保留所有权利*

@@ -1,13 +1,5 @@
 # sigprocmask
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME
-
-`pthread_sigmask`, `sigprocmask` — examine and change blocked signals
-
 ## SYNOPSIS
 
 ```c
@@ -192,7 +184,3 @@ Austin Group Defect 1636 is applied, clarifying the exceptions to the equivalenc
 Austin Group Defect 1731 is applied, clarifying that although `pthread_sigmask()` has to deliver at least one of any pending unblocked signals that exist after it has changed the currently blocked set of signals, there is no requirement that the delivered signal(s) include any that were unblocked by the change.
 
 ---
-
-*UNIX® is a registered Trademark of The Open Group.*
-*POSIX™ is a Trademark of The IEEE.*
-*Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved*

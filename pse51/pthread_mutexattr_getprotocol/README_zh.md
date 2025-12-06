@@ -1,9 +1,5 @@
 # pthread_mutexattr_getprotocol
 
-## 名称
-
-pthread_mutexattr_getprotocol, pthread_mutexattr_setprotocol - 获取和设置互斥锁属性对象的协议属性
-
 ## 概要
 
 ```c

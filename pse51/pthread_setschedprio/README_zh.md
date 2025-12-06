@@ -1,11 +1,5 @@
 # pthread_setschedprio
 
-**POSIX.1-2024 标准**
-
-## 名称
-
-`pthread_setschedprio` — 动态线程调度参数访问（实时线程）
-
 ## 概要
 
 ```c

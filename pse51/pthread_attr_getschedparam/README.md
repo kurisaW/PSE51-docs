@@ -1,13 +1,5 @@
 # pthread_attr_getschedparam, pthread_attr_setschedparam
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME
-
-pthread_attr_getschedparam, pthread_attr_setschedparam — get and set the schedparam attribute
-
 ## SYNOPSIS
 
 ```c
@@ -100,10 +92,3 @@ The [EINVAL] error for an uninitialized thread attributes object is removed; thi
 
 POSIX.1-2008, Technical Corrigendum 1, XSH/TC1-2008/0451 [314] is applied.
 
-*End of informative text.*
-
----
-
-UNIX® is a registered Trademark of The Open Group.
-POSIX™ is a Trademark of The IEEE.
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved

@@ -65,7 +65,3 @@ The `isspace_l()` function is added from The Open Group Technical Standard, 2006
 POSIX.1-2008, Technical Corrigendum 1, XSH/TC1-2008/0303 [302], XSH/TC1-2008/0304 [283], and XSH/TC1-2008/0305 [283] are applied.
 
 ---
-
-*The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group*

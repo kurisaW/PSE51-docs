@@ -54,5 +54,3 @@ int fesetenv(const fenv_t *envp);
 已纳入 ISO/IEC 9899:1999 标准，技术勘误 1。
 
 ---
-
-*来源：The Open Group Base Specifications Issue 8, IEEE Std 1003.1-2024*

@@ -132,7 +132,3 @@ Austin Group Defects 188 and 1394 are applied, changing `getenv()` to be thread-
 Austin Group Defect 922 is applied, adding the `secure_getenv()` function.
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*Copyright © 2001-2024 The IEEE and The Open Group*

@@ -14,7 +14,7 @@ struct tm *localtime(const time_t *timer);
 ## 描述
 
 对于 `localtime()`：
-[CX] 本参考页描述的功能与ISO C标准一致。此处描述的要求���ISO C标准之间的任何冲突都是无意的。POSIX.1-2024版本遵循ISO C标准。
+[CX] 本参考页描述的功能与 ISO C 标准一致。此处描述的要求与 ISO C 标准之间的任何冲突都是无意的。POSIX.1-2024 版本遵循 ISO C 标准。
 
 `localtime()` 函数应将`timer`指向的自纪元（Epoch）以来的秒数时间转换为分解时间，以本地时间表示。该函数应校正时区和任何季节性时间调整。[CX] 本地时区信息应设置为`localtime()`调用`tzset()`的方式。
 
@@ -188,7 +188,3 @@ XBD 4.19 自纪元以来的秒数, `<time.h>`
 应用了Austin Group缺陷1570，移除了"=="中的额外空格。
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*版权所有 © 2001-2024 IEEE和The Open Group*

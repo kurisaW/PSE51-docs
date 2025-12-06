@@ -104,7 +104,3 @@ POSIX 实现的以下新要求来源于与 Single UNIX Specification 的对齐�
 `munmap()` 函数从内存映射文件选项移至 Base。
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*Copyright © 2001-2024 The IEEE and The Open Group*

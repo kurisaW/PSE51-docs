@@ -72,5 +72,3 @@ Included for alignment with the POSIX Realtime Extension.
 - Austin Group Defect 368 is applied, adding a requirement that if an unnamed semaphore is implemented using a file descriptor, `sem_destroy()` closes the file descriptor.
 
 ---
-
-*Source: The Open Group Base Specifications Issue 8, IEEE Std 1003.1-2024*

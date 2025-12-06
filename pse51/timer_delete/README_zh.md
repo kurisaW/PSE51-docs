@@ -12,7 +12,7 @@ int timer_delete(timer_t timerid);
 
 `timer_delete()` 函数删除指定的定时器 `timerid`，该定时器先前由 `timer_create()` 函数创建。如果在调用 `timer_delete()` 时定时器已启动，则其行为应等同于在删除前自动解除定时器的启动状态。对于已删除定时器的待处理信号的处理方式是未指定的。
 
-如果传递给 `timer_delete()` 的 `timerid` 参数��不对应于由 `timer_create()` 返回但尚未被 `timer_delete()` 删除的定时器ID，则其行为是未定义的。
+如果传递给 `timer_delete()` 的 `timerid` 参数不对应于由 `timer_create()` 返回但尚未被 `timer_delete()` 删除的定时器ID，则其行为是未定义的。
 
 **返回值**
 

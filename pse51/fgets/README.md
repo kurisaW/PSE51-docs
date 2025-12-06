@@ -1,13 +1,5 @@
 # fgets
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME
-
-`fgets` — get a string from a stream
-
 ## SYNOPSIS
 
 ```c
@@ -129,9 +121,3 @@ Austin Group Defect 1330 is applied, removing obsolescent interfaces.
 Austin Group Defect 1624 is applied, changing the RETURN VALUE section.
 
 ---
-
-*End of informative text.*
-
-UNIX® is a registered Trademark of The Open Group.
-POSIX™ is a Trademark of The IEEE.
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved

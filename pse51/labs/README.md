@@ -1,13 +1,5 @@
 # labs, llabs — return a long integer absolute value
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME
-
-labs, llabs — return a long integer absolute value
-
 ## SYNOPSIS
 
 ```c
@@ -74,13 +66,3 @@ SD5-XSH-ERN-152 is applied, correcting the RETURN VALUE section.
 
 Austin Group Defect 1108 is applied, changing the APPLICATION USAGE section.
 
-*End of informative text.*
-
----
-
-[return to top of page](#top)
-
-UNIX® is a registered Trademark of The Open Group.
-POSIX™ is a Trademark of The IEEE.
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved
-[ [Main Index](https://pubs.opengroup.org/onlinepubs/9799919799/mindex.html) | [XBD](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/contents.html) | [XSH](https://pubs.opengroup.org/onlinepubs/9799919799/functions/contents.html) | [XCU](https://pubs.opengroup.org/onlinepubs/9799919799/utilities/contents.html) | [XRAT](https://pubs.opengroup.org/onlinepubs/9799919799/xrat/contents.html) ]

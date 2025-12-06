@@ -1,9 +1,5 @@
 # fputs
 
-## NAME
-
-fputs — put a string on a stream
-
 ## SYNOPSIS
 
 ```c
@@ -90,7 +86,3 @@ Changes are made related to support for finegrained timestamps.
 POSIX.1-2008, Technical Corrigendum 1, XSH/TC1-2008/0170 [174,412], XSH/TC1-2008/0171 [412], and XSH/TC1-2008/0172 [14] are applied.
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*Copyright © 2001-2024 The IEEE and The Open Group*

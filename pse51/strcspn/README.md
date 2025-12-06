@@ -1,13 +1,5 @@
 # strcspn
 
-**The Open Group Base Specifications Issue 8**
-**IEEE Std 1003.1-2024**
-*Copyright © 2001-2024 The IEEE and The Open Group*
-
-## NAME
-
-strcspn — get the length of a complementary substring
-
 ## SYNOPSIS
 
 ```c
@@ -74,11 +66,3 @@ The Open Group Corrigendum U030/1 is applied. The text of the RETURN VALUE secti
 Austin Group Defect 448 is applied, adding a requirement that `strcspn()` does not change the setting of `errno` on valid input.
 
 ---
-
-*End of informative text.*
-
----
-
-*UNIX® is a registered Trademark of The Open Group.*
-*POSIX™ is a Trademark of The IEEE.*
-*Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved*

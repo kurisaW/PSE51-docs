@@ -49,6 +49,3 @@ First released in Issue 4. Derived from the ISO C standard.
 The `lldiv()` function is added for alignment with the ISO/IEC 9899:1999 standard.
 
 ---
-
-*The Open Group Base Specifications Issue 8, IEEE Std 1003.1-2024*
-*Copyright © 2001-2024 The IEEE and The Open Group*

@@ -75,5 +75,3 @@ Included for alignment with the POSIX Realtime Extension.
 - POSIX.1-2008, Technical Corrigendum 2, XSH/TC2-2008/0231 [909] is applied.
 
 ---
-
-*Source: The Open Group Base Specifications Issue 8, IEEE Std 1003.1-2024*

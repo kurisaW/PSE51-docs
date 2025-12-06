@@ -14,7 +14,7 @@ int sem_close(sem_t *sem);
 
 ## RETURN VALUE
 
-成功完成时，应返回零值。否则，应返回 -1 值并设置 `errno` 来指��错误。
+成功完成时，应返回零值。否则，应返回 -1 值并设置 `errno` 来指示错误。
 
 ## ERRORS
 
@@ -71,7 +71,3 @@ XBD [`<semaphore.h>`](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/
 应用 Austin Group Defect 1324，阐明了已取消链接的信号量不再可访问的情况。
 
 ---
-
-*The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group*

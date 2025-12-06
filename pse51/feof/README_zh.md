@@ -1,15 +1,5 @@
 # feof
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
----
-
-## 名称 (NAME)
-
-`feof` — 测试流的文件结束指示器
-
 ## 概要 (SYNOPSIS)
 
 ```c
@@ -70,15 +60,3 @@ XBD [`<stdio.h>`](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/stdi
 
 应用了 POSIX.1-2008、技术勘误 1、XSH/TC1-2008/0124 [401]。
 
-*参考信息结束。*
-
----
-
-[返回页面顶部](#top)
-
----
-
-UNIX® 是 The Open Group 的注册商标。
-POSIX™ 是 The IEEE 的商标。
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved
-[ [主索引](https://pubs.opengroup.org/onlinepubs/9799919799/mindex.html) | [XBD](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/contents.html) | [XSH](https://pubs.opengroup.org/onlinepubs/9799919799/functions/contents.html) | [XCU](https://pubs.opengroup.org/onlinepubs/9799919799/utilities/contents.html) | [XRAT](https://pubs.opengroup.org/onlinepubs/9799919799/xrat/contents.html) ]

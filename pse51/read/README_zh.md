@@ -1,13 +1,5 @@
 # read
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME
-
-pread, read — 从文件中读取数据
-
 ## SYNOPSIS
 
 ```c
@@ -258,7 +250,3 @@ DESCRIPTION 通过指定对类型化内存对象的 `read()` 结果是未指定�
 应用 Austin Group Defect 1330，移除过时接口。
 
 ---
-
-UNIX® 是 The Open Group 的注册商标。
-POSIX™ 是 IEEE 的商标。
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved

@@ -1,11 +1,5 @@
 # pthread_setschedprio
 
-**POSIX.1-2024 Standard**
-
-## NAME
-
-`pthread_setschedprio` — dynamic thread scheduling parameters access (REALTIME THREADS)
-
 ## SYNOPSIS
 
 ```c

@@ -235,5 +235,3 @@ The Base Definitions volume of POSIX.1-2024, **\<pthread.h\>**
 Portions of this text are reprinted and reproduced in electronic form from the IEEE Std 1003.1-2024, Standard for Information Technology -- Portable Operating System Interface (POSIX), The Open Group Base Specifications Issue 7, 2024 Edition (IEEE Std 1003.1-2024). Copyright © 2024 by the Institute of Electrical and Electronics Engineers, Inc and The Open Group. This copyrighted material is made available under the terms of the BSD License, which is available at https://opensource.org/licenses/BSD-3-Clause.
 
 ---
-
-*Generated from POSIX.1-2024 standard*

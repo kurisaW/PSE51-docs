@@ -74,7 +74,3 @@ void qsort(void *base, size_t nel, size_t width,
 应用 Austin Group Defect 900，添加了 `qsort_r()` 函数。
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*Copyright © 2001-2024 The IEEE and The Open Group*

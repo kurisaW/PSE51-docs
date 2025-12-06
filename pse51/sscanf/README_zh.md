@@ -1,9 +1,5 @@
 # fscanf, scanf, sscanf
 
-## 名称
-
-fscanf, scanf, sscanf — 转换格式化输入
-
 ## 概要
 
 ```c

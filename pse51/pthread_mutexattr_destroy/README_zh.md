@@ -1,9 +1,5 @@
 # pthread_mutexattr_destroy
 
-## 名称
-
-pthread_mutexattr_destroy, pthread_mutexattr_init - 销毁和初始化互斥锁属性对象
-
 ## 概要
 
 ```c
@@ -17,7 +13,7 @@ int pthread_mutexattr_init(pthread_mutexattr_t *attr);
 
 `pthread_mutexattr_destroy()` 函数应销毁一个互斥锁属性对象；该对象实际上变为未初始化状态。实现可能导致 `pthread_mutexattr_destroy()` 将 `attr` 引用的对象设置为无效值。
 
-已销毁的 `attr` 属性对象可以使用 `pthread_mutexattr_init()` 重新初始化；在对象被销毁后其他方式引用该对象的结果是未��义的。
+已销毁的 `attr` 属性对象可以使用 `pthread_mutexattr_init()` 重新初始化；在对象被销毁后其他方式引用该对象的结果是未定义的。
 
 `pthread_mutexattr_init()` 函数应使用实现定义的所有属性的默认值初始化互斥锁属性对象 `attr`。
 

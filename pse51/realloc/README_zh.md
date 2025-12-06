@@ -105,5 +105,3 @@ ISO C 标准指出，使用等于零的 `size` 参数调用 `realloc()` 是一�
 应用了 Austin Group 缺陷 1387，更改了基本原理部分。
 
 ---
-
-*Unix® 是 The Open Group 的注册商标。POSIX™ 是 IEEE 的商标。版权所有 © 2001-2024 The IEEE and The Open Group，保留所有权利*

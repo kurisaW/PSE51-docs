@@ -1,13 +1,5 @@
 # fsync
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME
-
-fsync — synchronize changes to a file
-
 ## SYNOPSIS
 
 ```c
@@ -96,10 +88,3 @@ IEEE Std 1003.1-2001/Cor 2-2004, item XSH/TC2/D6/44 is applied, applying an edit
 
 Austin Group Defect 672 is applied, changing the APPLICATION USAGE section.
 
-*End of informative text.*
-
----
-
-UNIX® is a registered Trademark of The Open Group.
-POSIX™ is a Trademark of The IEEE.
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved

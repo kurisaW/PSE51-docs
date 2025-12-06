@@ -10,11 +10,11 @@ int ungetc(int c, FILE *stream);
 
 ## 描述
 
-`ungetc()` 函数应将由 `c` 指定的字节（转换为 **unsigned char**）推���到由 `stream` 指向的输入流中。推回的字节应在该流上的后续读取中以与其推入相反的顺序返回。在该流上成功调用文件定位函数（[`fseek()`](https://pubs.opengroup.org/onlinepubs/9799919799/functions/fseek.html)、[`fseeko()`](https://pubs.opengroup.org/onlinepubs/9799919799/functions/fseeko.html)、[`fsetpos()`](https://pubs.opengroup.org/onlinepubs/9799919799/functions/fsetpos.html) 或 [`rewind()`](https://pubs.opengroup.org/onlinepubs/9799919799/functions/rewind.html)）或 [`fflush()`](https://pubs.opengroup.org/onlinepubs/9799919799/functions/fflush.html)（以 `stream` 指向的流为参数）应丢弃该流的任何推回字节。与该流对应的外部存储应保持不变。
+`ungetc()` 函数应将由 `c` 指定的字节（转换为 **unsigned char**）推回到由 `stream` 指向的输入流中。推回的字节应在该流上的后续读取中以与其推入相反的顺序返回。在该流上成功调用文件定位函数（[`fseek()`](https://pubs.opengroup.org/onlinepubs/9799919799/functions/fseek.html)、[`fseeko()`](https://pubs.opengroup.org/onlinepubs/9799919799/functions/fseeko.html)、[`fsetpos()`](https://pubs.opengroup.org/onlinepubs/9799919799/functions/fsetpos.html) 或 [`rewind()`](https://pubs.opengroup.org/onlinepubs/9799919799/functions/rewind.html)）或 [`fflush()`](https://pubs.opengroup.org/onlinepubs/9799919799/functions/fflush.html)（以 `stream` 指向的流为参数）应丢弃该流的任何推回字节。与该流对应的外部存储应保持不变。
 
 应提供一个字节的推回功能。如果在同一流上调用 `ungetc()` 过多次数而中间没有对该流进行读取或文件定位操作，则操作可能会失败。
 
-如果 `c` 的值等于宏 EOF ���值，则操作应失败且输入流应保持不变。
+如果 `c` 的值等于宏 EOF 的值，则操作应失败且输入流应保持不变。
 
 成功调用 `ungetc()` 应清除该流的文件结束指示符。该流的文件位置指示符应通过每次成功调用 `ungetc()` 而递减；如果在调用前其值为 0，则调用后其值是未指定的。在所有推回字节都被读取后，文件位置指示符的值应与字节被推回之前的值相同。
 

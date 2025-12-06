@@ -1,9 +1,5 @@
 # atoll
 
-## NAME
-
-atoll - convert a string to a long integer
-
 ## SYNOPSIS
 
 ```c
@@ -65,4 +61,3 @@ SD5-XSH-ERN-61 is applied, correcting the DESCRIPTION of `atoll()`.
 
 POSIX.1-2008, Technical Corrigendum 2, XSH/TC2-2008/0046 [892] is applied.
 
-*End of informative text.*

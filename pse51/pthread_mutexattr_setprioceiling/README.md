@@ -1,13 +1,5 @@
 # pthread_mutexattr_getprioceiling, pthread_mutexattr_setprioceiling
 
-**The Open Group Base Specifications Issue 8**
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME
-
-pthread_mutexattr_getprioceiling, pthread_mutexattr_setprioceiling — get and set the prioceiling attribute of the mutex attributes object (**REALTIME THREADS**)
-
 ## SYNOPSIS
 
 ```c
@@ -94,10 +86,3 @@ The `pthread_mutexattr_getprioceiling()` and `pthread_mutexattr_setprioceiling()
 
 The [EINVAL] error for an uninitialized mutex attributes object is removed; this condition results in undefined behavior.
 
-*End of informative text.*
-
----
-
-UNIX® is a registered Trademark of The Open Group.
-POSIX™ is a Trademark of The IEEE.
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved
