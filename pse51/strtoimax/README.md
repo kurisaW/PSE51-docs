@@ -78,8 +78,3 @@ POSIX.1-2008, Technical Corrigendum 1, XSH/TC1-2008/0613 [453] and XSH/TC1-2008/
 
 ---
 
-*End of informative text.*
-
-UNIX® is a registered Trademark of The Open Group.
-POSIX™ is a Trademark of The IEEE.
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved

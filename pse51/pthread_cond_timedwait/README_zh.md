@@ -243,8 +243,3 @@ DESCRIPTION 通过添加 Clock Selection 选项的语义进行更新，以与 IE
 
 ---
 
-*End of informative text.*
-
-UNIX® is a registered Trademark of The Open Group.
-POSIX™ is a Trademark of The IEEE.
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved

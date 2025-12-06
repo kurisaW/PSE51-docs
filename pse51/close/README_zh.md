@@ -212,8 +212,3 @@ DESCRIPTION 为与 IEEE Std 1003.1j-2000 对齐而更新，指定共享内存对
 
 ---
 
-*参考信息结束。*
-
-UNIX® 是 The Open Group 的注册商标。
-POSIX™ 是 The IEEE 的商标。
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved

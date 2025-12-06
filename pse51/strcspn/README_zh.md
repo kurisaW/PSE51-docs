@@ -75,10 +75,3 @@ RETURN VALUE 部分更新为说明 `strcspn()` 返回 `s1` 的长度，而非之
 
 ---
 
-*参考信息结束。*
-
----
-
-*UNIX® 是 The Open Group 的注册商标。*
-*POSIX™ 是 IEEE 的商标。*
-*版权所有 © 2001-2024 IEEE 和 The Open Group，保留所有权利*

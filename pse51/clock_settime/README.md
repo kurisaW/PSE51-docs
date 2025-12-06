@@ -106,4 +106,3 @@ Issue 7
 
 *The following sections are informative.*
 
-*End of informative text.*

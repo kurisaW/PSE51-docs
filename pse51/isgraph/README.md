@@ -80,8 +80,3 @@ The `isgraph_l()` function is added from The Open Group Technical Standard, 2006
 
 POSIX.1-2008, Technical Corrigendum 1, XSH/TC1-2008/0289 [302], XSH/TC1-2008/0290 [283], and XSH/TC1-2008/0291 [283] are applied.
 
-*End of informative text.*
-
----
-
-**Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved**

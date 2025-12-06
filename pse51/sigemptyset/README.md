@@ -64,10 +64,3 @@ The SYNOPSIS is marked CX since the presence of this function in the `<signal.h>
 
 ---
 
-*End of informative text.*
-
----
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*Copyright © 2001-2024 The IEEE and The Open Group*

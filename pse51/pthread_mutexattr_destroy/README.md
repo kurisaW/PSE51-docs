@@ -247,4 +247,3 @@ First released in Issue 5. Included from Issue 6.
 
 Derived from the IEEE POSIX Pthreads Standard 1003.1c-1995 and the POSIX Threads Extension (1003.1j-2000).
 
-*End of informative text.*

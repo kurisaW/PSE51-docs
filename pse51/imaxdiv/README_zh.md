@@ -59,4 +59,3 @@ imaxdiv_t imaxdiv(intmax_t numer, intmax_t denom);
 
 ---
 
-*参考信息结束。*

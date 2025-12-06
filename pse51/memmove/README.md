@@ -62,4 +62,3 @@ Austin Group Defect 448 is applied, adding a requirement that `memmove()` does n
 
 ---
 
-*End of informative text.*

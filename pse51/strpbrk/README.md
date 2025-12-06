@@ -66,10 +66,3 @@ First released in Issue 1. Derived from Issue 1 of the SVID.
 
 Austin Group Defect 448 is applied, adding a requirement that `strpbrk()` does not change the setting of `errno` on valid input.
 
-*End of informative text.*
-
----
-
-UNIX® is a registered Trademark of The Open Group.
-POSIX™ is a Trademark of The IEEE.
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved

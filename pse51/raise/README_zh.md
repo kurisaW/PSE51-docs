@@ -89,10 +89,3 @@ pthread_kill(pthread_self(), sig);
 
 与线程选项相关的功能已移至基础部分。
 
-*参考信息结束。*
-
----
-
-UNIX® 是 The Open Group 的注册商标。
-POSIX™ 是 IEEE 的商标。
-版权所有 © 2001-2024 IEEE 和 The Open Group，保留所有权利

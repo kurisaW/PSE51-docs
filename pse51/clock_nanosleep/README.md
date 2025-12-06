@@ -97,10 +97,3 @@ The `clock_nanosleep()` function is moved from the Clock Selection option to the
 
 POSIX.1-2008, Technical Corrigendum 2, XSH/TC2-2008/0068 [909] is applied.
 
-*End of informative text.*
-
----
-
-UNIX® is a registered Trademark of The Open Group.
-POSIX™ is a Trademark of The IEEE.
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved

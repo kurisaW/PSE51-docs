@@ -105,10 +105,3 @@ XBD [`<pthread.h>`](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/pt
 
 应用了 POSIX.1-2008，技术勘误 2，XSH/TC2-2008/0264 [757]。
 
-*参考信息结束。*
-
----
-
-UNIX® 是 The Open Group 的注册商标。
-POSIX™ 是 IEEE 的商标。
-Copyright © 2001-2024 The IEEE and The Open Group，保留所有权利

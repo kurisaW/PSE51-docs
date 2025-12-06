@@ -127,4 +127,3 @@ Austin Group Defect 1163 is applied, clarifying the handling of white space in t
 
 ---
 
-*End of informative text.*

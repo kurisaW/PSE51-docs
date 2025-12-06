@@ -192,10 +192,3 @@ Austin Group Defect 1686 is applied, adding CX shading to some text in the RETUR
 
 ---
 
-*End of informative text.*
-
----
-
-*UNIX® is a registered Trademark of The Open Group.*
-*POSIX™ is a Trademark of the IEEE.*
-*Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved*

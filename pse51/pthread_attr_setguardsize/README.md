@@ -130,6 +130,3 @@ The [EINVAL] error for an uninitialized thread attributes object is removed; thi
 
 ---
 
-*End of informative text.*
-
-**Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved**

@@ -70,11 +70,3 @@ The DESCRIPTION is updated for alignment with the POSIX Threads Extension.
 
 The APPLICATION USAGE section is added.
 
-*End of informative text.*
-
----
-
-UNIX® is a registered Trademark of The Open Group.
-POSIX™ is a Trademark of The IEEE.
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved
-[ Main Index | XBD | XSH | XCU | XRAT ]

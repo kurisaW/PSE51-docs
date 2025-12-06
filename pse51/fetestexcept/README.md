@@ -69,10 +69,3 @@ XBD [`<fenv.h>`](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/fenv.
 
 First released in Issue 6. Derived from the ISO/IEC 9899:1999 standard.
 
-*End of informative text.*
-
----
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*Copyright © 2001-2024 The IEEE and The Open Group*

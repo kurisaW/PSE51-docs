@@ -63,4 +63,3 @@ int pthread_getconcurrency(void);
 
 *以下部分为参考信息。*
 
-*参考信息结束。*

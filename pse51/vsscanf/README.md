@@ -74,10 +74,3 @@ First released in Issue 6. Derived from the ISO/IEC 9899:1999 standard.
 
 POSIX.1-2008, Technical Corrigendum 1, XSH/TC1-2008/0704 [14] is applied.
 
-*End of informative text.*
-
----
-
-UNIX® is a registered Trademark of The Open Group.
-POSIX™ is a Trademark of The IEEE.
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved

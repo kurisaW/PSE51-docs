@@ -62,4 +62,3 @@ Austin Group Defect 448 is applied, adding a requirement that `memcpy()` does no
 
 ---
 
-*End of informative text.*

@@ -106,4 +106,3 @@ int clock_settime(clockid_t clock_id, const struct timespec *tp);
 
 *以下部分是参考信息。*
 
-*参考信息结束。*

@@ -89,10 +89,3 @@ The following new requirements on POSIX implementations derive from alignment wi
 
 Functionality relating to the Threads option is moved to the Base.
 
-*End of informative text.*
-
----
-
-UNIX® is a registered Trademark of The Open Group.
-POSIX™ is a Trademark of The IEEE.
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved

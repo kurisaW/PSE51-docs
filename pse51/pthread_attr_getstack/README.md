@@ -109,10 +109,3 @@ The description of the `stackaddr` attribute is updated in the DESCRIPTION and A
 
 The [EINVAL] error for an uninitialized thread attributes object is removed; this condition results in undefined behavior.
 
-*End of informative text.*
-
----
-
-UNIX® is a registered Trademark of The Open Group.
-POSIX™ is a Trademark of The IEEE.
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved

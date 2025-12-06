@@ -63,4 +63,3 @@ Portions of this text are reprinted and reproduced in electronic form from the I
 
 *The following sections are informative.*
 
-*End of informative text.*

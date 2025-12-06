@@ -70,11 +70,3 @@ int pause(void);
 
 添加了应用程序使用部分。
 
-*参考信息结束。*
-
----
-
-UNIX® 是 The Open Group 的注册商标。
-POSIX™ 是 IEEE 的商标。
-版权所有 © 2001-2024 IEEE 和 The Open Group，保留所有权利
-[ 主索引 | XBD | XSH | XCU | XRAT ]
