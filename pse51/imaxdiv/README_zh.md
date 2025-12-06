@@ -54,4 +54,3 @@ imaxdiv_t imaxdiv(intmax_t numer, intmax_t denom);
 首次发布于 Issue 6。源自 ISO/IEC 9899:1999 标准。
 
 ---
-

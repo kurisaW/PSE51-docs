@@ -66,6 +66,3 @@ IEEE Std 1003.1-2001/Cor 2-2004, item XSH/TC2/D6/85 is applied, updating the APP
 IEEE Std 1003.1-2001/Cor 2-2004, item XSH/TC2/D6/86 is applied, updating the ERRORS section to include optional errors for the case when `attr` refers to an uninitialized thread attribute object.
 
 ---
-
-*The Open Group Base Specifications Issue 6, IEEE Std 1003.1, 2004 Edition*
-*Copyright © 2001-2004 The IEEE and The Open Group, All Rights reserved.*

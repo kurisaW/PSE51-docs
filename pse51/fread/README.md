@@ -114,4 +114,3 @@ Austin Group Defect 1330 is applied, removing obsolescent interfaces.
 Austin Group Defect 1624 is applied, changing the RETURN VALUE section.
 
 ---
-

@@ -203,4 +203,3 @@ DESCRIPTION 为与 IEEE Std 1003.1j-2000 对齐而更新，指定共享内存对
 应用 Austin Group Defect 1525，阐明套接字直到与其关联的所有文件描述符都被关闭时才被销毁。
 
 ---
-

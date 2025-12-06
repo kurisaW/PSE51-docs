@@ -95,5 +95,3 @@ First released in Issue 6. Developed as part of the XSI option and brought into 
 - The [EINVAL] error for an uninitialized thread attributes object is removed; this condition results in undefined behavior.
 
 ---
-
-*Copyright © 2001-2024 The IEEE and The Open Group. All Rights Reserved.*

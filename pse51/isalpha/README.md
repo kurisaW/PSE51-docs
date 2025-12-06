@@ -81,4 +81,3 @@ The `isalpha_l()` function is added from The Open Group Technical Standard, 2006
 POSIX.1-2008, Technical Corrigendum 1, XSH/TC1-2008/0277 [302], XSH/TC1-2008/0278 [283], and XSH/TC1-2008/0279 [283] are applied.
 
 ---
-

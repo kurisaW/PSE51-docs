@@ -75,4 +75,3 @@ strtoll(nptr, (char **)NULL, 10)
 应用了 POSIX.1-2008, Technical Corrigendum 2, XSH/TC2-2008/0046 [892]。
 
 ---
-

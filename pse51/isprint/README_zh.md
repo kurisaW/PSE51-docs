@@ -77,7 +77,3 @@ XBD [7. Locale], [`<ctype.h>`](ctype.h), [`<locale.h>`](locale.h)
 应用了 POSIX.1-2008, Technical Corrigendum 1, XSH/TC1-2008/0297 [302], XSH/TC1-2008/0298 [283], 和 XSH/TC1-2008/0299 [283]。
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*Copyright © 2001-2024 The IEEE and The Open Group*

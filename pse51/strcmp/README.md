@@ -89,7 +89,3 @@ Extensions beyond the ISO C standard are marked.
 Austin Group Defect 448 is applied, adding a requirement that `strcmp()` does not change the setting of `errno` on valid input.
 
 ---
-
-*The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group*

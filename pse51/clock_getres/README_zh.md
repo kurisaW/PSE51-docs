@@ -137,7 +137,3 @@ XBD `<time.h>`
 - 应用了 Austin Group 缺陷 1346，要求支持单调时钟。
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*Copyright © 2001-2024 The IEEE and The Open Group*

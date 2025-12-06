@@ -1,9 +1,5 @@
 # pthread_attr_destroy
 
-## Name
-
-pthread_attr_destroy, pthread_attr_init - destroy and initialize a thread attributes object
-
 ## Synopsis
 
 ```c

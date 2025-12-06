@@ -113,7 +113,3 @@ Austin Group Defect 700 is applied, clarifying how a subject sequence beginning 
 Austin Group Defect 1163 is applied, clarifying the handling of white space in the input string.
 
 ---
-
-UNIX® is a registered Trademark of The Open Group.
-POSIX™ is a Trademark of the IEEE.
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved

@@ -82,4 +82,3 @@ The [EINVAL] error for an uninitialized condition variable attributes object is 
 Austin Group Defect 1216 is applied, adding `pthread_cond_clockwait()`.
 
 ---
-

@@ -112,7 +112,3 @@ int pthread_mutex_setprioceiling(pthread_mutex_t *restrict mutex,
 - 应用了 Austin Group Defect 354，添加了超出可用的健壮互斥锁拥有的系统资源时的 [EAGAIN] 错误。
 
 ---
-
-*UNIX® 是 The Open Group 的注册商标。*
-*POSIX™ 是 IEEE 的商标。*
-*Copyright © 2001-2024 The IEEE and The Open Group，保留所有权利*

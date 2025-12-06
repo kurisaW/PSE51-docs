@@ -198,5 +198,3 @@ Austin Group 缺陷 593 被应用，从描述部分删除了对 [`<fcntl.h>`](ht
 Austin Group 缺陷 695 被应用，为共享内存对象上的操作添加了原子性要求。
 
 ---
-
-*版权所有 © 2001-2024 IEEE 和 The Open Group，保留所有权利*

@@ -101,5 +101,3 @@ if (rc != 0) {
 - 移除了未初始化线程属性对象的 [EINVAL] 错误；此条件导致未定义行为。
 
 ---
-
-*来源：The Open Group Base Specifications Issue 8, IEEE Std 1003.1-2024*

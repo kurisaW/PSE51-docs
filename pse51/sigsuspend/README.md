@@ -85,5 +85,3 @@ SD5-XSH-ERN-122 is applied, adding the example code in the RATIONALE.
 - Austin Group Defect 1223 is applied, changing the example code in the RATIONALE.
 
 ---
-
-*Source: The Open Group Base Specifications Issue 8, IEEE Std 1003.1-2024*

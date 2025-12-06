@@ -66,6 +66,3 @@ int pthread_attr_setstackaddr(pthread_attr_t *attr, void *stackaddr);
 应用 IEEE Std 1003.1-2001/Cor 2-2004，项目 XSH/TC2/D6/86，更新了错误部分以包含当 `attr` 引用未初始化的线程属性对象时的可选错误。
 
 ---
-
-*The Open Group Base Specifications Issue 6, IEEE Std 1003.1, 2004 Edition*
-*Copyright © 2001-2004 The IEEE and The Open Group, All Rights reserved.*

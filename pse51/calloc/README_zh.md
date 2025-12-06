@@ -90,4 +90,3 @@ XBD [`<stdlib.h>`](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/std
 应用了 Austin Group 缺陷 1387，更改了基本原理部分。
 
 ---
-

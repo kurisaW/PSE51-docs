@@ -66,4 +66,3 @@ RETURN VALUE 部分更新为说明 `strcspn()` 返回 `s1` 的长度，而非之
 应用了 Austin Group Defect 448，添加了要求：在有效输入上，`strcspn()` 不改变 `errno` 的设置。
 
 ---
-

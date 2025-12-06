@@ -291,4 +291,3 @@ POSIX.1-2008, Technical Corrigendum 2, XSH/TC2-2008/0229 [852] is applied.
 Austin Group Defect 850 is applied, adding anonymous memory objects.
 
 ---
-

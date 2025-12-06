@@ -76,7 +76,3 @@ int sigwait(const sigset_t *restrict set, int *restrict sig);
 应用 POSIX.1-2008，技术勘误 1，XSH/TC1-2008/0584 [76]。
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*Copyright © 2001-2024 The IEEE and The Open Group*

@@ -125,7 +125,3 @@ XBD `<pthread.h>`, `<sys/mman.h>`
 删除了未初始化线程属性对象的 [EINVAL] 错误；此条件导致未定义行为。
 
 ---
-
-*信息性文本结束。*
-
-**版权所有 © 2001-2024 The IEEE and The Open Group，保留所有权利**

@@ -116,4 +116,3 @@ The `asctime_r()` function has been removed and will not be available in future 
 - **Austin Group Defect 1410 is applied, removing the `asctime_r()` function**
 
 ---
-

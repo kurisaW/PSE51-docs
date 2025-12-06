@@ -122,7 +122,3 @@ int sigwaitinfo(const sigset_t *restrict set,
 - 应用了 Austin Group 缺陷 1346，要求支持单调时钟。
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*版权所有 © 2001-2024 IEEE 和 The Open Group*

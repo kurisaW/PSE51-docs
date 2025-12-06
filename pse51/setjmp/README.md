@@ -1,8 +1,4 @@
-# setjmp
-
-## Name
-
-setjmp - set jump point for a non-local goto
+# setjmp - set jump point for a non-local goto
 
 ## Synopsis
 

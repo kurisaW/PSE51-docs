@@ -86,4 +86,3 @@ POSIX.1-2008, Technical Corrigendum 1, XSH/TC1-2008/0703 [14] is applied.
 Austin Group Defect 1496 is applied, adding the `vasprintf()` function.
 
 ---
-

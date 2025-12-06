@@ -188,7 +188,3 @@ XBD 4.19 自纪元以来的秒数, `<time.h>`
 应用了Austin Group缺陷1570，移除了"=="中的额外空格。
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*版权所有 © 2001-2024 IEEE和The Open Group*

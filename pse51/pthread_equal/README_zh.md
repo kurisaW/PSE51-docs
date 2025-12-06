@@ -62,7 +62,3 @@ int pthread_equal(pthread_t t1, pthread_t t2);
 - 应用了 Austin Group Defect 599，更改了 RETURN VALUE 章节以提及 PTHREAD_NULL。
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*Copyright © 2001-2024 The IEEE and The Open Group*

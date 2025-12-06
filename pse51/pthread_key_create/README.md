@@ -140,5 +140,3 @@ The `pthread_key_create()` function is moved from the Threads option to the Base
 Austin Group Defect 1059 is applied, changing the example code in the RATIONALE section.
 
 ---
-
-*Source: The Open Group Base Specifications Issue 8, IEEE Std 1003.1-2024*

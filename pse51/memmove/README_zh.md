@@ -57,5 +57,3 @@ XBD `<string.h>`
 应用了 Austin Group 缺陷 448，添加了 `memmove()` 在有效输入时不应更改 `errno` 设置的要求。
 
 ---
-
-*资料性文本结束。*

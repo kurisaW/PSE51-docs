@@ -81,10 +81,3 @@ XBD [7. 区域设置](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/
 应用了 POSIX.1-2008, Technical Corrigendum 1, XSH/TC1-2008/0274 [302], XSH/TC1-2008/0275 [283], 和 XSH/TC1-2008/0276 [283]。
 
 ---
-
-*信息文本结束。*
-
----
-
-**来源：** The Open Group Base Specifications Issue 8, IEEE Std 1003.1-2024
-**版权 © 2001-2024 IEEE 和 The Open Group**

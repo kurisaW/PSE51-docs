@@ -194,7 +194,3 @@ The DESCRIPTION is updated for alignment with IEEE Std 1003.1j-2000 by adding se
 The ERRORS section has an additional case
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*Copyright © 2001-2024 The IEEE and The Open Group*

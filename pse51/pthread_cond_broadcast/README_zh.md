@@ -113,6 +113,3 @@ XBD [4.15.2 内存同步](https://pubs.opengroup.org/onlinepubs/9799919799/based
 应用 Austin Group 缺陷 1216，添加 `pthread_cond_clockwait()`。
 
 ---
-
-*来源：The Open Group Base Specifications Issue 8, IEEE Std 1003.1-2024*
-*版权所有 © 2001-2024 IEEE 和 The Open Group*

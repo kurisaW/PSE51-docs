@@ -66,7 +66,3 @@ First released in Issue 4. Derived from the ISO C standard.
 The `lldiv()` function is added for alignment with the ISO/IEC 9899:1999 standard.
 
 ---
-
-*UNIX® is a registered Trademark of The Open Group.
-POSIX™ is a Trademark of The IEEE.
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved*

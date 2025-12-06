@@ -77,6 +77,3 @@ Included for alignment with the POSIX Threads Extension.
 - The [EINVAL] error for a key value not obtained from `pthread_key_create()` or a key deleted with `pthread_key_delete()` is removed; this condition results in undefined behavior.
 
 ---
-
-*Source: The Open Group Base Specifications Issue 8, IEEE Std 1003.1-2024*
-*Copyright © 2001-2024 The IEEE and The Open Group*

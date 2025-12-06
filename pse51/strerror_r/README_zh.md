@@ -146,5 +146,3 @@ DESCRIPTION 已更新，以指示如果函数成功则不更改 `errno`。
 应用了 Austin Group Defect 1302，使 `strerror()` 函数与 ISO/IEC 9899:2018 标准对齐。
 
 ---
-
-*版权所有 © 2001-2024 IEEE 和 The Open Group，保留所有权利*

@@ -90,4 +90,3 @@ Austin Group Defect 1302 is applied, aligning this function with the ISO/IEC 989
 Austin Group Defect 1387 is applied, changing the RATIONALE section.
 
 ---
-

@@ -1,9 +1,5 @@
 # fscanf, scanf, sscanf
 
-## Name
-
-fscanf, scanf, sscanf — convert formatted input
-
 ## Synopsis
 
 ```c

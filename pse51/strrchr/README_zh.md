@@ -64,5 +64,3 @@ basename = strrchr(name, '/') + 1;
 应用了 Austin Group Defect 448，增加了一项要求：对于有效输入，`strrchr()` 不得更改 `errno` 的设置。
 
 ---
-
-*来源：The Open Group Base Specifications Issue 8, IEEE Std 1003.1-2024*

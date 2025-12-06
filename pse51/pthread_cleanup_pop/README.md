@@ -235,5 +235,3 @@ POSIX.1-2008, Technical Corrigendum 2, XSH/TC2-2008/0268 [624] is applied.
 Austin Group Defect 613 is applied, clarifying the relationship of automatic object lifetimes to cancellation cleanup functions.
 
 ---
-
-*Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved*

@@ -64,5 +64,3 @@ First released in Issue 1. Derived from Issue 1 of the SVID.
 Austin Group Defect 448 is applied, adding a requirement that `strrchr()` does not change the setting of `errno` on valid input.
 
 ---
-
-*Source: The Open Group Base Specifications Issue 8, IEEE Std 1003.1-2024*

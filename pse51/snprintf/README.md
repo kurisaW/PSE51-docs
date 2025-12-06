@@ -585,7 +585,3 @@ Austin Group Defect 1562 is applied, clarifying that it is the application's res
 Austin Group Defect 1647 is applied, changing the description of the c conversion specifier and updating the statement that this volume of POSIX.1-2024 defers to the ISO C standard so that it excludes the %lc conversion when passed a null wide character.
 
 ---
-
-*UNIX® is a registered Trademark of The Open Group.*
-*POSIX™ is a Trademark of The IEEE.*
-*Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved*

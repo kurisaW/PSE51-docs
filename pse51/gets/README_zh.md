@@ -77,7 +77,3 @@ char *gets(char *s);
 *补充信息结束。*
 
 ---
-
-UNIX ® 是 The Open Group 的注册商标。
-POSIX ™ 是 IEEE 的商标。
-Copyright © 2001-2018 IEEE and The Open Group, All Rights Reserved

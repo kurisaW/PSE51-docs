@@ -99,4 +99,3 @@ XBD [`<pthread.h>`](../basedefs/pthread.h.html), [`<sched.h>`](../basedefs/sched
 应用了 POSIX.1-2008, Technical Corrigendum 2, XSH/TC2-2008/0263 [757]。
 
 ---
-

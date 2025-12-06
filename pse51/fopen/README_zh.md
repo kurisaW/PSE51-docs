@@ -214,5 +214,3 @@ ISO C 标准只识别模式字符串中特定位置的 '+'、'b' 和 'x' 字符�
 应用 Austin Group Defect 1302，使此函数与 ISO/IEC 9899:2018 标准对齐。
 
 ---
-
-**版权所有 © 2001-2024 IEEE 和 The Open Group，保留所有权利**

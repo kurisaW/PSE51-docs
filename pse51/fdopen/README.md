@@ -140,4 +140,3 @@ IEEE Std 1003.1-2001/Cor 2-2004, item XSH/TC2/D6/30 is applied, making correctio
 - Austin Group Defects 411 and 1526 are applied, changing the requirements for the `mode` argument.
 
 ---
-

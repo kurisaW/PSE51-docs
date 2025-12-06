@@ -76,4 +76,3 @@ if (argc < 2 || (minutes_to_event = atoi(argv[1])) <= 0) {
 应用了 Austin Group Defect 1541，更改了示例部分。
 
 ---
-

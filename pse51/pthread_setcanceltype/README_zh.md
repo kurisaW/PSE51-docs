@@ -88,5 +88,3 @@ void pthread_testcancel(void);
 应用了 Austin Group 缺陷 841，要求 `pthread_setcancelstate()` 为异步信号安全。
 
 ---
-
-*来源：The Open Group Base Specifications Issue 8, IEEE Std 1003.1-2024*

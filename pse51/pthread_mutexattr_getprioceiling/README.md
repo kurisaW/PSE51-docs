@@ -86,4 +86,3 @@ The `pthread_mutexattr_getprioceiling()` and `pthread_mutexattr_setprioceiling()
 The [EINVAL] error for an uninitialized mutex attributes object is removed; this condition results in undefined behavior.
 
 ---
-

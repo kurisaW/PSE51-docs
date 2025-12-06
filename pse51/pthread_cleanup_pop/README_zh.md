@@ -233,5 +233,3 @@ XBD `<pthread.h>`
 应用了 Austin Group Defect 613，阐明了自动对象生命周期与取消清理函数的关系。
 
 ---
-
-*版权所有 © 2001-2024 IEEE 和 The Open Group，保留所有权利*

@@ -97,7 +97,3 @@ Austin Group Defect 1490 is applied, changing the EXAMPLES and APPLICATION USAGE
 Austin Group Defect 1629 is applied, changing the APPLICATION USAGE section.
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*Copyright © 2001-2024 The IEEE and The Open Group*

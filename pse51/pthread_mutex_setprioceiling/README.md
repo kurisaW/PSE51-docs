@@ -112,7 +112,3 @@ Included for alignment with the POSIX Threads Extension. Marked as part of the R
 - Austin Group Defect 354 is applied, adding the [EAGAIN] error for exceeding system resources available for robust mutexes owned.
 
 ---
-
-*UNIX® is a registered Trademark of The Open Group.*
-*POSIX™ is a Trademark of The IEEE.*
-*Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved*

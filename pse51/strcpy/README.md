@@ -141,4 +141,3 @@ Austin Group Defect 448 is applied, adding a requirement that `strcpy()` and `st
 Austin Group Defect 1787 is applied, changing the NAME section.
 
 ---
-

@@ -105,5 +105,3 @@ ISO C 标准规定，在多线程程序中使用 `signal()` 会导致未定义�
 应用了 Austin Group Defect 1302，使该函数与 ISO/IEC 9899:2018 标准保持一致。
 
 ---
-
-*来源：The Open Group Base Specifications Issue 8, IEEE Std 1003.1-2024*

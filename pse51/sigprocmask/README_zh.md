@@ -184,7 +184,3 @@ DESCRIPTION 已更新，以与 POSIX 线程扩展对齐。
 应用了 Austin Group Defect 1731，澄清了虽然 `pthread_sigmask()` 在更改当前阻塞信号集后必须传递至少一个存在的未决非阻塞信号，但没有要求传递的信号包括那些被更改取消阻塞的信号。
 
 ---
-
-*UNIX® 是 The Open Group 的注册商标。*
-*POSIX™ 是 IEEE 的商标。*
-*Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved*

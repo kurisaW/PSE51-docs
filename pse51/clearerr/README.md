@@ -57,4 +57,3 @@ First released in Issue 1. Derived from Issue 1 of the SVID.
 POSIX.1-2008, Technical Corrigendum 1, XSH/TC1-2008/0057 [401] is applied.
 
 ---
-

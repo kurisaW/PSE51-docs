@@ -61,7 +61,3 @@ XBD [`<sched.h>`](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/sche
 应用 IEEE Std 1003.1-2001/Cor 1-2002, XSH/TC1/D6/53，将概要中的 PS 边际代码更改为 PS|TPS。
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*版权所有 © 2001-2024 IEEE 和 The Open Group*

@@ -141,11 +141,3 @@ strcpy(curtbl->data, data);
 应用了 Austin Group Defect 1787，更改了 NAME 部分。
 
 ---
-
-*参考信息文本结束。*
-
----
-
-UNIX® 是 The Open Group 的注册商标。
-POSIX™ 是 IEEE 的商标。
-版权所有 © 2001-2024 IEEE 和 The Open Group，保留所有权利

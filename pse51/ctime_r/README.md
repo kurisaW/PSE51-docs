@@ -96,9 +96,3 @@ Derived from Issue 1 of the SVID.
 - **Austin Group Defect 1410 is applied, removing the `ctime_r()` function.**
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*Copyright © 2001-2024 The IEEE and The Open Group*
-
-**Note**: The `ctime_r()` function has been **removed** from the POSIX.1-2024 standard (Issue 8). The page above shows the documentation for the regular `ctime()` function, which is still available but marked as obsolescent.

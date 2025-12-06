@@ -22,7 +22,7 @@ int ispunct(int c);
 
 ## RETURN VALUE
 
-如果 `c` 是标点符号��符，`ispunct()` [CX] 和 `ispunct_l()` 函数应返回非零值；否则，它们应返回 0。
+如果 `c` 是标点符号，`ispunct()` [CX] 和 `ispunct_l()` 函数应返回非零值；否则，它们应返回 0。
 
 ## ERRORS
 

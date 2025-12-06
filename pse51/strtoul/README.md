@@ -122,4 +122,3 @@ Austin Group Defect 700 is applied, clarifying how a subject sequence beginning 
 Austin Group Defect 1163 is applied, clarifying the handling of white space in the input string.
 
 ---
-

@@ -75,4 +75,3 @@ First released in Issue 6. Derived from the ISO/IEC 9899:1999 standard.
 POSIX.1-2008, Technical Corrigendum 1, XSH/TC1-2008/0613 [453] and XSH/TC1-2008/0614 [453] are applied.
 
 ---
-

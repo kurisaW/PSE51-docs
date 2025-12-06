@@ -57,7 +57,3 @@ First released in Issue 1. Derived from Issue 1 of the SVID.
 POSIX.1-2008, Technical Corrigendum 1, XSH/TC1-2008/0236 [14] is applied.
 
 ---
-
-UNIX® is a registered Trademark of The Open Group.
-POSIX™ is a Trademark of The IEEE.
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved

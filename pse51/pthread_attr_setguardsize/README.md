@@ -125,4 +125,3 @@ The `pthread_attr_getguardsize()` and `pthread_attr_setguardsize()` functions ar
 The [EINVAL] error for an uninitialized thread attributes object is removed; this condition results in undefined behavior.
 
 ---
-

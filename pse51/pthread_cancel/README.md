@@ -86,4 +86,3 @@ Austin Group Defect 792 is applied, adding a requirement that passing the thread
 Austin Group Defect 1302 is applied, updating the page to account for the addition of `<threads.h>` interfaces.
 
 ---
-

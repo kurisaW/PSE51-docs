@@ -70,7 +70,3 @@ int fileno(FILE *stream);
 应用了 POSIX.1-2008 Technical Corrigendum 2，XSH/TC2-2008/0115 [589]。
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*Copyright © 2001-2024 The IEEE and The Open Group*

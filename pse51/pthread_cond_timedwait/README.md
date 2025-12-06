@@ -234,4 +234,3 @@ Austin Group Defect 1162 is applied, changing "an error code" to "[EOWNERDEAD]".
 Austin Group Defects 1216 and 1485 are applied, adding `pthread_cond_clockwait()`.
 
 ---
-

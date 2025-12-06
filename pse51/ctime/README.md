@@ -99,7 +99,3 @@ This function may be removed in a future version, but not until after it has bee
 - Austin Group Defect 1410 is applied, removing the `ctime_r()` function.
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*Copyright © 2001-2024 The IEEE and The Open Group*

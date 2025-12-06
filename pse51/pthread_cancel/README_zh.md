@@ -90,11 +90,3 @@ XBD `<pthread.h>`
 应用 Austin Group 缺陷 1302，更新页面以考虑 `<threads.h>` 接口的添加。
 
 ---
-
-*信息文本结束。*
-
----
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*Copyright © 2001-2024 The IEEE and The Open Group*

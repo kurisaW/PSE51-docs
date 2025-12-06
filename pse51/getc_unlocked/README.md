@@ -101,4 +101,3 @@ POSIX.1-2008, Technical Corrigendum 1, XSH/TC1-2008/0232 [395], XSH/TC1-2008/023
 POSIX.1-2008, Technical Corrigendum 2, XSH/TC2-2008/0151 [826] is applied.
 
 ---
-

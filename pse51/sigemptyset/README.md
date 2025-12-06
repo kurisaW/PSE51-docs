@@ -59,4 +59,3 @@ First released in Issue 3. Included for alignment with the POSIX.1-1988 standard
 The SYNOPSIS is marked CX since the presence of this function in the `<signal.h>` header is an extension over the ISO C standard.
 
 ---
-

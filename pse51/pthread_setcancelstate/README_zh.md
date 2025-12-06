@@ -88,7 +88,3 @@ void pthread_testcancel(void);
 应用了 Austin Group Defect 841，要求 `pthread_setcancelstate()` 是异步信号安全的。
 
 ---
-
-*UNIX® 是 The Open Group 的注册商标。*
-*POSIX™ 是 IEEE 的商标。*
-*Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved*

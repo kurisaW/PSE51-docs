@@ -80,6 +80,3 @@ int pthread_attr_setschedparam(pthread_attr_t *restrict attr,
 - 应用了 POSIX.1-2008, Technical Corrigendum 1, XSH/TC1-2008/0451 [314]。
 
 ---
-
-*来源：The Open Group Base Specifications Issue 8, IEEE Std 1003.1-2024*
-*版权所有 © 2001-2024 The IEEE and The Open Group*

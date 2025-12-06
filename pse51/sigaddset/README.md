@@ -70,4 +70,3 @@ The normative text is updated to avoid use of the term "must" for application re
 The SYNOPSIS is marked CX since the presence of this function in the <signal.h> header is an extension over the ISO C standard.
 
 ---
-

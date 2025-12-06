@@ -32,7 +32,7 @@ int kill(pid_t pid, int sig);
 
 ## RETURN VALUE
 
-成功完成后，应返回 0。否则，应返��� -1 并设置 `errno` 以指示错误。
+成功完成后，应返回 0。否则，应返回 -1 并设置 `errno` 以指示错误。
 
 ## ERRORS
 
@@ -112,11 +112,3 @@ DESCRIPTION 已更新以与 POSIX 线程扩展保持一致。
 应用了 Austin Group Defect 1138，将 `sig2str()` 添加到 SEE ALSO 部分。
 
 ---
-
-*信息性文本结束。*
-
----
-
-UNIX® 是 The Open Group 的注册商标。
-POSIX™ 是 The IEEE 的商标。
-Copyright © 2001-2024 The IEEE and The Open Group，保留所有权利

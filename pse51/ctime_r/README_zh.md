@@ -96,9 +96,3 @@ asctime(localtime(clock))
 - **应用了 Austin Group Defect 1410，移除了 `ctime_r()` 函数。**
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*Copyright © 2001-2024 The IEEE and The Open Group*
-
-**注意**：`ctime_r()` 函数已从 POSIX.1-2024 标准（Issue 8）中**移除**。上方页面显示的是常规 `ctime()` 函数的文档，该函数仍然可用但被标记为过时。

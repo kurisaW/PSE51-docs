@@ -94,7 +94,3 @@ if (ret < 0) {
 应用了 Austin Group Defect 1302，使此函数与 ISO/IEC 9899:2018 标准保持一致。
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*Copyright © 2001-2024 The IEEE and The Open Group*

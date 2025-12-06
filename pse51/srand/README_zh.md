@@ -139,7 +139,3 @@ ISO C 标准的 `rand()` 和 `srand()` 函数允许所有线程共享每个进�
 - 应用了 Austin Group Defect 1330，移除了过时接口。
 
 ---
-
-*UNIX® 是 The Open Group 的注册商标。*
-*POSIX™ 是 The IEEE 的商标。*
-*版权所有 © 2001-2024 The IEEE and The Open Group，保留所有权利*

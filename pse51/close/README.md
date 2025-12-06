@@ -203,4 +203,3 @@ Austin Group Defect 1466 is applied, changing the terminology used for pseudo-te
 Austin Group Defect 1525 is applied, clarifying that a socket is not destroyed until all file descriptors associated with it have been closed.
 
 ---
-

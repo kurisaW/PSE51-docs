@@ -67,7 +67,3 @@ int sigdelset(sigset_t *set, int signo);
 SYNOPSIS 被标记为 CX，因为此函数在 `<signal.h>` 头文件中的存在是对 ISO C 标准的扩展。
 
 ---
-
-*UNIX® 是 The Open Group 的注册商标。
-POSIX™ 是 The IEEE 的商标。
-版权 © 2001-2024 The IEEE and The Open Group，保留所有权利*

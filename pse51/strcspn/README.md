@@ -66,4 +66,3 @@ The Open Group Corrigendum U030/1 is applied. The text of the RETURN VALUE secti
 Austin Group Defect 448 is applied, adding a requirement that `strcspn()` does not change the setting of `errno` on valid input.
 
 ---
-

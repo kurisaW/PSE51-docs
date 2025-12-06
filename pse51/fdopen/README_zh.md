@@ -140,11 +140,3 @@ POSIX 实现的以下新要求源自与单一 UNIX 规范的对齐：
 - 应用了 Austin Group 缺陷 411 和 1526，更改了 `mode` 参数的要求。
 
 ---
-
-*资料性文本结束。*
-
----
-
-UNIX® 是 The Open Group 的注册商标。
-POSIX™ 是 IEEE 的商标。
-版权所有 © 2001-2024 IEEE 和 The Open Group，保留所有权利

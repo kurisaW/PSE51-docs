@@ -90,4 +90,3 @@ int pthread_mutexattr_settype(pthread_mutexattr_t *attr, int type);
 应用了 Austin Group Defect 1216，添加了 `pthread_cond_clockwait()`。
 
 ---
-

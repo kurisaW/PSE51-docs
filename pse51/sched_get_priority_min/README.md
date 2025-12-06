@@ -71,4 +71,3 @@ The `[ESRCH]` error condition has been removed since these functions do not take
 IEEE Std 1003.1-2001/Cor 1-2002, item XSH/TC1/D6/52 is applied, changing the PS margin code in the SYNOPSIS to PS|TPS.
 
 ---
-

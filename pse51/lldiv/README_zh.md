@@ -66,7 +66,3 @@ long long   rem;     /* 余数 */
 为与 ISO/IEC 9899:1999 标准保持一致，添加了 `lldiv()` 函数。
 
 ---
-
-*UNIX® 是 The Open Group 的注册商标。
-POSIX™ 是 The IEEE 的商标。
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved*

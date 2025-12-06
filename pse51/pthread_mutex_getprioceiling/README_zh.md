@@ -1,13 +1,5 @@
 # pthread_mutex_getprioceiling, pthread_mutex_setprioceiling
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## 名称（NAME）
-
-pthread_mutex_getprioceiling, pthread_mutex_setprioceiling — 获取和设置互斥锁的优先级上限（**实时线程**）
-
 ## 概要（SYNOPSIS）
 
 ```c

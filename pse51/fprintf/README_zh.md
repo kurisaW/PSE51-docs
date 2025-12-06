@@ -605,9 +605,3 @@ DESCRIPTION 已更新，以一致使用术语"转换说明符"和"转换规范"�
 应用 Austin Group Defect 1647，更改 c 转换说明符的描述，并更新本卷 POSIX.1-2024 遵从 ISO C 标准的陈述，以便其排除传递空宽字符时的 %lc 转换。
 
 ---
-
-*信息文本结束。*
-
-UNIX® 是 The Open Group 的注册商标。
-POSIX™ 是 IEEE 的商标。
-版权所有 © 2001-2024 IEEE 和 The Open Group，保留所有权利

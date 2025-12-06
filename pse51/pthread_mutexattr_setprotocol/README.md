@@ -77,5 +77,3 @@ int pthread_mutexattr_getprotocol(const pthread_mutexattr_t *restrict attr, int 
 © IEEE 2003, 2023 - All rights reserved.
 
 ---
-
-*本文档是基于 POSIX 规范生成的技术参考手册。*

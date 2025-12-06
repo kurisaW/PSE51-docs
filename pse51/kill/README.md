@@ -112,4 +112,3 @@ POSIX.1-2008, Technical Corrigendum 2, XSH/TC2-2008/0194 [765] is applied.
 Austin Group Defect 1138 is applied, adding `sig2str()` to the SEE ALSO section.
 
 ---
-

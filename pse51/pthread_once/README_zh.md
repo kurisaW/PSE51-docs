@@ -96,6 +96,3 @@ int random_function()
 - 应用了 Austin Group Defect 1330，移除了过时的接口。
 
 ---
-
-*来源：The Open Group Base Specifications Issue 8, IEEE Std 1003.1-2024*
-*版权所有 © 2001-2024 IEEE 和 The Open Group*

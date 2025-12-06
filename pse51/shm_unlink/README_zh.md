@@ -76,7 +76,3 @@ int shm_unlink(const char *name);
 应用 Austin Group 解释 1003.1-2001 #141，添加未来方向（FUTURE DIRECTIONS）。
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*Copyright © 2001-2024 The IEEE and The Open Group*

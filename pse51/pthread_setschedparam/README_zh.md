@@ -106,7 +106,3 @@ int pthread_setschedparam(pthread_t thread,
 - 应用了 POSIX.1-2008 技术勘误表 2，XSH/TC2-2008/0276 [757]。
 
 ---
-
-*UNIX® 是 The Open Group 的注册商标。*
-*POSIX™ 是 IEEE 的商标。*
-*版权所有 © 2001-2024 IEEE 和 The Open Group，保留所有权利*

@@ -1,9 +1,5 @@
 # clock_settime
 
-## Name
-
-clock_getres, clock_gettime, clock_settime - clock and timer functions
-
 ## Synopsis
 
 ```c

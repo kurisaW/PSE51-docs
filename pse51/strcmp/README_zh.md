@@ -89,7 +89,3 @@ if (strcmp(p->pw_name, user) == 0) {
 应用了 Austin Group 缺陷 448，增加了 `strcmp()` 在有效输入时不改变 `errno` 设置的要求。
 
 ---
-
-*The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group*

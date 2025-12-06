@@ -146,5 +146,3 @@ Austin Group Defect 655 is applied, changing the APPLICATION USAGE section.
 Austin Group Defect 1302 is applied, aligning the `strerror()` function with the ISO/IEC 9899:2018 standard.
 
 ---
-
-*Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved*

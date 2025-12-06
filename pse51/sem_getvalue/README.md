@@ -81,4 +81,3 @@ The `sem_getvalue()` function is moved from the Semaphores option to the Base.
 POSIX.1-2008, Technical Corrigendum 1, XSH/TC1-2008/0525 [37] is applied.
 
 ---
-

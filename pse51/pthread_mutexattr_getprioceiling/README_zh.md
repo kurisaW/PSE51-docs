@@ -86,9 +86,3 @@ int pthread_mutexattr_setprioceiling(pthread_mutexattr_t *attr,
 对于未初始化互斥锁属性对象的 [EINVAL] 错误被移除；此条件导致未定义行为。
 
 ---
-
-*提供信息文本结束。*
-
-UNIX® 是 The Open Group 的注册商标。
-POSIX™ 是 The IEEE 的商标。
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved

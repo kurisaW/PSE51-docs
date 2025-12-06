@@ -191,4 +191,3 @@ Austin Group Defect 1302 is applied, aligning these functions with the ISO/IEC 9
 Austin Group Defect 1686 is applied, adding CX shading to some text in the RETURN VALUE section.
 
 ---
-

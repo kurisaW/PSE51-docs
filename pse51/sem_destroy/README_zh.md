@@ -72,5 +72,3 @@ XBD [`<semaphore.h>`](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/
 - 应用了 Austin Group 缺陷 368，添加了一个要求：如果无名信号量使用文件描述符实现，`sem_destroy()` 会关闭文件描述符。
 
 ---
-
-*来源：The Open Group Base Specifications Issue 8, IEEE Std 1003.1-2024*

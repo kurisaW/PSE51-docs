@@ -59,11 +59,3 @@ XBD `<signal.h>`
 SYNOPSIS 被标记为 CX，因为此函数在 `<signal.h>` 头文件中的存在是对 ISO C 标准的扩展。
 
 ---
-
-*参考信息文本结束。*
-
----
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*Copyright © 2001-2024 The IEEE and The Open Group*

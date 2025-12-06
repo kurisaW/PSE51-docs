@@ -150,7 +150,3 @@ strerror_r() 函数从线程安全函数选项移至 Base。
 应用了 Austin Group Defect 1302，使 strerror() 函数与 ISO/IEC 9899:2018 标准对齐。
 
 ---
-
-UNIX® 是 The Open Group 的注册商标。
-POSIX™ 是 IEEE 的商标。
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved

@@ -194,7 +194,3 @@ DESCRIPTION 通过添加 Clock Selection 选项的语义更新，以与 IEEE Std
 ERRORS 部分有额外情况
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*版权所有 © 2001-2024 IEEE 和 The Open Group*

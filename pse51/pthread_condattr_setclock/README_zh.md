@@ -85,7 +85,3 @@ XBD [`<pthread.h>`](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/pt
 *信息文本结束。*
 
 ---
-
-UNIX® 是 The Open Group 的注册商标。
-POSIX™ 是 The IEEE 的商标。
-版权所有 © 2001-2024 The IEEE and The Open Group，保留所有权利

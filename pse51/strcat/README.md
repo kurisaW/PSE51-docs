@@ -60,4 +60,3 @@ The `strcat()` prototype is updated for alignment with the ISO/IEC 9899:1999 sta
 Austin Group Defect 448 is applied, adding a requirement that `strcat()` does not change the setting of `errno` on valid input.
 
 ---
-

@@ -1,8 +1,4 @@
-# uname
-
-## Name
-
-uname - get system name
+# uname - get system name
 
 ## Synopsis
 

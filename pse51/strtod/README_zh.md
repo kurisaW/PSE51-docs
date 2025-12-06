@@ -187,7 +187,3 @@ It's a float with value 16
 应用Austin Group缺陷1686，为返回值部分中的一些文本添加CX阴影。
 
 ---
-
-*UNIX®是The Open Group的注册商标。*
-*POSIX™是IEEE的商标。*
-*版权所有 © 2001-2024 IEEE和The Open Group，保留所有权利*

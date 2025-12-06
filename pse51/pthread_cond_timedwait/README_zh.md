@@ -234,4 +234,3 @@ DESCRIPTION 通过添加 Clock Selection 选项的语义进行更新，以与 IE
 应用了 Austin Group Defects 1216 和 1485，添加了 `pthread_cond_clockwait()`。
 
 ---
-

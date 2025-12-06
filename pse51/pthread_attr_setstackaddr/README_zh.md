@@ -74,6 +74,3 @@ int pthread_attr_setstackaddr(pthread_attr_t *attr, void *stackaddr);
 应用 IEEE Std 1003.1-2001/Cor 2-2004，项目 XSH/TC2/D6/86，更新 ERRORS 部分以包含当 attr 引用未初始化线程属性对象时的可选错误。
 
 ---
-
-*UNIX® 是 The Open Group 的注册商标。*
-*POSIX® 是 IEEE 的注册商标。*

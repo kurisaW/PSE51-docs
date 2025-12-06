@@ -82,7 +82,3 @@ XBD 3.275 优先级反转，4.15.2 内存同步，`<semaphore.h>`
 - 应用 POSIX.1-2008，技术勘误 1，XSH/TC1-2008/0530 [37]。
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*Copyright © 2001-2024 The IEEE and The Open Group*

@@ -57,7 +57,3 @@ int getchar(void);
 应用了 POSIX.1-2008 Technical Corrigendum 1, XSH/TC1-2008/0236 [14]。
 
 ---
-
-UNIX® 是 The Open Group 的注册商标。
-POSIX™ 是 The IEEE 的商标。
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved

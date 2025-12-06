@@ -85,7 +85,3 @@ None.
 **Issue 7**: SD5-XSH-ERN-95 is applied. Changes are made related to support for finegrained timestamps. POSIX.1-2008, Technical Corrigendum 1, XSH/TC1-2008/0429 [389,401], XSH/TC1-2008/0430 [389], and XSH/TC1-2008/0431 [389,401] are applied.
 
 ---
-
-*UNIX® is a registered Trademark of The Open Group.
-POSIX™ is a Trademark of The IEEE.
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved*

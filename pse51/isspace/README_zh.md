@@ -65,7 +65,3 @@ XBD [7. Locale](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/V1_cha
 应用了 POSIX.1-2008, Technical Corrigendum 1, XSH/TC1-2008/0303 [302], XSH/TC1-2008/0304 [283], 和 XSH/TC1-2008/0305 [283]。
 
 ---
-
-*The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group*

@@ -585,7 +585,3 @@ XBD [7. 语言环境](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/
 应用 Austin Group Defect 1647，更改 c 转换说明符的描述，并更新本卷 POSIX.1-2024 遵循 ISO C 标准的语句，以便它排除传递空宽字符时的 %lc 转换。
 
 ---
-
-*UNIX® 是 The Open Group 的注册商标。*
-*POSIX™ 是 IEEE 的商标。*
-*版权所有 © 2001-2024 IEEE 和 The Open Group，保留所有权利*

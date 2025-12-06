@@ -72,7 +72,3 @@ int setvbuf(FILE *restrict stream, char *restrict buf, int type, size_t size);
 应用了 Austin Group Defect 1144，更改了 [EBADF] 错误条件。
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*版权所有 © 2001-2024 The IEEE and The Open Group*

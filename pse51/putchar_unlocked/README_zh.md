@@ -107,7 +107,3 @@ XBD [<stdio.h>](../basedefs/stdio.h.html)
 *补充信息结束。*
 
 ---
-
-UNIX® 是The Open Group的注册商标。
-POSIX™ 是IEEE的商标。
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved

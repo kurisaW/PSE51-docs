@@ -337,11 +337,3 @@ XBD `<limits.h>`, `<sys/uio.h>`, `<unistd.h>`
 应用 Austin Group 缺陷 1669，从与进程文件大小限制相关的 [EFBIG] 错误部分删除 XSI 着色。
 
 ---
-
-*信息性文本结束。*
-
----
-
-UNIX® 是 The Open Group 的注册商标。
-POSIX™ 是 IEEE 的商标。
-版权所有 © 2001-2024 The IEEE and The Open Group，保留所有权利

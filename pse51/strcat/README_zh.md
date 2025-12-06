@@ -60,11 +60,3 @@ char *strcat(char *restrict s1, const char *restrict s2);
 应用了 Austin Group Defect 448，增加了 `strcat()` 在有效输入时不改变 `errno` 设置的要求。
 
 ---
-
-*信息性文本结束。*
-
----
-
-UNIX® 是 The Open Group 的注册商标。
-POSIX™ 是 The IEEE 的商标。
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved

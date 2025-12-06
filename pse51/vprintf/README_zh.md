@@ -87,7 +87,3 @@ int vsprintf(char *restrict s, const char *restrict format, va_list ap);
 *补充信息结束。*
 
 ---
-
-UNIX® 是 The Open Group 的注册商标。
-POSIX™ 是 The IEEE 的商标。
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved

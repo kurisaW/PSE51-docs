@@ -76,4 +76,3 @@ First released in Issue 1. Derived from Issue 1 of the SVID.
 Austin Group Defect 1541 is applied, changing the EXAMPLES section.
 
 ---
-

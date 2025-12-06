@@ -114,4 +114,3 @@ bytes_read = fread(buf, 1, sizeof(buf), fp);
 应用了 Austin Group Defect 1624，更改了 RETURN VALUE 部分。
 
 ---
-
