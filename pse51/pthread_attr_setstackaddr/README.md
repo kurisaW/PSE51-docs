@@ -1,9 +1,5 @@
 # pthread_attr_getstackaddr, pthread_attr_setstackaddr
 
-## NAME
-
-pthread_attr_getstackaddr, pthread_attr_setstackaddr - get and set the stackaddr attribute
-
 ## SYNOPSIS
 
 ```c

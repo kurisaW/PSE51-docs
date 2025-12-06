@@ -1,9 +1,5 @@
 # atoll
 
-## NAME
-
-atoll - convert a string to a long integer
-
 ## SYNOPSIS
 
 ```c

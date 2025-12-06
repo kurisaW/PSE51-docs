@@ -1,9 +1,5 @@
 # exit
 
-## NAME
-
-exit — 终止进程
-
 ## SYNOPSIS
 
 ```c

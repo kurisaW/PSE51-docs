@@ -1,9 +1,5 @@
 # sem_getvalue
 
-## NAME
-
-sem_getvalue —— 获取信号量的值
-
 ## SYNOPSIS
 
 ```c

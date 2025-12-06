@@ -1,9 +1,5 @@
 # strtold
 
-## NAME
-
-strtod, strtof, strtold — 将字符串转换为双精度数
-
 ## SYNOPSIS
 
 ```c

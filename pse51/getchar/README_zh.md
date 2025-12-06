@@ -1,15 +1,5 @@
 # getchar
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
----
-
-## NAME
-
-getchar — 从 `stdin` 流中获取一个字节
-
 ## SYNOPSIS
 
 ```c

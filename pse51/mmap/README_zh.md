@@ -1,13 +1,5 @@
 # mmap
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-版权所有 © 2001-2024 IEEE 和 The Open Group
-
-## 名称
-
-mmap — 映射内存页面
-
 ## 概要
 
 ```c

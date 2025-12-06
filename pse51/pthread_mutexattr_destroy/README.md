@@ -1,9 +1,5 @@
 # pthread_mutexattr_destroy
 
-## NAME
-
-pthread_mutexattr_destroy, pthread_mutexattr_init - destroy and initialize a mutex attributes object
-
 ## SYNOPSIS
 
 ```c

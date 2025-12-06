@@ -1,13 +1,5 @@
 # sigdelset - 从信号集中删除一个信号
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME（名称）
-
-sigdelset — 从信号集中���除一个信号
-
 ## SYNOPSIS（概要）
 
 ```c

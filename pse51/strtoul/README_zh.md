@@ -1,9 +1,5 @@
 # strtoul
 
-## 名称
-
-strtoul, strtoull — 将字符串转换为无符号长整型
-
 ## 概要
 
 ```c

@@ -1,9 +1,5 @@
 # sprintf - print formatted output
 
-## NAME
-
-asprintf, dprintf, fprintf, printf, snprintf, sprintf — print formatted output
-
 ## SYNOPSIS
 
 ```c

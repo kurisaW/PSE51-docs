@@ -1,9 +1,5 @@
 # pthread_mutex_lock, pthread_mutex_trylock, pthread_mutex_unlock
 
-## NAME
-
-pthread_mutex_lock, pthread_mutex_trylock, pthread_mutex_unlock — 锁定和解锁互斥锁
-
 ## SYNOPSIS
 
 ```c

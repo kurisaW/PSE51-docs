@@ -1,9 +1,5 @@
 # memchr
 
-## NAME
-
-memchr — find byte in memory
-
 ## SYNOPSIS
 
 ```c

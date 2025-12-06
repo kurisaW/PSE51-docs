@@ -1,13 +1,5 @@
 # pthread_condattr_destroy, pthread_condattr_init
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME
-
-pthread_condattr_destroy, pthread_condattr_init — destroy and initialize the condition variable attributes object
-
 ## SYNOPSIS
 
 ```c

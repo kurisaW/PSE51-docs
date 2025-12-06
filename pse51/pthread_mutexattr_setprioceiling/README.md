@@ -1,13 +1,5 @@
 # pthread_mutexattr_getprioceiling, pthread_mutexattr_setprioceiling
 
-**The Open Group Base Specifications Issue 8**
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME
-
-pthread_mutexattr_getprioceiling, pthread_mutexattr_setprioceiling — get and set the prioceiling attribute of the mutex attributes object (**REALTIME THREADS**)
-
 ## SYNOPSIS
 
 ```c

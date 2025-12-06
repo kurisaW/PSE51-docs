@@ -1,9 +1,5 @@
 # pthread_mutex_lock
 
-## NAME
-
-pthread_mutex_lock, pthread_mutex_trylock, pthread_mutex_unlock — lock and unlock a mutex
-
 ## SYNOPSIS
 
 ```c

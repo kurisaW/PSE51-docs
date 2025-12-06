@@ -1,13 +1,5 @@
 # pthread_condattr_getclock, pthread_condattr_setclock
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME
-
-pthread_condattr_getclock, pthread_condattr_setclock — get and set the clock selection condition variable attribute
-
 ## SYNOPSIS
 
 ```c

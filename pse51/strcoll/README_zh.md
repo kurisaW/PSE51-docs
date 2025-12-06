@@ -1,9 +1,5 @@
 # strcoll
 
-## NAME
-
-strcoll, strcoll_l — 使用排序信息的字符串比较
-
 ## SYNOPSIS
 
 ```c

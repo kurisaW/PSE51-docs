@@ -1,13 +1,5 @@
 # pthread_cond_clockwait, pthread_cond_timedwait, pthread_cond_wait — 等待条件变量
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME（名称）
-
-pthread_cond_clockwait, pthread_cond_timedwait, pthread_cond_wait — 等待条件变量
-
 ## SYNOPSIS（概要）
 
 ```c

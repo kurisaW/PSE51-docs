@@ -1,9 +1,5 @@
 # pthread_mutex_destroy
 
-## 名称
-
-pthread_mutex_destroy, pthread_mutex_init - 销毁和初始化互斥锁
-
 ## 概要
 
 ```c

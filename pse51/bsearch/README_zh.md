@@ -1,15 +1,5 @@
 # bsearch — 二分搜索已排序的表
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
----
-
-## 名称
-
-`bsearch` — 二分搜索已排序的表
-
 ## 概要
 
 ```c

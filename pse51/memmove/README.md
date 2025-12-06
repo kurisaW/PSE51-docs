@@ -1,9 +1,5 @@
 # memmove
 
-## NAME
-
-memmove — copy bytes in memory with overlapping areas
-
 ## SYNOPSIS
 
 ```c

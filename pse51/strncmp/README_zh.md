@@ -1,15 +1,5 @@
 # strncmp
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
----
-
-## NAME (名称)
-
-strncmp — 比较两个字符串的部分内容
-
 ## SYNOPSIS (概要)
 
 ```c

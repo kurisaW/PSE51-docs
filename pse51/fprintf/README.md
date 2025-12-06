@@ -1,13 +1,5 @@
 # fprintf
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME
-
-> asprintf, dprintf, fprintf, printf, snprintf, sprintf — print formatted output
-
 ## SYNOPSIS
 
 ```c

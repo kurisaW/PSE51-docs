@@ -1,13 +1,5 @@
 # strcspn
 
-**The Open Group Base Specifications Issue 8**
-**IEEE Std 1003.1-2024**
-*版权所有 © 2001-2024 IEEE 和 The Open Group*
-
-## 名称
-
-strcspn — 获取互补子字符串的长度
-
 ## 概要
 
 ```c

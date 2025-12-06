@@ -1,17 +1,5 @@
 # gets
 
-The Open Group Base Specifications Issue 7, 2018 edition
-IEEE Std 1003.1-2017 (Revision of IEEE Std 1003.1-2008)
-Copyright © 2001-2018 IEEE and The Open Group
-
-本文档的更新版本存在于[此处](http://pubs.opengroup.org/onlinepubs/9799919799/)
-
----
-
-## 名称
-
-gets - 从标准输入流获取字符串
-
 ## 概要
 
 ```c

@@ -1,14 +1,5 @@
 # pthread_getschedparam, pthread_setschedparam
 
-**POSIX 规范** - IEEE Std 1003.1-2024
-版权所有 © 2001-2024 IEEE 和 The Open Group
-
----
-
-## 名称
-
-`pthread_getschedparam`, `pthread_setschedparam` — 动态线程调度参数访问 (**实时线程**)
-
 ## 概要
 
 ```c

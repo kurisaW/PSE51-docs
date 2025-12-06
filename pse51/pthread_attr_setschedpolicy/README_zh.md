@@ -1,9 +1,5 @@
 # pthread_attr_getschedpolicy
 
-## NAME
-
-pthread_attr_getschedpolicy, pthread_attr_setschedpolicy — 获取和设置调度策略属性 (**实时线程**)
-
 ## SYNOPSIS
 
 ```c

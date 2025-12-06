@@ -1,9 +1,5 @@
 # strerror, strerror_l, strerror_r — get error message string
 
-## NAME
-
-strerror, strerror_l, strerror_r — get error message string
-
 ## SYNOPSIS
 
 ```c

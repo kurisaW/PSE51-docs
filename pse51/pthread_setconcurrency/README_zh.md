@@ -1,9 +1,5 @@
 # pthread_setconcurrency, pthread_getconcurrency
 
-## NAME
-
-pthread_setconcurrency, pthread_getconcurrency - 设置和获取并发级别
-
 ## SYNOPSIS
 
 ```c

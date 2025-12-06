@@ -1,9 +1,5 @@
 # atoll
 
-## NAME
-
-atoll - 将字符串转换为长整数
-
 ## SYNOPSIS
 
 ```c

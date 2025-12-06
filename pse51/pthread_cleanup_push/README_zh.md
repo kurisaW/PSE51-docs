@@ -1,7 +1,5 @@
 # pthread_cleanup_push, pthread_cleanup_pop
 
-> 建立取消处理程序
-
 ## 概要
 
 ```c

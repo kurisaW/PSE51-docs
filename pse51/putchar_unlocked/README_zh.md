@@ -1,13 +1,5 @@
 # putchar_unlocked
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME（名称）
-
-getc_unlocked, getchar_unlocked, putc_unlocked, putchar_unlocked — 带显式客户端锁定的stdio函数
-
 ## SYNOPSIS（概要）
 
 ```c

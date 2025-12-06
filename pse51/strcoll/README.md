@@ -1,9 +1,5 @@
 # strcoll
 
-## NAME
-
-strcoll, strcoll_l — string comparison using collating information
-
 ## SYNOPSIS
 
 ```c

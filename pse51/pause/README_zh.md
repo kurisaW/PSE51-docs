@@ -1,13 +1,5 @@
 # pause
 
-Open Group 基础规范第8版
-IEEE Std 1003.1-2024
-版权所有 © 2001-2024 IEEE 和 The Open Group
-
-## 名称
-
-**pause** — 暂停线程直到接收到信号
-
 ## 概要
 
 ```c

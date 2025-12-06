@@ -1,13 +1,5 @@
 # pthread_attr_getschedpolicy, pthread_attr_setschedpolicy
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME
-
-pthread_attr_getschedpolicy, pthread_attr_setschedpolicy — get and set the schedpolicy attribute (**REALTIME THREADS**)
-
 ## SYNOPSIS
 
 ```c

@@ -1,13 +1,5 @@
 # pthread_attr_getscope, pthread_attr_setscope
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME
-
-pthread_attr_getscope, pthread_attr_setscope — get and set the contentionscope attribute (**REALTIME THREADS**)
-
 ## SYNOPSIS
 
 ```c

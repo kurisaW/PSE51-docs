@@ -1,15 +1,5 @@
 # feof
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
----
-
-## 名称 (NAME)
-
-`feof` — 测试流的文件结束指示器
-
 ## 概要 (SYNOPSIS)
 
 ```c

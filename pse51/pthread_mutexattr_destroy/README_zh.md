@@ -1,9 +1,5 @@
 # pthread_mutexattr_destroy
 
-## 名称
-
-pthread_mutexattr_destroy, pthread_mutexattr_init - 销毁和初始化互斥锁属性对象
-
 ## 概要
 
 ```c

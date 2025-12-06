@@ -1,9 +1,5 @@
 # strtold
 
-## NAME
-
-strtod, strtof, strtold — convert a string to a double-precision number
-
 ## SYNOPSIS
 
 ```c

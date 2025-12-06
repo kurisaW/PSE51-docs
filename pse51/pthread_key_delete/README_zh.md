@@ -1,9 +1,5 @@
 # pthread_key_delete
 
-## 名称
-
-pthread_key_delete - 删除线程特定数据键
-
 ## 概要
 
 ```c

@@ -1,9 +1,5 @@
 # ctime_r — convert a time value to a date and time string (REMOVED)
 
-## NAME
-
-ctime — convert a time value to a date and time string
-
 ## SYNOPSIS
 
 ```c

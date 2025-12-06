@@ -1,13 +1,5 @@
 # vsscanf
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME
-
-vfscanf, vscanf, vsscanf — format input of a stdarg argument list
-
 ## SYNOPSIS
 
 ```c

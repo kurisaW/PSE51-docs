@@ -1,13 +1,5 @@
 # pthread_attr_getschedparam, pthread_attr_setschedparam
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME
-
-pthread_attr_getschedparam, pthread_attr_setschedparam — get and set the schedparam attribute
-
 ## SYNOPSIS
 
 ```c

@@ -1,9 +1,5 @@
 # exit
 
-## NAME
-
-exit — terminate a process
-
 ## SYNOPSIS
 
 ```c

@@ -1,9 +1,5 @@
 # mlockall
 
-## NAME
-
-mlockall, munlockall — lock/unlock the address space of a process (**REALTIME**)
-
 ## SYNOPSIS
 
 ```c

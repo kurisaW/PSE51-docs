@@ -1,9 +1,5 @@
 # sigemptyset
 
-## NAME
-
-sigemptyset — 初始化并清空信号集
-
 ## SYNOPSIS
 
 ```c

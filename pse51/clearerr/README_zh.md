@@ -1,9 +1,5 @@
 # clearerr
 
-## NAME
-
-clearerr — 清除流的指示器
-
 ## SYNOPSIS
 
 ```c

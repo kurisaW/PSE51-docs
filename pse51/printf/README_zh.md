@@ -1,9 +1,5 @@
 # printf
 
-## 名称
-
-asprintf, dprintf, fprintf, printf, snprintf, sprintf — 打印格式化输出
-
 ## 概要
 
 ```c

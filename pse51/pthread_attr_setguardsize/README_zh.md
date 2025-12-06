@@ -1,9 +1,5 @@
 # pthread_attr_getguardsize
 
-## NAME
-
-pthread_attr_getguardsize, pthread_attr_setguardsize — 获取和设置线程警戒区大小属性
-
 ## SYNOPSIS
 
 ```c

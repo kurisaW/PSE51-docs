@@ -1,9 +1,5 @@
 # pthread_cond_destroy, pthread_cond_init
 
-## NAME
-
-pthread_cond_destroy, pthread_cond_init — destroy and initialize condition variables
-
 ## SYNOPSIS
 
 ```c

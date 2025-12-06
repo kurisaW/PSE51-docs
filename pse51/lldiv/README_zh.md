@@ -1,15 +1,5 @@
 # lldiv
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-* * *
-
-## NAME
-
-ldiv, lldiv — 计算长整数除法的商和余数
-
 ## SYNOPSIS
 
 ```c

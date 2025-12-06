@@ -1,13 +1,5 @@
 # sigfillset - 初始化并填充信号集
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME
-
-sigfillset — 初始化并填充信号集
-
 ## SYNOPSIS
 
 ```c

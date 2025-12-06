@@ -1,13 +1,5 @@
 # pthread_kill
 
-**Open Group 基础规范第 8 版**
-**IEEE Std 1003.1-2024**
-版权所有 © 2001-2024 IEEE 和 The Open Group
-
-## 名称
-
-`pthread_kill` — 向线程发送信号
-
 ## 概要
 
 ```c

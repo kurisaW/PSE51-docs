@@ -1,9 +1,5 @@
 # memmove
 
-## NAME
-
-memmove — 在内存中复制字节，支持重叠区域
-
 ## SYNOPSIS
 
 ```c

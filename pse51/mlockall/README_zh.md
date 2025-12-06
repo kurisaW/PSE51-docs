@@ -1,9 +1,5 @@
 # mlockall
 
-## 名称
-
-mlockall, munlockall — 锁定/解锁进程的地址空间 (**REALTIME**)
-
 ## 概要
 
 ```c

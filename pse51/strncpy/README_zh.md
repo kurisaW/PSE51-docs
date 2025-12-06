@@ -1,15 +1,5 @@
 # strncpy
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
----
-
-## NAME
-
-stpncpy, strncpy — 复制固定长度字符串，返回指向数组末尾的指针
-
 ## SYNOPSIS
 
 ```c

@@ -1,9 +1,5 @@
 # strtoul
 
-## NAME
-
-strtoul, strtoull — convert a string to an unsigned long
-
 ## SYNOPSIS
 
 ```c

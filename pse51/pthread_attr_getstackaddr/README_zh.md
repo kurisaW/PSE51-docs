@@ -1,7 +1,5 @@
 # pthread_attr_getstackaddr, pthread_attr_setstackaddr
 
-获取和设置stackaddr属性
-
 ## 概要 (SYNOPSIS)
 
 ```c

@@ -1,9 +1,5 @@
 # va_end
 
-## NAME
-
-va_end - 处理可变参数列表
-
 ## SYNOPSIS
 
 ```c

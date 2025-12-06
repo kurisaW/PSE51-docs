@@ -1,9 +1,5 @@
 # pthread_cleanup_pop, pthread_cleanup_push
 
-## NAME
-
-pthread_cleanup_pop, pthread_cleanup_push — 建立取消处理程序
-
 ## SYNOPSIS
 
 ```c

@@ -1,13 +1,5 @@
 # pthread_cond_clockwait, pthread_cond_timedwait, pthread_cond_wait — wait on a condition
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME
-
-pthread_cond_clockwait, pthread_cond_timedwait, pthread_cond_wait — wait on a condition
-
 ## SYNOPSIS
 
 ```c

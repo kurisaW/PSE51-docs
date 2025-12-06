@@ -1,13 +1,5 @@
 # pthread_attr_getscope, pthread_attr_setscope
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## 名称
-
-pthread_attr_getscope, pthread_attr_setscope — 获取和设置竞争范围属性 (**实时线程**)
-
 ## 概要
 
 ```c

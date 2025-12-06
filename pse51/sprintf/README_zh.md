@@ -1,9 +1,5 @@
 # sprintf - 打印格式化输出
 
-## NAME
-
-asprintf, dprintf, fprintf, printf, snprintf, sprintf — 打印格式化输出
-
 ## SYNOPSIS
 
 ```c

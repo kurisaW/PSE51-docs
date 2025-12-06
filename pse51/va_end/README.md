@@ -1,9 +1,5 @@
 # va_end
 
-## NAME
-
-va_end - handle variable argument list
-
 ## SYNOPSIS
 
 ```c

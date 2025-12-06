@@ -1,9 +1,5 @@
 # strerror, strerror_l, strerror_r — 获取错误消息字符串
 
-## 名称 (NAME)
-
-strerror, strerror_l, strerror_r — 获取错误消息字符串
-
 ## 概要 (SYNOPSIS)
 
 ```c

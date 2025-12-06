@@ -1,9 +1,5 @@
 # scanf
 
-## 名称
-
-scanf, fscanf, sscanf - 扫描并格式化输入
-
 ## 概要
 
 ```c

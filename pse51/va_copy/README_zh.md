@@ -1,19 +1,5 @@
 # va_copy
 
-[<<< 上一个](https://pubs.opengroup.org/onlinepubs/9799919799/functions/uselocale.html) | [主页](https://pubs.opengroup.org/onlinepubs/9799919799/functions/contents.html) | [下一个 >>>](https://pubs.opengroup.org/onlinepubs/9799919799/functions/vfprintf.html)
-
-* * *
-
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-* * *
-
-## NAME
-
-**va_arg**, **va_copy**, **va_end**, **va_start** — 处理可变参数列表
-
 ## SYNOPSIS
 
 ```c

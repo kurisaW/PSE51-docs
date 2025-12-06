@@ -1,9 +1,5 @@
 # pthread_cancel
 
-## NAME
-
-pthread_cancel — cancel execution of a thread
-
 ## SYNOPSIS
 
 ```c

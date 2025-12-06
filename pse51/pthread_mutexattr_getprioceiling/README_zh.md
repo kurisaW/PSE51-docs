@@ -1,13 +1,5 @@
 # pthread_mutexattr_getprioceiling, pthread_mutexattr_setprioceiling
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME（名称）
-
-pthread_mutexattr_getprioceiling, pthread_mutexattr_setprioceiling — 获取和设置互斥锁属性对象的优先级上限属性（**实时线程**）
-
 ## SYNOPSIS（概要）
 
 ```c

@@ -1,9 +1,5 @@
 # pthread_attr_destroy
 
-## 名称
-
-pthread_attr_destroy, pthread_attr_init - 销毁和初始化线程属性对象
-
 ## 概要
 
 ```c

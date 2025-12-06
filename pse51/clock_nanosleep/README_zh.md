@@ -1,13 +1,5 @@
 # clock_nanosleep
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME
-
-clock_nanosleep — 使用指定时钟的高精度休眠
-
 ## SYNOPSIS
 
 ```c

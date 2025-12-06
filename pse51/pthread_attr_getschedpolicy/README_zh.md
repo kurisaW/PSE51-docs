@@ -1,13 +1,5 @@
 # pthread_attr_getschedpolicy, pthread_attr_setschedpolicy
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME（名称）
-
-pthread_attr_getschedpolicy, pthread_attr_setschedpolicy — 获取和设置调度策略属性 (**实时线程**)
-
 ## SYNOPSIS（概要）
 
 ```c

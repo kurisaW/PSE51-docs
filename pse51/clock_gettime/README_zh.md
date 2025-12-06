@@ -1,9 +1,5 @@
 # clock_getres, clock_gettime, clock_settime
 
-## NAME
-
-clock_getres, clock_gettime, clock_settime — 时钟和计时器函数
-
 ## SYNOPSIS
 
 ```c

@@ -1,9 +1,5 @@
 # pthread_attr_getstackaddr, pthread_attr_setstackaddr
 
-## NAME
-
-pthread_attr_getstackaddr, pthread_attr_setstackaddr - 获取和设置栈地址属性
-
 ## SYNOPSIS
 
 ```c

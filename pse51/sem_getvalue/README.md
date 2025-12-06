@@ -1,9 +1,5 @@
 # sem_getvalue
 
-## NAME
-
-sem_getvalue — get the value of a semaphore
-
 ## SYNOPSIS
 
 ```c

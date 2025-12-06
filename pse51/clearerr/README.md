@@ -1,9 +1,5 @@
 # clearerr
 
-## NAME
-
-clearerr — clear indicators on a stream
-
 ## SYNOPSIS
 
 ```c

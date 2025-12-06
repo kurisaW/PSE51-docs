@@ -1,13 +1,5 @@
 # vprintf
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME（名称）
-
-vasprintf, vdprintf, vfprintf, vprintf, vsnprintf, vsprintf — 格式化输出 stdarg 参数列表
-
 ## SYNOPSIS（概要）
 
 ```c

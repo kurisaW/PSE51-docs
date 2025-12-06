@@ -1,13 +1,5 @@
 # sched_get_priority_max, sched_get_priority_min
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME
-
-sched_get_priority_max, sched_get_priority_min — get priority limits (**REALTIME**)
-
 ## SYNOPSIS
 
 ```c

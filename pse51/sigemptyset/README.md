@@ -1,9 +1,5 @@
 # sigemptyset
 
-## NAME
-
-sigemptyset — initialize and empty a signal set
-
 ## SYNOPSIS
 
 ```c

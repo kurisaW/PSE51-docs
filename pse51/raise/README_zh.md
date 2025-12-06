@@ -1,15 +1,5 @@
 # raise
 
-The Open Group 基础规范第 8 版
-IEEE Std 1003.1-2024
-版权所有 © 2001-2024 IEEE 和 The Open Group
-
----
-
-## NAME
-
-raise — 向执行进程发送信号
-
 ## SYNOPSIS
 
 ```c

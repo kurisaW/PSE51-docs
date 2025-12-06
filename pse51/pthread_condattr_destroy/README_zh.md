@@ -1,13 +1,5 @@
 # pthread_condattr_destroy, pthread_condattr_init
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME
-
-pthread_condattr_destroy, pthread_condattr_init — 销毁和初始化条件变量属性对象
-
 ## SYNOPSIS
 
 ```c

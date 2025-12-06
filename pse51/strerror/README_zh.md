@@ -1,13 +1,5 @@
 # strerror, strerror_l, strerror_r — 获取错误消息字符串
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME（名称）
-
-strerror, strerror_l, strerror_r — 获取错误消息字符串
-
 ## SYNOPSIS（概要）
 
 ```c

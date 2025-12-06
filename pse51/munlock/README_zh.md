@@ -1,15 +1,5 @@
 # munlock
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
----
-
-## 名称 (NAME)
-
-mlock, munlock — 锁定或解锁进程地址空间的一个范围 (**REALTIME**)
-
 ## 概要 (SYNOPSIS)
 
 ```c

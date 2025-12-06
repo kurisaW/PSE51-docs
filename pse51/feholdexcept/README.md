@@ -1,15 +1,5 @@
 # feholdexcept
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
----
-
-## NAME
-
-feholdexcept — save current floating-point environment
-
 ## SYNOPSIS
 
 ```c

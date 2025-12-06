@@ -1,9 +1,5 @@
 # imaxdiv
 
-## NAME
-
-imaxdiv — return quotient and remainder
-
 ## SYNOPSIS
 
 ```c

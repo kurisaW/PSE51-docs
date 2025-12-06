@@ -1,9 +1,5 @@
 # getc_unlocked, getchar_unlocked, putc_unlocked, putchar_unlocked — 带有显式客户端锁定的 stdio 函数
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
 ## 概要 (SYNOPSIS)
 
 ```c

@@ -1,9 +1,5 @@
 # pthread_attr_getschedpolicy
 
-## NAME
-
-pthread_attr_getschedpolicy, pthread_attr_setschedpolicy — get and set the schedpolicy attribute (**REALTIME THREADS**)
-
 ## SYNOPSIS
 
 ```c

@@ -1,9 +1,5 @@
 # pthread_attr_getguardsize
 
-## NAME
-
-pthread_attr_getguardsize, pthread_attr_setguardsize — get and set the thread guardsize attribute
-
 ## SYNOPSIS
 
 ```c

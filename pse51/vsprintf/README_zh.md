@@ -1,9 +1,5 @@
 # vsprintf - 格式化 stdarg 参数列表的输出
 
-## 名称
-
-vasprintf, vdprintf, vfprintf, vprintf, vsnprintf, vsprintf — 格式化 stdarg 参数列表的输出
-
 ## 概要
 
 ```c

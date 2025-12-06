@@ -1,9 +1,5 @@
 # pthread_cond_destroy, pthread_cond_init
 
-## NAME
-
-pthread_cond_destroy, pthread_cond_init ��� 销毁和初始化条件变量
-
 ## SYNOPSIS
 
 ```c

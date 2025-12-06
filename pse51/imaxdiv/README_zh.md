@@ -1,9 +1,5 @@
 # imaxdiv
 
-## NAME
-
-imaxdiv — 返回商和余数
-
 ## SYNOPSIS
 
 ```c

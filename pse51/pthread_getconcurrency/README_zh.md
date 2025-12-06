@@ -1,9 +1,5 @@
 # pthread_getconcurrency
 
-## 名称
-
-pthread_getconcurrency - 获取并发级别
-
 ## 概要
 
 ```c

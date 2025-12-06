@@ -1,9 +1,5 @@
 # fputs
 
-## NAME
-
-fputs — put a string on a stream
-
 ## SYNOPSIS
 
 ```c

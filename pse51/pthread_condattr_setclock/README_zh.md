@@ -1,13 +1,5 @@
 # pthread_condattr_getclock, pthread_condattr_setclock
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-版权所有 © 2001-2024 The IEEE and The Open Group
-
-## 名称
-
-pthread_condattr_getclock, pthread_condattr_setclock — 获取和设置条件变量的时钟选择属性
-
 ## 概要
 
 ```c

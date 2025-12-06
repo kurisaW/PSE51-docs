@@ -1,15 +1,5 @@
 # raise
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
----
-
-## NAME
-
-raise — send a signal to the executing process
-
 ## SYNOPSIS
 
 ```c
