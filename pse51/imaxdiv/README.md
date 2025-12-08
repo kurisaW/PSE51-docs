@@ -1,9 +1,5 @@
 # imaxdiv
 
-## NAME
-
-imaxdiv — return quotient and remainder
-
 ## SYNOPSIS
 
 ```c
@@ -58,5 +54,3 @@ None.
 First released in Issue 6. Derived from the ISO/IEC 9899:1999 standard.
 
 ---
-
-*End of informative text.*

@@ -110,7 +110,7 @@ int openat(int fd, const char *path, int oflag, ...);
 
 - **[ENOSPC]**: 将包含新文件的目录或文件系统无法扩展，文件不存在，且指定了 `O_CREAT`。
 
-- **[ENOTDIR]**: 路径前缀的某个组件命名一个现有文件，该文件既不是目录也不是指向目录的符号链接；或未指定 `O_CREAT` 和 `O_EXCL`，`path` 参数包含至少一个非 `<slash>` 字符并以一个或多个尾部 `<slash>` 字���结尾；或指定了 `O_DIRECTORY` 且 `path` 参数命名非目录文件。
+- **[ENOTDIR]**: 路径前缀的某个组件命名一个现有文件，该文件既不是目录也不是指向目录的符号链接；或未指定 `O_CREAT` 和 `O_EXCL`，`path` 参数包含至少一个非 `<slash>` 字符并以一个或多个尾部 `<slash>` 字符结尾；或指定了 `O_DIRECTORY` 且 `path` 参数命名非目录文件。
 
 - **[ENXIO]**: 设置了 `O_NONBLOCK`，指定文件是 FIFO，设置了 `O_WRONLY`，且没有进程为读取而打开文件。
 
@@ -213,6 +213,3 @@ POSIX.1-2024 不要求终端参数在首次打开时自动设置为任何状态�
 XBD [11. General Terminal Interface](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/V1_chap11.html)、[`<fcntl.h>`](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/fcntl.h.html)、[`<sys/stat.h>`](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/sys_stat.h.html)、[`<sys/types.h>`](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/sys_types.h.html)
 
 ---
-
-*The Open Group Base Specifications Issue 8, IEEE Std 1003.1-2024*
-*版权所有 © 2001-2024 IEEE 和 The Open Group*

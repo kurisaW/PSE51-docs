@@ -104,7 +104,3 @@ Austin Group Interpretation 1003.1-2001 #078 is applied, clarifying page alignme
 The `munmap()` function is moved from the Memory Mapped Files option to the Base.
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*Copyright © 2001-2024 The IEEE and The Open Group*

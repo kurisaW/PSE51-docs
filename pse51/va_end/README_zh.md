@@ -1,9 +1,5 @@
 # va_end
 
-## NAME
-
-va_end - 处理可变参数列表
-
 ## SYNOPSIS
 
 ```c
@@ -71,5 +67,3 @@ int execl(const char *file, const char *args, ...)
 - [`execl()`](https://pubs.opengroup.org/onlinepubs/9799919799/functions/execl.html)
 
 ---
-
-*Source: The Open Group Base Specifications Issue 8, IEEE Std 1003.1-2024*

@@ -1,9 +1,5 @@
 # strerror, strerror_l, strerror_r — 获取错误消息字符串
 
-## 名称 (NAME)
-
-strerror, strerror_l, strerror_r — 获取错误消息字符串
-
 ## 概要 (SYNOPSIS)
 
 ```c
@@ -110,7 +106,7 @@ DESCRIPTION 已更新，以指示如果函数成功则不更改 `errno`。
 
 ### Issue 6
 
-标记了超出 ISO C 标准的扩展���
+标记了超出 ISO C 标准的扩展。
 
 以下对 POSIX 实现的新要求源于与单一 UNIX 规范的对齐：
 
@@ -150,5 +146,3 @@ DESCRIPTION 已更新，以指示如果函数成功则不更改 `errno`。
 应用了 Austin Group Defect 1302，使 `strerror()` 函数与 ISO/IEC 9899:2018 标准对齐。
 
 ---
-
-*版权所有 © 2001-2024 IEEE 和 The Open Group，保留所有权利*

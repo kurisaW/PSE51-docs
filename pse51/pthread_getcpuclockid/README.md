@@ -1,15 +1,5 @@
 # pthread_getcpuclockid
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
----
-
-## NAME
-
-pthread_getcpuclockid — access a thread CPU-time clock (ADVANCED REALTIME THREADS)
-
 ## SYNOPSIS
 
 ```c
@@ -73,10 +63,3 @@ Austin Group Interpretation 1003.1-2001 #142 is applied, removing the [ESRCH] er
 
 POSIX.1-2008, Technical Corrigendum 2, XSH/TC2-2008/0275 [757] is applied.
 
-*End of informative text.*
-
----
-
-UNIX® is a registered Trademark of The Open Group.
-POSIX™ is a Trademark of The IEEE.
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved

@@ -75,7 +75,3 @@ int pthread_attr_setstacksize(pthread_attr_t *attr, size_t stacksize);
 - 应用 POSIX.1-2008, Technical Corrigendum 2, XSH/TC2-2008/0265 [757]。
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*Copyright © 2001-2024 The IEEE and The Open Group*

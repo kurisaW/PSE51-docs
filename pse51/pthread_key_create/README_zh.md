@@ -140,5 +140,3 @@ pthread_setspecific(key, new);
 应用了 Austin Group Defect 1059，更改了基本原理部分的示例代码。
 
 ---
-
-*来源：The Open Group Base Specifications Issue 8, IEEE Std 1003.1-2024*

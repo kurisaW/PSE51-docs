@@ -1,13 +1,5 @@
 # strpbrk
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME
-
-strpbrk — 扫描字符串中的字节
-
 ## SYNOPSIS
 
 ```c
@@ -66,10 +58,3 @@ char *strpbrk(const char *s1, const char *s2);
 
 应用了 Austin Group Defect 448，增加了 `strpbrk()` 在有效输入上不改变 `errno` 设置的要求。
 
-*参考信息结束。*
-
----
-
-UNIX® 是 The Open Group 的注册商标。
-POSIX™ 是 The IEEE 的商标。
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved

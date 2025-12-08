@@ -1,13 +1,5 @@
 # fgets
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-版权所有 © 2001-2024 The IEEE and The Open Group
-
-## 名称
-
-`fgets` — 从流中获取字符串
-
 ## 概要
 
 ```c
@@ -20,7 +12,7 @@ char *fgets(char *restrict s, int n, FILE *restrict stream);
 
 本参考页描述的功能与 ISO C 标准保持一致。此处描述的要求与 ISO C 标准之间的任何冲突都是非故意的。本卷 POSIX.1-2024 遵从 ISO C 标准。
 
-`fgets()` 函数应从 `stream` 中读取字节到由 `s` 指向的数组中，直到读取了 `n`-1 个字节，或读取了 `<newline>`（换行符）并传输到 `s`，或遇到文件结束条件。应在读取到数组中的最后一个字节之后立即写入一个空字节。如果在读取任何字节之前遇到文件结束条件，则由 `s` 指向的数组内容不应��更改。
+`fgets()` 函数应从 `stream` 中读取字节到由 `s` 指向的数组中，直到读取了 `n`-1 个字节，或读取了 `<newline>`（换行符）并传输到 `s`，或遇到文件结束条件。应在读取到数组中的最后一个字节之后立即写入一个空字节。如果在读取任何字节之前遇到文件结束条件，则由 `s` 指向的数组内容不应更改。
 
 `fgets()` 函数可能会标记与 `stream` 关联的文件的最后数据访问时间戳以供更新。第一次成功执行使用 `stream` 并返回非先前调用 `ungetc()` 所提供数据的 `fgetc()`、`fgets()`、`fread()`、`fscanf()`、`getc()`、`getchar()`、`getdelim()`、`getline()` 或 `scanf()` 时，应标记最后数据访问时间戳以供更新。
 
@@ -128,9 +120,3 @@ free(line);
 应用了 Austin Group Defect 1624，更改了 RETURN VALUE 部分。
 
 ---
-
-*信息性文本结束。*
-
-UNIX® 是 The Open Group 的注册商标。
-POSIX™ 是 The IEEE 的商标。
-版权所有 © 2001-2024 The IEEE and The Open Group，保留所有权利

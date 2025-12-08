@@ -1,13 +1,5 @@
 # pthread_attr_getschedparam, pthread_attr_setschedparam
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME
-
-pthread_attr_getschedparam, pthread_attr_setschedparam — 获取和设置 schedparam 属性
-
 ## SYNOPSIS
 
 ```c
@@ -26,7 +18,7 @@ int pthread_attr_setschedparam(pthread_attr_t *restrict attr,
 
 [TSP] 对于 SCHED_SPORADIC 策略，`param` 结构体的必需成员包括 `sched_priority`、`sched_ss_low_priority`、`sched_ss_repl_period`、`sched_ss_init_budget` 和 `sched_ss_max_repl`。指定的 `sched_ss_repl_period` 需要大于或等于指定的 `sched_ss_init_budget` 函数才能成功；如果不是，则函数将失败。`sched_ss_max_repl` 的值必须在包含范围 [1,{SS_REPL_MAX}] 内函数才能成功；否则，函数将失败。`sched_ss_repl_period` 和 `sched_ss_init_budget` 值是按此函数提供的方式存储还是被四舍五入以与所用时钟的分辨率对齐，这是未指定的。
 
-如果 `pthread_attr_getschedparam()` 或 `pthread_attr_setschedparam()` 的 `attr` 参数指定的值不引用已初始化的线程属性对象���则行为未定义。
+如果 `pthread_attr_getschedparam()` 或 `pthread_attr_setschedparam()` 的 `attr` 参数指定的值不引用已初始化的线程属性对象，则行为未定义。
 
 ## RETURN VALUE
 
@@ -103,7 +95,3 @@ XBD [`<pthread.h>`](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/pt
 *信息性文本结束。*
 
 ---
-
-UNIX® 是 The Open Group 的注册商标。
-POSIX™ 是 IEEE 的商标。
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved

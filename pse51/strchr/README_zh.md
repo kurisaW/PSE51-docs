@@ -1,15 +1,5 @@
 # strchr
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
----
-
-## NAME（名称）
-
-strchr — 字符串扫描操作
-
 ## SYNOPSIS（概要）
 
 ```c
@@ -74,7 +64,3 @@ char *strchr(const char *s, int c);
 *补充信息结束。*
 
 ---
-
-*UNIX® 是 The Open Group 的注册商标。*
-*POSIX™ 是 The IEEE 的商标。*
-*Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved*

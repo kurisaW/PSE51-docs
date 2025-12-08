@@ -91,7 +91,3 @@ int sem_init(sem_t *sem, int pshared, unsigned value);
 - 应用了 Austin Group 缺陷 1216，添加了 `sem_clockwait()`。
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*Copyright © 2001-2024 The IEEE and The Open Group*

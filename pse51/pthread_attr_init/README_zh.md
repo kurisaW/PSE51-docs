@@ -84,5 +84,3 @@ POSIX.1-2024 基础定义卷，`<pthread.h>`
 首次发布于 Issue 5。包含在 Issue 6 (IEEE Std 1003.1, 2004) 中。
 
 ---
-
-*版权所有 © 2024 IEEE 和 The Open Group。保留所有权利。*

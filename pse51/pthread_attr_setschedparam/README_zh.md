@@ -26,7 +26,7 @@ int pthread_attr_setschedparam(pthread_attr_t *restrict attr,
 
 ## ERRORS
 
-`pthread_attr_setschedparam()` 函��应在以下情况失败：
+`pthread_attr_setschedparam()` 函数应在以下情况失败：
 
 - **ENOTSUP** - 尝试将属性设置为不支持的值。
 
@@ -80,6 +80,3 @@ int pthread_attr_setschedparam(pthread_attr_t *restrict attr,
 - 应用了 POSIX.1-2008, Technical Corrigendum 1, XSH/TC1-2008/0451 [314]。
 
 ---
-
-*来源：The Open Group Base Specifications Issue 8, IEEE Std 1003.1-2024*
-*版权所有 © 2001-2024 The IEEE and The Open Group*

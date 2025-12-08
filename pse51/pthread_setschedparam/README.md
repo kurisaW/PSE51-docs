@@ -1,14 +1,5 @@
 # pthread_getschedparam, pthread_setschedparam
 
-**POSIX Specification** - IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
----
-
-## NAME
-
-`pthread_getschedparam`, `pthread_setschedparam` — dynamic thread scheduling parameters access (**REALTIME THREADS**)
-
 ## SYNOPSIS
 
 ```c
@@ -115,7 +106,3 @@ Included for alignment with the POSIX Threads Extension.
 - POSIX.1-2008, Technical Corrigendum 2, XSH/TC2-2008/0276 [757] is applied.
 
 ---
-
-*UNIX® is a registered Trademark of The Open Group.*
-*POSIX™ is a Trademark of The IEEE.*
-*Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved*

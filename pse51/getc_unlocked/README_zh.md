@@ -1,9 +1,5 @@
 # getc_unlocked, getchar_unlocked, putc_unlocked, putchar_unlocked — 带有显式客户端锁定的 stdio 函数
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
 ## 概要 (SYNOPSIS)
 
 ```c
@@ -37,7 +33,7 @@ int putchar_unlocked(int c);
 
 ## 应用程序使用 (APPLICATION USAGE)
 
-由于它们可能作为宏实现，`getc_unlocked()` 和 `putc_unlocked()` 可能错误地处理有副作用的 `stream` 参数。特别是，`getc_unlocked(*f++)` 和 `putc_unlocked(c,*f++)` 不一���按预期工作。因此，在这种情况下使用这些函数之前应适当地添加以下语句：
+由于它们可能作为宏实现，`getc_unlocked()` 和 `putc_unlocked()` 可能错误地处理有副作用的 `stream` 参数。特别是，`getc_unlocked(*f++)` 和 `putc_unlocked(c,*f++)` 不一定按预期工作。因此，在这种情况下使用这些函数之前应适当地添加以下语句：
 
 ```c
 #undef getc_unlocked
@@ -105,9 +101,3 @@ Line 2
 应用了 POSIX.1-2008，技术更正 2，XSH/TC2-2008/0151 [826]。
 
 ---
-
-*信息性文本结束。*
-
-UNIX® 是 The Open Group 的注册商标。
-POSIX™ 是 The IEEE 的商标。
-Copyright © 2001-2024 The IEEE and The Open Group，保留所有权利

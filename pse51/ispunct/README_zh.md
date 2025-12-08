@@ -22,7 +22,7 @@ int ispunct(int c);
 
 ## RETURN VALUE
 
-如果 `c` 是标点符号��符，`ispunct()` [CX] 和 `ispunct_l()` 函数应返回非零值；否则，它们应返回 0。
+如果 `c` 是标点符号，`ispunct()` [CX] 和 `ispunct_l()` 函数应返回非零值；否则，它们应返回 0。
 
 ## ERRORS
 
@@ -80,14 +80,3 @@ XBD [7. 区域设置](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/
 
 应用了 POSIX.1-2008, Technical Corrigendum 1, XSH/TC1-2008/0300 [302], XSH/TC1-2008/0301 [283], 和 XSH/TC1-2008/0302 [283]。
 
-*参考信息结束。*
-
----
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*Copyright © 2001-2024 The IEEE and The Open Group*
-
-UNIX® 是 The Open Group 的注册商标。
-POSIX™ 是 The IEEE 的商标。
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved

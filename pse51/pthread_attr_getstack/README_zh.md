@@ -1,13 +1,5 @@
 # pthread_attr_getstack, pthread_attr_setstack
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME
-
-pthread_attr_getstack, pthread_attr_setstack — 获取和设置栈属性
-
 ## SYNOPSIS
 
 ```c
@@ -112,7 +104,3 @@ int pthread_attr_setstack(pthread_attr_t *attr,
 *信息性文本结束。*
 
 ---
-
-UNIX® 是 The Open Group 的注册商标。
-POSIX™ 是 The IEEE 的商标。
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved

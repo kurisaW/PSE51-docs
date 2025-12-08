@@ -92,5 +92,3 @@ POSIX.1-2008, Technical Corrigendum 1, XSH/TC1-2008/0453 [314] is applied.
 POSIX.1-2008, Technical Corrigendum 2, XSH/TC2-2008/0264 [757] is applied.
 
 ---
-
-*Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved*

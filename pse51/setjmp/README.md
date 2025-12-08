@@ -1,8 +1,4 @@
-# setjmp
-
-## Name
-
-setjmp - set jump point for a non-local goto
+# setjmp - set jump point for a non-local goto
 
 ## Synopsis
 
@@ -30,4 +26,3 @@ If the invocation appears in any other context, the behavior is undefined.
 
 *The following sections are informative.*
 
-*End of informative text.*

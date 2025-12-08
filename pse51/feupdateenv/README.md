@@ -67,4 +67,3 @@ First released in Issue 6. Derived from the ISO/IEC 9899:1999 standard.
 
 ISO/IEC 9899:1999 standard, Technical Corrigendum 1 is incorporated.
 
-*End of informative text.*

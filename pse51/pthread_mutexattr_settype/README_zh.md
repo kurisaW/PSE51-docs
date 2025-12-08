@@ -86,5 +86,3 @@ int pthread_mutexattr_settype(pthread_mutexattr_t *attr, int type);
 应用 Austin Group Defect 1216，添加 `pthread_cond_clockwait()`。
 
 ---
-
-*Source: The Open Group Base Specifications Issue 8, IEEE Std 1003.1-2024*

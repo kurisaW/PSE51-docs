@@ -1,9 +1,5 @@
 # sigtimedwait, sigwaitinfo
 
-## NAME
-
-sigtimedwait, sigwaitinfo — wait for queued signals
-
 ## SYNOPSIS
 
 ```c

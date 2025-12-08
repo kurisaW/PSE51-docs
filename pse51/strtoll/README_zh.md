@@ -1,13 +1,5 @@
 # strtoll
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME
-
-strtol, strtoll — 将字符串转换为长整数
-
 ## SYNOPSIS
 
 ```c
@@ -121,7 +113,3 @@ DESCRIPTION 更新以指示如果函数成功则不更改 `errno`。
 应用了 Austin Group Defect 1163，阐明了输入字符串中空白的处理。
 
 ---
-
-UNIX® 是 The Open Group 的注册商标。
-POSIX™ 是 IEEE 的商标。
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved

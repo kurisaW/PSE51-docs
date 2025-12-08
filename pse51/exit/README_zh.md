@@ -1,9 +1,5 @@
 # exit
 
-## NAME
-
-exit — 终止进程
-
 ## SYNOPSIS
 
 ```c
@@ -101,7 +97,3 @@ exit(status);
 应用 Austin Group Defect 1629，更改 APPLICATION USAGE 部分。
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*版权所有 © 2001-2024 IEEE 和 The Open Group*

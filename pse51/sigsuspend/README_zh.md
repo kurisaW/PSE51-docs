@@ -85,5 +85,3 @@ int call_sigsuspend(const sigset_t *mask)
 - 应用了 Austin Group 缺陷 1223，更改了原理说明中的示例代码。
 
 ---
-
-*来源：The Open Group Base Specifications Issue 8, IEEE Std 1003.1-2024*

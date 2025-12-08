@@ -1,9 +1,5 @@
 # pthread_attr_getguardsize
 
-## NAME
-
-pthread_attr_getguardsize, pthread_attr_setguardsize — get and set the thread guardsize attribute
-
 ## SYNOPSIS
 
 ```c
@@ -129,7 +125,3 @@ The `pthread_attr_getguardsize()` and `pthread_attr_setguardsize()` functions ar
 The [EINVAL] error for an uninitialized thread attributes object is removed; this condition results in undefined behavior.
 
 ---
-
-*End of informative text.*
-
-**Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved**

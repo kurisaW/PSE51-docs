@@ -1,13 +1,5 @@
 # fprintf
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME
-
-> asprintf, dprintf, fprintf, printf, snprintf, sprintf — print formatted output
-
 ## SYNOPSIS
 
 ```c
@@ -613,9 +605,3 @@ Austin Group Defect 1562 is applied, clarifying that it is the application's res
 Austin Group Defect 1647 is applied, changing the description of the c conversion specifier and updating the statement that this volume of POSIX.1-2024 defers to the ISO C standard so that it excludes the %lc conversion when passed a null wide character.
 
 ---
-
-*End of informative text.*
-
-UNIX® is a registered Trademark of The Open Group.
-POSIX™ is a Trademark of the IEEE.
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved

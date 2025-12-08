@@ -1,9 +1,5 @@
 # pthread_cancel
 
-## NAME
-
-pthread_cancel — cancel execution of a thread
-
 ## SYNOPSIS
 
 ```c
@@ -90,11 +86,3 @@ Austin Group Defect 792 is applied, adding a requirement that passing the thread
 Austin Group Defect 1302 is applied, updating the page to account for the addition of `<threads.h>` interfaces.
 
 ---
-
-*End of informative text.*
-
----
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*Copyright © 2001-2024 The IEEE and The Open Group*

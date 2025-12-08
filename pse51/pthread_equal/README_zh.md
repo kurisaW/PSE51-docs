@@ -16,7 +16,7 @@ int pthread_equal(pthread_t t1, pthread_t t2);
 
 如果 `t1` 和 `t2` 相等，`pthread_equal()` 函数应返回非零值；否则，应返回零。
 
-如果 `t1` 或 `t2` ���是有效的线程 ID 且不等于 PTHREAD_NULL，则行为未定义。
+如果 `t1` 或 `t2` 不是有效的线程 ID 且不等于 PTHREAD_NULL，则行为未定义。
 
 ## 错误
 
@@ -62,7 +62,3 @@ int pthread_equal(pthread_t t1, pthread_t t2);
 - 应用了 Austin Group Defect 599，更改了 RETURN VALUE 章节以提及 PTHREAD_NULL。
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*Copyright © 2001-2024 The IEEE and The Open Group*

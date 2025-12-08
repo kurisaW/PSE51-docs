@@ -132,7 +132,3 @@ XBD 8. 环境变量, `<stdlib.h>`
 应用了Austin Group缺陷922，添加了 `secure_getenv()` 函数。
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*版权所有 © 2001-2024 IEEE和The Open Group*

@@ -1,9 +1,5 @@
 # pthread_mutex_lock, pthread_mutex_trylock, pthread_mutex_unlock
 
-## NAME
-
-pthread_mutex_lock, pthread_mutex_trylock, pthread_mutex_unlock — 锁定和解锁互斥锁
-
 ## SYNOPSIS
 
 ```c
@@ -27,7 +23,7 @@ int pthread_mutex_unlock(pthread_mutex_t *mutex);
 | DEFAULT | 非健壮 | 未定义行为† | 未定义行为† |
 | DEFAULT | 健壮 | 未定义行为† | 返回错误 |
 
-† 如果互斥锁类型为 `PTHREAD_MUTEX_DEFAULT`，`pthread_mutex_lock()` 的行为可能对���上表中所述的三种其他标准互斥锁类型之一。如果它不对应这三种类型之一，则标记为 † 的行为是未定义的。
+† 如果互斥锁类型为 `PTHREAD_MUTEX_DEFAULT`，`pthread_mutex_lock()` 的行为可能对应上表中所述的三种其他标准互斥锁类型之一。如果它不对应这三种类型之一，则标记为 † 的行为是未定义的。
 
 当表指示递归行为时，互斥锁应维护锁计数的概念。当线程首次成功获取互斥锁时，锁计数应设置为一。每次线程重新锁定此互斥锁时，锁计数应增加一。每次线程解锁互斥锁时，锁计数应减少一。当锁计数达到零时，互斥锁应变为可供其他线程获取。
 

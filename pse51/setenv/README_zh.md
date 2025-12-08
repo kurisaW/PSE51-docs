@@ -1,9 +1,5 @@
 # setenv — 添加或更改环境变量
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
 ## 概要 (SYNOPSIS)
 
 ```c
@@ -86,7 +82,3 @@ Austin Group Interpretation 1003.1-2001 #156 被应用。
 POSIX.1-2008, Technical Corrigendum 1, XSH/TC1-2008/0549 [167], XSH/TC1-2008/0550 [185], XSH/TC1-2008/0551 [167], 和 XSH/TC1-2008/0552 [38] 被应用。
 
 ---
-
-*UNIX® 是 The Open Group 的注册商标。*
-*POSIX™ 是 The IEEE 的商标。*
-*Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved*

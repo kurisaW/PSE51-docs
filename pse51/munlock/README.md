@@ -1,15 +1,5 @@
 # munlock
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
----
-
-## NAME
-
-mlock, munlock — lock or unlock a range of process address space (**REALTIME**)
-
 ## SYNOPSIS
 
 ```c
@@ -96,10 +86,3 @@ The `mlock()` and `munlock()` functions are marked as part of the Range Memory L
 
 The [ENOSYS] error condition has been removed as stubs need not be provided if an implementation does not support the Range Memory Locking option.
 
-*End of informative text.*
-
----
-
-UNIX® is a registered Trademark of The Open Group.
-POSIX™ is a Trademark of The IEEE.
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved

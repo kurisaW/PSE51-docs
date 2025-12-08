@@ -1,9 +1,5 @@
 # pthread_mutex_destroy
 
-## 名称
-
-pthread_mutex_destroy, pthread_mutex_init - 销毁和初始化互斥锁
-
 ## 概要
 
 ```c
@@ -24,7 +20,7 @@ pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;
 
 销毁一个已初始化且未锁定的互斥锁是安全的。尝试销毁一个已锁定的互斥锁，或者另一个线程正尝试锁定的互斥锁，或者另一个线程正在 `pthread_cond_clockwait()`、`pthread_cond_timedwait()` 或 `pthread_cond_wait()` 调用中使用的互斥锁，会导致未定义行为。
 
-`pthread_mutex_init()` 函数应使用由 `attr` 指定的属性初始化由 `mutex` 引用的互斥锁。如果 `attr` 为 NULL，则使用默认的互斥锁属性；效果应与传递默认��斥锁属性对象的地址相同。成功初始化后，互斥锁的状态变为已初始化且未锁定。
+`pthread_mutex_init()` 函数应使用由 `attr` 指定的属性初始化由 `mutex` 引用的互斥锁。如果 `attr` 为 NULL，则使用默认的互斥锁属性；效果应与传递默认互斥锁属性对象的地址相同。成功初始化后，互斥锁的状态变为已初始化且未锁定。
 
  further requirements。
 

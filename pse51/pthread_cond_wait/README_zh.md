@@ -42,7 +42,7 @@ int pthread_cond_wait(pthread_cond_t *restrict cond,
 
 如果信号被传递给正在等待条件变量的线程，从信号处理程序返回时，线程恢复等待条件变量，就像它没有被中断一样，或者它应由于虚假唤醒而返回零。
 
-如果这些函数的 `cond` 或 `mutex` 参��指定的值分别未引用已初始化的条件变量或已初始化的互斥锁对象，则行为未定义。
+如果这些函数的 `cond` 或 `mutex` 参数指定的值分别未引用已初始化的条件变量或已初始化的互斥锁对象，则行为未定义。
 
 ## RETURN VALUE
 
@@ -143,7 +143,7 @@ cond_relative_timed_wait(c, m, &reltime);
 
 ### Features of Mutexes and Condition Variables
 
-有人建议将互斥锁获取和释放与条件等待解耦。这被拒绝，因为正是操作的���合性质实际上促进了实时实现。这些实现可以透明地将高优先级线程在条件变量和互斥锁之间原子性地移动，这对调用者是透明的。这可以防止额外的上下文切换，并在等待线程被发信号时提供更确定性的互斥锁获取。因此，公平性和优先级问题可以通过调度规则直接处理。此外，当前的条件等待操作符合现有实践。
+有人建议将互斥锁获取和释放与条件等待解耦。这被拒绝，因为正是操作的组合性质实际上促进了实时实现。这些实现可以透明地将高优先级线程在条件变量和互斥锁之间原子性地移动，这对调用者是透明的。这可以防止额外的上下文切换，并在等待线程被发信号时提供更确定性的互斥锁获取。因此，公平性和优先级问题可以通过调度规则直接处理。此外，当前的条件等待操作符合现有实践。
 
 ### Scheduling Behavior of Mutexes and Condition Variables
 
@@ -194,7 +194,3 @@ DESCRIPTION 通过添加 Clock Selection 选项的语义更新，以与 IEEE Std
 ERRORS 部分有额外情况
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*版权所有 © 2001-2024 IEEE 和 The Open Group*

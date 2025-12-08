@@ -1,9 +1,5 @@
 # pthread_setconcurrency, pthread_getconcurrency
 
-## NAME
-
-pthread_setconcurrency, pthread_getconcurrency - set and get the concurrency level
-
 ## SYNOPSIS
 
 ```c
@@ -63,4 +59,3 @@ Portions of this text are reprinted and reproduced in electronic form from the I
 
 *The following sections are informative.*
 
-*End of informative text.*

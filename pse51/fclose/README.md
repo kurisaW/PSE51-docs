@@ -1,9 +1,5 @@
 # fclose
 
-## NAME
-
-fclose — close a stream
-
 ## SYNOPSIS
 
 ```c

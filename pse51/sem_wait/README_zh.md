@@ -21,7 +21,7 @@ int sem_wait(sem_t *sem);
 
 ## 返回值
 
-如果调用进程成功对指定信号量 `sem` 执行了信号量锁定操作，`sem_trywait()` 和 `sem_wait()` 函数应返回���。如果调用不成功，信号量的状态应保持不变，函数应返回值 -1，并设置 `errno` 来指示错误。
+如果调用进程成功对指定信号量 `sem` 执行了信号量锁定操作，`sem_trywait()` 和 `sem_wait()` 函数应返回零。如果调用不成功，信号量的状态应保持不变，函数应返回值 -1，并设置 `errno` 来指示错误。
 
 ## 错误
 
@@ -82,7 +82,3 @@ XBD 3.275 优先级反转，4.15.2 内存同步，`<semaphore.h>`
 - 应用 POSIX.1-2008，技术勘误 1，XSH/TC1-2008/0530 [37]。
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*Copyright © 2001-2024 The IEEE and The Open Group*

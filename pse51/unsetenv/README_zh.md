@@ -1,13 +1,5 @@
 # unsetenv
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME
-
-unsetenv — 删除环境变量
-
 ## SYNOPSIS
 
 ```c
@@ -68,7 +60,3 @@ int unsetenv(const char *name);
 应用了 POSIX.1-2008, Technical Corrigendum 1, XSH/TC1-2008/0698 [167] 和 XSH/TC1-2008/0699 [185]。
 
 ---
-
-*UNIX® 是 The Open Group 的注册商标。*
-*POSIX™ 是 The IEEE 的商标。*
-*Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved*

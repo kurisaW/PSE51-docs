@@ -1,9 +1,5 @@
 # pthread_setconcurrency, pthread_getconcurrency
 
-## NAME
-
-pthread_setconcurrency, pthread_getconcurrency - 设置和获取并发级别
-
 ## SYNOPSIS
 
 ```c
@@ -21,7 +17,7 @@ int pthread_getconcurrency(void);
 
 如果 `new_level` 为零，将导致实现自行决定维护并发级别，就像从未调用过 `pthread_setconcurrency()` 一样。
 
-`pthread_getconcurrency()` 函数应返回先前调用 `pthread_setconcurrency()` 函数所设置的值。如果先前未调用过 `pthread_setconcurrency()` 函数，则此函数应返回零，以表示实现正在维护并发级别���
+`pthread_getconcurrency()` 函数应返回先前调用 `pthread_setconcurrency()` 函数所设置的值。如果先前未调用过 `pthread_setconcurrency()` 函数，则此函数应返回零，以表示实现正在维护并发级别。
 
 调用 `pthread_setconcurrency()` 应通知实现其期望的并发级别。实现应将此作为提示（hint），而非要求。
 
@@ -62,5 +58,3 @@ int pthread_getconcurrency(void);
 本文本部分内容转载并复制自 IEEE Std 1003.1, 2013 Edition, Standard for Information Technology -- Portable Operating System Interface (POSIX), The Open Group Base Specifications Issue 7, 版权所有 (C) 2013 by the Institute of Electrical and Electronics Engineers, Inc and The Open Group。（这是应用了 2013 年技术勘误 1 的 POSIX.1-2008。）如果此版本与原始 IEEE 和 The Open Group 标准之间存在任何差异，应以原始 IEEE 和 The Open Group 标准为准。原始标准可在线获取：http://www.opengroup.org/unix/online.html。
 
 *以下部分为参考信息。*
-
-*参考信息结束。*

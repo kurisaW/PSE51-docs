@@ -1,13 +1,5 @@
 # strcat
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME
-
-strcat — concatenate two strings
-
 ## SYNOPSIS
 
 ```c
@@ -68,11 +60,3 @@ The `strcat()` prototype is updated for alignment with the ISO/IEC 9899:1999 sta
 Austin Group Defect 448 is applied, adding a requirement that `strcat()` does not change the setting of `errno` on valid input.
 
 ---
-
-*End of informative text.*
-
----
-
-UNIX® is a registered Trademark of The Open Group.
-POSIX™ is a Trademark of The IEEE.
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved

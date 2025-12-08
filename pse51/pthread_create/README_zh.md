@@ -129,6 +129,3 @@ XBD 4.15.2 内存同步，`<pthread.h>`
 应用 POSIX.1-2008，技术勘误 2，XSH/TC2-2008/0274 [849]。
 
 ---
-
-**来源：** The Open Group Base Specifications Issue 8, IEEE Std 1003.1-2024
-**URL：** https://pubs.opengroup.org/onlinepubs/9799919799/functions/pthread_create.html

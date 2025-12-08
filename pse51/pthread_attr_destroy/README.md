@@ -1,9 +1,5 @@
 # pthread_attr_destroy
 
-## Name
-
-pthread_attr_destroy, pthread_attr_init - destroy and initialize a thread attributes object
-
 ## Synopsis
 
 ```c
@@ -93,4 +89,3 @@ The Shell and Utilities volume of POSIX.1-2024, Section 2.9.2 on the XSH System 
 
 Portions of this text are reprinted and reproduced in electronic form from IEEE Std 1003.1-2024, Standard for Information Technology -- Portable Operating System Interface (POSIX), The Open Group Base Specifications Issue 7, Copyright (C) 2024 by the Institute of Electrical and Electronics Engineers, Inc and The Open Group. In the event of any discrepancy between this version and the original IEEE and The Open Group Standard, the original IEEE and The Open Group Standard shall prevail. The original Standard can be obtained online at https://pubs.opengroup.org/onlinepubs/9799919799/.
 
-*End of informative text.*

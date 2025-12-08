@@ -1,13 +1,5 @@
 # close, posix_close
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME
-
-close, posix_close — close a file descriptor
-
 ## SYNOPSIS
 
 ```c
@@ -211,9 +203,3 @@ Austin Group Defect 1466 is applied, changing the terminology used for pseudo-te
 Austin Group Defect 1525 is applied, clarifying that a socket is not destroyed until all file descriptors associated with it have been closed.
 
 ---
-
-*End of informative text.*
-
-UNIX® is a registered Trademark of The Open Group.
-POSIX™ is a Trademark of The IEEE.
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved

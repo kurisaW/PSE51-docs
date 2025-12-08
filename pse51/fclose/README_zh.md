@@ -1,9 +1,5 @@
 # fclose
 
-## 名称
-
-fclose — 关闭流
-
 ## 概要
 
 ```c
@@ -28,7 +24,7 @@ int fclose(FILE *stream);
 
 ## 错误
 
-`fclose()` 函数在以下情况下可能��败：
+`fclose()` 函数在以下情况下可能失败：
 
 - **[EAGAIN]**
   - 为 `stream` 底层的文件描述符设置了 O_NONBLOCK 标志，并且线程将在写操作中被延迟。

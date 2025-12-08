@@ -1,17 +1,5 @@
 # gets
 
-The Open Group Base Specifications Issue 7, 2018 edition
-IEEE Std 1003.1-2017 (Revision of IEEE Std 1003.1-2008)
-Copyright © 2001-2018 IEEE and The Open Group
-
-本文档的更新版本存在于[此处](http://pubs.opengroup.org/onlinepubs/9799919799/)
-
----
-
-## 名称
-
-gets - 从标准输入流获取字符串
-
 ## 概要
 
 ```c
@@ -30,7 +18,7 @@ char *gets(char *s);
 
 ## 返回值
 
-成功完成时，`gets()` 应返回 `s`。如果流的文件结束指示符已设置，或者流处于文件结���位置，则应设置流的文件结束指示符并且 `gets()` 应返回空指针。如果发生读取错误，则应设置流的错误指示符，`gets()` 应返回空指针，并设置 `errno` 以指示错误。
+成功完成时，`gets()` 应返回 `s`。如果流的文件结束指示符已设置，或者流处于文件结束位置，则应设置流的文件结束指示符并且 `gets()` 应返回空指针。如果发生读取错误，则应设置流的错误指示符，`gets()` 应返回空指针，并设置 `errno` 以指示错误。
 
 ## 错误
 
@@ -89,7 +77,3 @@ char *gets(char *s);
 *补充信息结束。*
 
 ---
-
-UNIX ® 是 The Open Group 的注册商标。
-POSIX ™ 是 IEEE 的商标。
-Copyright © 2001-2018 IEEE and The Open Group, All Rights Reserved

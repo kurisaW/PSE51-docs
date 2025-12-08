@@ -1,9 +1,5 @@
 # pthread_atfork
 
-## Name
-
-pthread_atfork - register fork handlers
-
 ## Synopsis
 
 ```c

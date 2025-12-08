@@ -1,9 +1,5 @@
 # strtoul
 
-## NAME
-
-strtoul, strtoull — convert a string to an unsigned long
-
 ## SYNOPSIS
 
 ```c
@@ -126,5 +122,3 @@ Austin Group Defect 700 is applied, clarifying how a subject sequence beginning 
 Austin Group Defect 1163 is applied, clarifying the handling of white space in the input string.
 
 ---
-
-*End of informative text.*

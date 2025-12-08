@@ -80,11 +80,3 @@ Austin Group Defect 792 is applied, clarifying that detaching a live thread prev
 Austin Group Defect 1167 is applied, clarifying that a thread is no longer joinable after `pthread_detach()` has been called for it.
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*Copyright © 2001-2024 The IEEE and The Open Group*
-
-UNIX® is a registered Trademark of The Open Group.
-POSIX™ is a Trademark of The IEEE.
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved

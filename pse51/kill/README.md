@@ -1,15 +1,5 @@
 # kill
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
----
-
-## NAME
-
-kill — send a signal to a process or a group of processes
-
 ## SYNOPSIS
 
 ```c
@@ -122,11 +112,3 @@ POSIX.1-2008, Technical Corrigendum 2, XSH/TC2-2008/0194 [765] is applied.
 Austin Group Defect 1138 is applied, adding `sig2str()` to the SEE ALSO section.
 
 ---
-
-*End of informative text.*
-
----
-
-UNIX® is a registered Trademark of The Open Group.
-POSIX™ is a Trademark of The IEEE.
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved

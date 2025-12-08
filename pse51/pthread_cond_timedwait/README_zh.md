@@ -1,13 +1,5 @@
 # pthread_cond_clockwait, pthread_cond_timedwait, pthread_cond_wait — 等待条件变量
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME（名称）
-
-pthread_cond_clockwait, pthread_cond_timedwait, pthread_cond_wait — 等待条件变量
-
 ## SYNOPSIS（概要）
 
 ```c
@@ -242,9 +234,3 @@ DESCRIPTION 通过添加 Clock Selection 选项的语义进行更新，以与 IE
 应用了 Austin Group Defects 1216 和 1485，添加了 `pthread_cond_clockwait()`。
 
 ---
-
-*End of informative text.*
-
-UNIX® is a registered Trademark of The Open Group.
-POSIX™ is a Trademark of The IEEE.
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved

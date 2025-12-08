@@ -1,13 +1,5 @@
 # strcspn
 
-**The Open Group Base Specifications Issue 8**
-**IEEE Std 1003.1-2024**
-*版权所有 © 2001-2024 IEEE 和 The Open Group*
-
-## 名称
-
-strcspn — 获取互补子字符串的长度
-
 ## 概要
 
 ```c
@@ -74,11 +66,3 @@ RETURN VALUE 部分更新为说明 `strcspn()` 返回 `s1` 的长度，而非之
 应用了 Austin Group Defect 448，添加了要求：在有效输入上，`strcspn()` 不改变 `errno` 的设置。
 
 ---
-
-*参考信息结束。*
-
----
-
-*UNIX® 是 The Open Group 的注册商标。*
-*POSIX™ 是 IEEE 的商标。*
-*版权所有 © 2001-2024 IEEE 和 The Open Group，保留所有权利*

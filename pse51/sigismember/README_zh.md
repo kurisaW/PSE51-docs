@@ -1,13 +1,5 @@
 # sigismember
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME
-
-sigismember — 测试信号是否在信号集中
-
 ## SYNOPSIS
 
 ```c
@@ -24,7 +16,7 @@ int sigismember(const sigset_t *set, int signo);
 
 ## RETURN VALUE
 
-成功完成后，如果指定的信号���指定集合的成员，`sigismember()` 应返回 1，否则返回 0。否则，它应返回 -1 并设置 `errno` 来指示错误。
+成功完成后，如果指定的信号是指定集合的成员，`sigismember()` 应返回 1，否则返回 0。否则，它应返回 -1 并设置 `errno` 来指示错误。
 
 ## ERRORS
 
@@ -74,7 +66,3 @@ DESCRIPTION 的最后一段在之前的版本中作为 APPLICATION USAGE 说明�
 SYNOPSIS 被标记为 CX，因为此函数在 `<signal.h>` 头文件中的存在是对 ISO C 标准的扩展。
 
 ---
-
-*UNIX® 是 The Open Group 的注册商标。*
-*POSIX™ 是 The IEEE 的商标。*
-*Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved*

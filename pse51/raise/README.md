@@ -1,15 +1,5 @@
 # raise
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
----
-
-## NAME
-
-raise — send a signal to the executing process
-
 ## SYNOPSIS
 
 ```c
@@ -89,10 +79,3 @@ The following new requirements on POSIX implementations derive from alignment wi
 
 Functionality relating to the Threads option is moved to the Base.
 
-*End of informative text.*
-
----
-
-UNIX® is a registered Trademark of The Open Group.
-POSIX™ is a Trademark of The IEEE.
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved

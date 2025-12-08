@@ -160,7 +160,3 @@ ISO C 标准的 `rand()` 和 `srand()` 函数允许由所有线程共享的每�
 应用了 Austin Group 缺陷 1330，移除了过时接口。
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*版权所有 © 2001-2024 The IEEE and The Open Group*

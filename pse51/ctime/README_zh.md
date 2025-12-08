@@ -99,7 +99,3 @@ asctime(localtime(clock))
 - 应用了 Austin Group 缺陷 1410，移除了 `ctime_r()` 函数。
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*Copyright © 2001-2024 The IEEE and The Open Group*

@@ -17,7 +17,7 @@ lldiv_t lldiv(long long numer, long long denom);
 
 ## 返回值
 
-`ldiv()` 函数应返回 **ldiv_t** 类型的结构体，包含商和余数。该结构体应包含以下成员，顺序不���：
+`ldiv()` 函数应返回 **ldiv_t** 类型的结构体，包含商和余数。该结构体应包含以下成员，顺序不限：
 
 ```c
 long   quot;    /* 商 */
@@ -49,6 +49,3 @@ long long   rem;     /* 余数 */
 添加 `lldiv()` 函数以与 ISO/IEC 9899:1999 标准保持一致。
 
 ---
-
-*The Open Group Base Specifications Issue 8, IEEE Std 1003.1-2024*
-*Copyright © 2001-2024 The IEEE and The Open Group*

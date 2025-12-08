@@ -1,13 +1,5 @@
 # freopen
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME
-
-freopen — open a stream
-
 ## SYNOPSIS
 
 ```c
@@ -231,10 +223,3 @@ Austin Group Defect 1200 is applied, correcting the argument name in the [ELOOP]
 
 Austin Group Defect 1302 is applied, aligning this function with the ISO/IEC 9899:2018 standard.
 
-*End of informative text.*
-
----
-
-UNIX® is a registered Trademark of The Open Group.
-POSIX™ is a Trademark of The IEEE.
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved

@@ -1,15 +1,5 @@
 # pthread_getcpuclockid
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-版权所有 © 2001-2024 The IEEE and The Open Group
-
----
-
-## NAME（名称）
-
-pthread_getcpuclockid — 访问线程 CPU 时间时钟（高级实时线程）
-
 ## SYNOPSIS（概要）
 
 ```c
@@ -73,10 +63,3 @@ XBD [`<pthread.h>`](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/pt
 
 应用 POSIX.1-2008, Technical Corrigendum 2, XSH/TC2-2008/0275 [757]。
 
-*参考信息结束。*
-
----
-
-UNIX® 是 The Open Group 的注册商标。
-POSIX™ 是 The IEEE 的商标。
-版权所有 © 2001-2024 The IEEE and The Open Group，保留所有权利

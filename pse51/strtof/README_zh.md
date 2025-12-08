@@ -191,11 +191,3 @@ XBD [7. Locale](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/V1_cha
 应用了 Austin Group Defect 1686，在 RETURN VALUE 部分的一些文本中添加了 CX 阴影。
 
 ---
-
-*信息性文本结束。*
-
----
-
-*UNIX® 是 The Open Group 的注册商标。*
-*POSIX™ 是 IEEE 的商标。*
-*版权所有 © 2001-2024 IEEE 和 The Open Group，保留所有权利*

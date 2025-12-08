@@ -1,15 +1,5 @@
 # getchar
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
----
-
-## NAME
-
-getchar — 从 `stdin` 流中获取一个字节
-
 ## SYNOPSIS
 
 ```c
@@ -42,7 +32,7 @@ int getchar(void);
 
 ## APPLICATION USAGE
 
-如果将 `getchar()` 返回的整数值存储到 `char` 类型的变量中，然后与整数常量 EOF 进行比较，这个比较可能永远不会成功，因为 `char` 类型变量在扩展为��数时的符号扩展是由实现定义的。
+如果将 `getchar()` 返回的整数值存储到 `char` 类型的变量中，然后与整数常量 EOF 进行比较，这个比较可能永远不会成功，因为 `char` 类型变量在扩展为整数时的符号扩展是由实现定义的。
 
 ## RATIONALE
 
@@ -67,7 +57,3 @@ int getchar(void);
 应用了 POSIX.1-2008 Technical Corrigendum 1, XSH/TC1-2008/0236 [14]。
 
 ---
-
-UNIX® 是 The Open Group 的注册商标。
-POSIX™ 是 The IEEE 的商标。
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved

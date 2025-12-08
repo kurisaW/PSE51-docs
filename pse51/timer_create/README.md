@@ -1,13 +1,5 @@
 # timer_create - create a per-process timer
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME
-
-timer_create — create a per-process timer
-
 ## SYNOPSIS
 
 ```c
@@ -124,7 +116,3 @@ Austin Group Defect 1116 is applied, removing a reference to the Realtime Signal
 Austin Group Defect 1346 is applied, requiring support for Monotonic Clock.
 
 ---
-
-*UNIX® is a registered Trademark of The Open Group.*
-*POSIX™ is a Trademark of The IEEE.*
-*Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved*

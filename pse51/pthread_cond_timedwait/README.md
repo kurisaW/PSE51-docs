@@ -1,13 +1,5 @@
 # pthread_cond_clockwait, pthread_cond_timedwait, pthread_cond_wait — wait on a condition
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME
-
-pthread_cond_clockwait, pthread_cond_timedwait, pthread_cond_wait — wait on a condition
-
 ## SYNOPSIS
 
 ```c
@@ -242,9 +234,3 @@ Austin Group Defect 1162 is applied, changing "an error code" to "[EOWNERDEAD]".
 Austin Group Defects 1216 and 1485 are applied, adding `pthread_cond_clockwait()`.
 
 ---
-
-*End of informative text.*
-
-UNIX® is a registered Trademark of The Open Group.
-POSIX™ is a Trademark of The IEEE.
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved

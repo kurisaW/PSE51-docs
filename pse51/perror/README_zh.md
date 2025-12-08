@@ -1,13 +1,5 @@
 # perror
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME
-
-perror — 向标准错误写入错误消息
-
 ## SYNOPSIS
 
 ```c
@@ -93,7 +85,3 @@ if ((bufptr = malloc(szbuf)) == NULL) {
 **Issue 7**：应用了 SD5-XSH-ERN-95。进行了与支持细粒度时间戳相关的更改。应用了 POSIX.1-2008、Technical Corrigendum 1、XSH/TC1-2008/0429 [389,401]、XSH/TC1-2008/0430 [389] 和 XSH/TC1-2008/0431 [389,401]。
 
 ---
-
-*UNIX® is a registered Trademark of The Open Group.
-POSIX™ is a Trademark of The IEEE.
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved*

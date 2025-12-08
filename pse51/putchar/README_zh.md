@@ -1,13 +1,5 @@
 # putchar
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## 名称
-
-putchar — 在标准输出流中写入一个字节
-
 ## 概要
 
 ```c
@@ -18,7 +10,7 @@ int putchar(int c);
 
 ## 描述
 
-[CX] 本参考页所描述的功能与 ISO C 标准保持一致。此处描述的要求与 ISO C 标准之间的任何冲突都是无意的。本卷 POSIX.1-2024 遵循 ISO C 标��。
+[CX] 本参考页所描述的功能与 ISO C 标准保持一致。此处描述的要求与 ISO C 标准之间的任何冲突都是无意的。本卷 POSIX.1-2024 遵循 ISO C 标准。
 
 函数调用 `putchar(c)` 应等效于 `putc(c,stdout)`。
 
@@ -58,18 +50,10 @@ int putchar(int c);
 
 ## 变更历史
 
-���次发布于 Issue 1。源自 SVID 的 Issue 1。
+首次发布于 Issue 1。源自 SVID 的 Issue 1。
 
 ### Issue 7
 
 POSIX.1-2008 技术勘误 1，XSH/TC1-2008/0471 [14] 已应用。
 
 ---
-
-*参考性文本结束。*
-
----
-
-UNIX® 是 The Open Group 的注册商标。
-POSIX™ 是 The IEEE 的商标。
-Copyright © 2001-2024 The IEEE and The Open Group，保留所有权利

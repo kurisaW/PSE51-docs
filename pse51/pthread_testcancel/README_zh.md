@@ -1,16 +1,6 @@
 # pthread_setcancelstate, pthread_setcanceltype, pthread_testcancel
 
-**The Open Group Base Specifications Issue 8**
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
----
-
-## 名称 (NAME)
-
-`pthread_setcancelstate`, `pthread_setcanceltype`, `pthread_testcancel` — 设置可取消状态
-
-## 概�� (SYNOPSIS)
+## 概要 (SYNOPSIS)
 
 ```c
 #include <pthread.h>
@@ -106,8 +96,3 @@ Austin Group Defect 841 被应用，要求 `pthread_setcancelstate()` 为异步�
 *参考文本结束。*
 
 ---
-
-UNIX® 是 The Open Group 的注册商标。
-POSIX™ 是 IEEE 的商标。
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved
-[[Main Index](https://pubs.opengroup.org/onlinepubs/9799919799/mindex.html) | [XBD](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/contents.html) | [XSH](https://pubs.opengroup.org/onlinepubs/9799919799/functions/contents.html) | [XCU](https://pubs.opengroup.org/onlinepubs/9799919799/utilities/contents.html) | [XRAT](https://pubs.opengroup.org/onlinepubs/9799919799/xrat/contents.html)]

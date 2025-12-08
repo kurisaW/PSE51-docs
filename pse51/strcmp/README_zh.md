@@ -20,7 +20,7 @@ int strcmp(const char *s1, const char *s2);
 
 ## 返回值 (RETURN VALUE)
 
-完成时，如果 `s1` 指向的字符串分别大于、等于���小于 `s2` 指向的字符串，`strcmp()` 应返回一个大于、等于或小于 0 的整数。
+完成时，如果 `s1` 指向的字符串分别大于、等于或小于 `s2` 指向的字符串，`strcmp()` 应返回一个大于、等于或小于 0 的整数。
 
 ## 错误 (ERRORS)
 
@@ -89,7 +89,3 @@ if (strcmp(p->pw_name, user) == 0) {
 应用了 Austin Group 缺陷 448，增加了 `strcmp()` 在有效输入时不改变 `errno` 设置的要求。
 
 ---
-
-*The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group*

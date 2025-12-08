@@ -1,13 +1,5 @@
 # putc_unlocked
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME
-
-getc_unlocked, getchar_unlocked, putc_unlocked, putchar_unlocked — 带有显式客户端锁定的 stdio 函数
-
 ## SYNOPSIS
 
 ```c
@@ -112,11 +104,3 @@ getc_unlocked()、getchar_unlocked()、putc_unlocked() 和 putchar_unlocked() �
 应用了 POSIX.1-2008 技术勘误 2：XSH/TC2-2008/0151 [826]。
 
 ---
-
-*补充信息结束。*
-
-***
-
-UNIX® 是 The Open Group 的注册商标。
-POSIX™ 是 IEEE 的商标。
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved

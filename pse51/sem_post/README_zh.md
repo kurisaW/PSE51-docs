@@ -10,7 +10,7 @@ int sem_post(sem_t *sem);
 
 ## 描述
 
-`sem_post()` ���数应通过在由 `sem` 引用的信号量上执行信号量解锁操作来解锁该信号量。
+`sem_post()` 函数应通过在由 `sem` 引用的信号量上执行信号量解锁操作来解锁该信号量。
 
 如果此操作产生的信号量值为正值，则没有线程被阻塞等待信号量解锁；信号量值仅被简单地递增。
 
@@ -81,7 +81,3 @@ XBD 4.15.2 内存同步，`<semaphore.h>`
 - 应用了 Austin Group 缺陷 315，添加了 [EOVERFLOW] 错误。
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*版权所有 © 2001-2024 IEEE 和 The Open Group*

@@ -65,7 +65,3 @@ The `isupper_l()` function is added from The Open Group Technical Standard, 2006
 POSIX.1-2008, Technical Corrigendum 1, XSH/TC1-2008/0306 [302], XSH/TC1-2008/0307 [283], and XSH/TC1-2008/0308 [283] are applied.
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*Copyright © 2001-2024 The IEEE and The Open Group*

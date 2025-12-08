@@ -1,13 +1,5 @@
 # mmap
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME
-
-mmap — map pages of memory
-
 ## SYNOPSIS
 
 ```c
@@ -299,11 +291,3 @@ POSIX.1-2008, Technical Corrigendum 2, XSH/TC2-2008/0229 [852] is applied.
 Austin Group Defect 850 is applied, adding anonymous memory objects.
 
 ---
-
-End of informative text.
-
----
-
-UNIX® is a registered Trademark of The Open Group.
-POSIX™ is a Trademark of The IEEE.
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved

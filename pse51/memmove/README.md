@@ -1,9 +1,5 @@
 # memmove
 
-## NAME
-
-memmove — copy bytes in memory with overlapping areas
-
 ## SYNOPSIS
 
 ```c
@@ -61,5 +57,3 @@ First released in Issue 4. Derived from the ANSI C standard.
 Austin Group Defect 448 is applied, adding a requirement that `memmove()` does not change the setting of `errno` on valid input.
 
 ---
-
-*End of informative text.*

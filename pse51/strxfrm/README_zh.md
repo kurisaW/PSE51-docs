@@ -89,9 +89,3 @@ size_t strxfrm_l(char *restrict s1, const char *restrict s2,
 应用了 POSIX.1-2008, Technical Corrigendum 1, XSH/TC1-2008/0624 [283], XSH/TC1-2008/0625 [283], 和 XSH/TC1-2008/0626 [302]。
 
 ---
-
-*提供信息的文本结束。*
-
-UNIX® 是 The Open Group 的注册商标。
-POSIX™ 是 The IEEE 的商标。
-版权所有 © 2001-2024 The IEEE and The Open Group，保留所有权利。

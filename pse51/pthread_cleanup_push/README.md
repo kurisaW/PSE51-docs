@@ -1,7 +1,5 @@
 # pthread_cleanup_push, pthread_cleanup_pop
 
-> establish cancellation handlers
-
 ## SYNOPSIS
 
 ```c

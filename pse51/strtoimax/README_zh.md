@@ -32,7 +32,7 @@ uintmax_t strtoumax(const char *restrict nptr,
 
 ## 错误
 
-这些函数���以下情况下应失败：
+这些函数在以下情况下应失败：
 
 - **[EINVAL]** [CX] `base` 的值不受支持。
 
@@ -77,9 +77,3 @@ uintmax_t strtoumax(const char *restrict nptr,
 应用了 POSIX.1-2008, Technical Corrigendum 1, XSH/TC1-2008/0613 [453] 和 XSH/TC1-2008/0614 [453]。
 
 ---
-
-*参考信息结束。*
-
-UNIX® 是 The Open Group 的注册商标。
-POSIX™ 是 The IEEE 的商标。
-版权所有 © 2001-2024 The IEEE and The Open Group，保留所有权利

@@ -1,9 +1,5 @@
 # fegetround, fesetround — 获取和设置当前舍入方向
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
 ## 概要
 
 ```c
@@ -19,7 +15,7 @@ int fesetround(int round);
 
 `fegetround()` 函数应获取当前的舍入方向。
 
-`fesetround()` 函数应建立由其参数 `round` 表示的舍入方向。��果参数不等于舍入方向宏的值，则舍入方向不会改变。
+`fesetround()` 函数应建立由其参数 `round` 表示的舍入方向。如果参数不等于舍入方向宏的值，则舍入方向不会改变。
 
 ## 返回值
 
@@ -83,7 +79,3 @@ ISO/IEC 9899:1999 标准，技术勘误 1 已被纳入。
 *补充信息结束。*
 
 ---
-
-UNIX® 是 The Open Group 的注册商标。
-POSIX™ 是 IEEE 的商标。
-Copyright © 2001-2024 The IEEE and The Open Group，保留所有权利

@@ -53,7 +53,3 @@ int memcmp(const void *s1, const void *s2, size_t n);
 应用了 Austin Group Defect 448，增加了 `memcmp()` 在有效输入上不改变 `errno` 设置的要求。
 
 ---
-
-*The Open Group Base Specifications Issue 8*
-*IEEE Std 1003.1-2024*
-*Copyright © 2001-2024 The IEEE and The Open Group*

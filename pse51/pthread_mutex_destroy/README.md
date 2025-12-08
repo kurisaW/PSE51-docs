@@ -1,9 +1,5 @@
 # pthread_mutex_destroy
 
-## Name
-
-pthread_mutex_destroy, pthread_mutex_init - destroy and initialize a mutex
-
 ## Synopsis
 
 ```c
@@ -136,4 +132,3 @@ Implementations are required to provide robust mutexes for mutexes with the proc
 
 Derived from the POSIX Threads Extension (1003.1c-1995).
 
-*End of informative text.*

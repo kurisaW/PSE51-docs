@@ -89,9 +89,3 @@ The `strxfrm_l()` function is added from The Open Group Technical Standard, 2006
 POSIX.1-2008, Technical Corrigendum 1, XSH/TC1-2008/0624 [283], XSH/TC1-2008/0625 [283], and XSH/TC1-2008/0626 [302] are applied.
 
 ---
-
-*End of informative text.*
-
-UNIX® is a registered Trademark of The Open Group.
-POSIX™ is a Trademark of The IEEE.
-Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved.

@@ -1,13 +1,5 @@
 # sigaddset
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME
-
-sigaddset — 向信号集添加信号
-
 ## SYNOPSIS
 
 ```c
@@ -18,7 +10,7 @@ int sigaddset(sigset_t *set, int signo);
 
 ## DESCRIPTION
 
-`sigaddset()` 函数将由 `signo` 指定的单个信号添加到��� `set` 指向的信号集中。
+`sigaddset()` 函数将由 `signo` 指定的单个信号添加到 `set` 指向的信号集中。
 
 应用程序在首次使用任何 `sigset_t` 类型的对象之前，必须至少调用一次 `sigemptyset()` 或 `sigfillset()` 函数来初始化该对象。如果这样的对象未通过此方式初始化，但仍作为参数提供给 `pthread_sigmask()`、`sigaction()`、`sigaddset()`、`sigdelset()`、`sigismember()`、`sigpending()`、`sigprocmask()`、`sigsuspend()`、`sigtimedwait()`、`sigwait()` 或 `sigwaitinfo()` 中的任何一个函数，则结果是未定义的。
 
@@ -78,9 +70,3 @@ DESCRIPTION 的最后一段在之前的版本中作为 APPLICATION USAGE 注释�
 SYNOPSIS 被标记为 CX，因为此函数在 <signal.h> 头文件中的存在是对 ISO C 标准的扩展。
 
 ---
-
-*参考性文本结束。*
-
-UNIX® 是 The Open Group 的注册商标。
-POSIX™ 是 The IEEE 的商标。
-Copyright © 2001-2024 The IEEE and The Open Group，保留所有权利

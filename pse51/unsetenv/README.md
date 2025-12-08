@@ -1,13 +1,5 @@
 # unsetenv
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME
-
-unsetenv — remove an environment variable
-
 ## SYNOPSIS
 
 ```c
@@ -68,7 +60,3 @@ Austin Group Interpretation 1003.1-2001 #156 is applied.
 POSIX.1-2008, Technical Corrigendum 1, XSH/TC1-2008/0698 [167] and XSH/TC1-2008/0699 [185] are applied.
 
 ---
-
-*UNIX® is a registered Trademark of The Open Group.*
-*POSIX™ is a Trademark of The IEEE.*
-*Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved*

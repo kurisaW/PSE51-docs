@@ -1,13 +1,5 @@
 # sigqueue
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## 名称 (NAME)
-
-sigqueue — 向进程队列发送信号
-
 ## 概要 (SYNOPSIS)
 
 ```c
@@ -93,7 +85,3 @@ POSIX.1-2008，技术勘误 2，XSH/TC2-2008/0332 [844] 被应用。
 *信息性文本结束。*
 
 ---
-
-UNIX® 是 The Open Group 的注册商标。
-POSIX™ 是 The IEEE 的商标。
-Copyright © 2001-2024 The IEEE and The Open Group，保留所有权利

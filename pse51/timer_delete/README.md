@@ -67,6 +67,3 @@ POSIX.1-2008, Technical Corrigendum 2, XSH/TC2-2008/0369 [659] is applied.
 
 ---
 
-*End of informative text.*
-
-**Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved**

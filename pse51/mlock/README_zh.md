@@ -86,6 +86,3 @@ int munlock(const void *addr, size_t len);
 [ENOSYS] 错误条件已被移除，因为如果实现不支持范围内存锁定选项，则无需提供存根。
 
 ---
-
-*来源：The Open Group Base Specifications Issue 8, IEEE Std 1003.1-2024*
-*版权所有 © 2001-2024 IEEE 和 The Open Group*

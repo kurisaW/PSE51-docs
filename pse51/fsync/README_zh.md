@@ -1,13 +1,5 @@
 # fsync
 
-The Open Group Base Specifications Issue 8
-IEEE Std 1003.1-2024
-Copyright © 2001-2024 The IEEE and The Open Group
-
-## NAME
-
-fsync — 同步文件更改
-
 ## SYNOPSIS
 
 ```c
@@ -99,7 +91,3 @@ XBD [`<unistd.h>`](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/uni
 *补充信息结束。*
 
 ---
-
-UNIX® 是 The Open Group 的注册商标。
-POSIX™ 是 IEEE 的商标。
-Copyright © 2001-2024 The IEEE and The Open Group，保留所有权利

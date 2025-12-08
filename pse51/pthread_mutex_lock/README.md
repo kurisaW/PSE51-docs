@@ -1,9 +1,5 @@
 # pthread_mutex_lock
 
-## NAME
-
-pthread_mutex_lock, pthread_mutex_trylock, pthread_mutex_unlock — lock and unlock a mutex
-
 ## SYNOPSIS
 
 ```c
@@ -173,9 +169,3 @@ Austin Group Defect 354 is applied, adding the [EAGAIN] error for exceeding syst
 Austin Group Defect 1115 is applied, changing "the thread" to "the calling thread".
 
 ---
-
-*End of informative text.*
-
-*UNIX® is a registered Trademark of The Open Group.*
-*POSIX™ is a Trademark of The IEEE.*
-*Copyright © 2001-2024 The IEEE and The Open Group, All Rights Reserved*
